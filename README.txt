@@ -1,3 +1,9 @@
-Serbian data.
-Please do not edit files in the master branch.
-Changes between official releases should happen in the dev branch.
+=== Machine-readable metadata =================================================
+Documentation status: stub
+Data source: semi-automatic
+Data available since: UD v1.4
+License: CC BY-SA 4.0
+Genre: news wiki
+Contributors:
+Contact:
+===============================================================================
