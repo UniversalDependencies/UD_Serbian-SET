@@ -4,6 +4,6 @@ Data source: semi-automatic
 Data available since: UD v1.4
 License: CC BY-SA 4.0
 Genre: news wiki
-Contributors:
+Contributors: Samardžić, Tanja; Ljubešić, Nikola
 Contact:
 ===============================================================================
