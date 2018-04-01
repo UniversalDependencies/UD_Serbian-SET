@@ -1,3 +1,7 @@
+# Summary
+
+The Serbian UD treebank is based on the SETimes-SR corpus.
+
 # Data Split
 
 The first 2935 sentences (65764 tokens) are designated as training data.
@@ -22,12 +26,17 @@ to Serbian.
   * SR: s3671 to s3891
   * HR: dev-s1 to dev-s200
 
+# Changelog
+
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Serbian to UD_Serbian-SET.
+
 <pre>
 === Machine-readable metadata =================================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: news wiki
+Genre: news
 Contributors: Samardžić, Tanja; Ljubešić, Nikola
 Contact: tanja.samardzic@uzh.ch
 ===============================================================================
