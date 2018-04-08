@@ -1,13 +1,20 @@
+# Summary
+
+The Serbian UD treebank is based on the SETimes-SR corpus.
+
 # Data Split
 
 The first 2935 sentences (65764 tokens) are designated as training data.
 The next   465 sentences (10099 tokens) are designated as development data.
 The final  491 sentences (10891 tokens) are designated as test data.
 
-WARNING: At present, the data cannot be split in a way that is compatible with
-the data split of the partially parallel Croatian UD treebank. This poses a
-problem for evaluation of any tools that are trained on Croatian and applied
-to Serbian.
+The corpus is parallel with a subset of UD Croatian-SET. In release 2.2, the
+Croatian treebank was re-split so that training, development and test sets
+are compatible (corresponding sentences are in the same section in both
+languages). For the time being, the ids of the Croatian sentences have been
+left intact. The correspondences below thus hold, as far as sentence ids are
+involved, but Croatian sentence "train-s2852" now resides in the Croatian
+development data file. The sentence ids may be harmonized in future releases.
 
 * Serbian training data corresponds to first part of Croatian training data
   * SR: s1 to s2935
@@ -22,12 +29,17 @@ to Serbian.
   * SR: s3671 to s3891
   * HR: dev-s1 to dev-s200
 
+# Changelog
+
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Serbian to UD_Serbian-SET.
+
 <pre>
 === Machine-readable metadata =================================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: news wiki
+Genre: news
 Contributors: Samardžić, Tanja; Ljubešić, Nikola
 Contact: tanja.samardzic@uzh.ch
 ===============================================================================
