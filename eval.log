@@ -1,14 +1,10 @@
-Sun Feb 11 20:52:19 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Serbian
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-Evaluating the following revision of UD_Serbian:
-commit cbc3d15ffa660ebf91927a525da95a23b6084752
-Merge: 54b8df7 9e8c69f
+Date:   Wed Apr 11 09:21:53 2018 +0200
+Evaluating the following revision of UD_Serbian-SET:
+commit 002686ac0eaae3fb5787c64ea453fac31ef5d068
+Merge: 8d44486 0af6cd0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 86754 of 86754 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.92615305454809.
@@ -25,17 +21,22 @@ Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi: found 6180 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 86754 words.
-Genres: found 2 out of 14 known.
+Genres: found 1 out of 14 known.
+validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-dev.conllu
+*** PASSED ***
+validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-test.conllu
+*** PASSED ***
+validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
 (weight=0.256410256410256) * (score{size}=0.646096502702348) = 0.165665769923679
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.0764705882352941) = 0.00588235294117647
 (weight=0.307692307692308) * (score{udapi}=0.287640915692648) = 0.0885048971361994
 (weight=0.0769230769230769) * (score{udeprels}=0.0891891891891892) = 0.00686070686070686
-(TOTAL score=0.390723250671286) * (availability=1) * (validity=1) = 0.390723250671286
+(TOTAL score=0.38522874517678) * (availability=1) * (validity=1) = 0.38522874517678
 STARS = 2
-UD_Serbian	0.390723250671286	2
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Serbian-SET	0.38522874517678	2
