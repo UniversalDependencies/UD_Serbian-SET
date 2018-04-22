@@ -40,7 +40,9 @@ Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: news
+XPOS: not available
 Contributors: Samardžić, Tanja; Ljubešić, Nikola
+Contributing: elsewhere
 Contact: tanja.samardzic@uzh.ch
 ===============================================================================
 </pre>
