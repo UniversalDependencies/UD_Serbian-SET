@@ -2,6 +2,12 @@
 
 The Serbian UD treebank is based on the SETimes-SR corpus.
 
+# Annotation Source
+
+* Lemmas: automatic pretagging + manual correction (there's no format/annotation style for this)
+* UPOS, features: converted from MULTEXT-East
+* Dependency realations: automatic preprocessing + manual correction, all directly in UD.
+
 # Data Split
 
 The first 2935 sentences (65764 tokens) are designated as training data.
@@ -40,7 +46,11 @@ Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: news
+Lemmas: manual native
+UPOS: converted from manual
 XPOS: not available
+Features: converted from manual
+Relations: manual native
 Contributors: Samardžić, Tanja; Ljubešić, Nikola
 Contributing: elsewhere
 Contact: tanja.samardzic@uzh.ch
