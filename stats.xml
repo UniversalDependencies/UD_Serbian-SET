@@ -15,23 +15,23 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">11722</tag><!-- nov, velik, drugi, politički, srpski, međunarodni, prvi, evropski, državni, ekonomski -->
+    <tag name="ADJ">10851</tag><!-- nov, velik, politički, srpski, drugi, međunarodni, evropski, državni, ekonomski, crn -->
     <tag name="ADP">9375</tag><!-- u, na, za, sa, od, o, iz, do, prema, protiv -->
-    <tag name="ADV">3440</tag><!-- takođe, mnogo, kada, međutim, još, samo, odsto, sada, nekoliko, oko -->
+    <tag name="ADV">3341</tag><!-- takođe, kada, međutim, mnogo, samo, još, odsto, sada, oko, uvek -->
     <tag name="AUX">6188</tag><!-- biti, hteti, neće, dobiti, hajde, priča, vršiti, će -->
-    <tag name="CCONJ">3332</tag><!-- i, a, ali, ili, nego, pa, već, ni, niti, te -->
-    <tag name="DET">3445</tag><!-- koji, taj, svoj, ovaj, njegov, neki, sav, njihov, onaj, svaki -->
+    <tag name="CCONJ">3331</tag><!-- i, a, ali, ili, nego, pa, već, ni, niti, dakle -->
+    <tag name="DET">3666</tag><!-- koji, taj, svoj, ovaj, sav, njegov, neki, njihov, onaj, svaki -->
     <tag name="INTJ">3</tag><!-- ah, hajde, ma -->
     <tag name="NOUN">23818</tag><!-- godina, zemlja, vlada, predsednik, ministar, stranka, pitanje, država, evro, posao -->
-    <tag name="NUM">1269</tag><!-- jedan, dva, tri, pet, četiri, 20, deset, šest, 50, oba -->
-    <tag name="PART">585</tag><!-- ne, li, i, bilo, ni, sve, god, čak, evo, naime -->
+    <tag name="NUM">2079</tag><!-- jedan, prvi, dva, tri, drugi, pet, četiri, 20, deset, šest -->
+    <tag name="PART">571</tag><!-- ne, li, i, ni, sve, bilo, god, čak, evo, naime -->
     <tag name="PRON">2426</tag><!-- sebe, on, što, oni, mi, ja, ko, niko, ništa, šta -->
     <tag name="PROPN">7411</tag><!-- Kosovo, EU, Srbija, BiH, Makedonija, Turska, Bugarska, NATO, Beograd, Hrvatska -->
     <tag name="PUNCT">12340</tag><!-- ,, ., ", (, ), –, :, „, ”, ? -->
-    <tag name="SCONJ">3573</tag><!-- da, kao, što, kako, ako, dok, jer, nakon, zato, mada -->
+    <tag name="SCONJ">3528</tag><!-- da, kao, što, ako, kako, dok, jer, nakon, zato, mada -->
     <tag name="SYM">4</tag><!-- % -->
     <tag name="VERB">8429</tag><!-- reći, moći, imati, kazati, trebati, morati, izjaviti, dobiti, postati, postojati -->
-    <tag name="X">313</tag><!-- setimes, al, de, a1, Windows, bin, european, XP, southeast, B92 -->
+    <tag name="X">312</tag><!-- setimes, al, de, a1, Windows, bin, european, XP, southeast, B92 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="50">
@@ -44,11 +44,11 @@
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">8677</feat><!-- u, na, o, prema, po, Kosovu, Srbiji, zemlji, Beogradu, tom -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">16678</feat><!-- koji, EU, on, koja, to, koje, BiH, što, predsednik, ministar -->
     <feat name="Case" value="Voc" upos="NOUN">2</feat><!-- Gospodine, predsedniče -->
-    <feat name="Definite" value="Def" upos="ADJ">9945</feat><!-- novi, prošle, inostranih, srpske, bivši, novog, političke, nove, evropske, glavni -->
-    <feat name="Definite" value="Ind" upos="ADJ">678</feat><!-- važan, održan, dobar, poznat, otvoren, sam, čitav, postignut, završen, zadužen -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV">504</feat><!-- više, dalje, manje, kasnije, bolje, ranije, veći, veće, bolji, veća -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">13452</feat><!-- takođe, kada, međutim, samo, još, odsto, sada, nekoliko, oko, novi -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV">229</feat><!-- najveći, najmanje, najvećih, najviše, najveća, najbolji, najbolje, najbolju, najveće, najviši -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NUM">9945</feat><!-- novi, prošle, inostranih, srpske, bivši, novog, političke, nove, evropske, glavni -->
+    <feat name="Definite" value="Ind" upos="ADJ,DET,NUM">678</feat><!-- važan, održan, dobar, poznat, otvoren, sam, čitav, postignut, završen, zadužen -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">504</feat><!-- više, dalje, manje, kasnije, bolje, ranije, veći, veće, bolji, veća -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,NUM">13452</feat><!-- takođe, kada, međutim, samo, još, odsto, sada, nekoliko, oko, novi -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV,DET">229</feat><!-- najveći, najmanje, najvećih, najviše, najveća, najbolji, najbolje, najbolju, najveće, najviši -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18888</feat><!-- godine, koja, koje, zemlje, Srbije, godina, vlada, ove, stranke, zemalja -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">25234</feat><!-- koji, rekao, EU, on, BiH, evra, bio, izjavio, predsednik, ministar -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">6290</feat><!-- to, što, Kosova, trebalo, Kosovo, bilo, toga, Kosovu, prava, vreme -->
@@ -63,7 +63,7 @@
     <feat name="Number[psor]" value="Sing" upos="DET">209</feat><!-- njegova, njegov, njegovog, njen, njegove, njegovih, njegovim, njegovom, njegovoj, njegovu -->
     <feat name="NumType" value="Card" upos="NUM">1193</feat><!-- jedan, tri, dve, dva, pet, četiri, 20, jedna, deset, šest -->
     <feat name="NumType" value="Mult" upos="NUM">76</feat><!-- obe, oba, dve, troje, dvoje, 3-1, 6-4, 11.9., 1998-1999., 2:05:25 -->
-    <feat name="NumType" value="Ord" upos="ADJ">685</feat><!-- 2007., 2004., 21., 1., 9., 12., 2008., 28., 17., 14. -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">685</feat><!-- 2007., 2004., 21., 1., 9., 12., 2008., 28., 17., 14. -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">717</feat><!-- smo, sam, mi, nam, imamo, naše, mislim, ćemo, moramo, nas -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">73</feat><!-- ste, očekujete, jeste, možete, vam, vama, vas, vaša, vaše, tražite -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">10430</feat><!-- je, su, će, bi, on, nije, kaže, bude, ima, nisu -->
@@ -87,38 +87,37 @@
     <feat name="Voice" value="Pass" upos="ADJ">1095</feat><!-- održan, održana, otvorena, održano, otvoren, postignut, završen, zadužen, napravljen, održanom -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
-    <dep name="acl">2011</dep>
+  <deps unique="34">
+    <dep name="acl">2013</dep>
     <dep name="advcl">748</dep>
-    <dep name="advmod">2926</dep>
-    <dep name="amod">8487</dep>
-    <dep name="appos">740</dep>
+    <dep name="advmod">2887</dep>
+    <dep name="amod">8529</dep>
+    <dep name="appos">729</dep>
     <dep name="aux">4481</dep>
-    <dep name="case">9463</dep>
+    <dep name="case">9499</dep>
     <dep name="cc">3071</dep>
-    <dep name="ccomp">1313</dep>
+    <dep name="ccomp">1314</dep>
     <dep name="compound">1424</dep>
-    <dep name="conj">3813</dep>
+    <dep name="conj">3821</dep>
     <dep name="cop">1556</dep>
     <dep name="csubj">210</dep>
     <dep name="dep">2</dep>
-    <dep name="det">1749</dep>
+    <dep name="det">1750</dep>
     <dep name="det:numgov">147</dep>
-    <dep name="discourse">466</dep>
-    <dep name="fixed">498</dep>
-    <dep name="flat">2911</dep>
-    <dep name="goeswith">22</dep>
+    <dep name="discourse">470</dep>
+    <dep name="fixed">497</dep>
+    <dep name="flat">2895</dep>
     <dep name="iobj">2</dep>
     <dep name="list">11</dep>
-    <dep name="mark">3216</dep>
-    <dep name="nmod">8658</dep>
-    <dep name="nsubj">7491</dep>
+    <dep name="mark">3166</dep>
+    <dep name="nmod">8671</dep>
+    <dep name="nsubj">7542</dep>
     <dep name="nummod">1250</dep>
     <dep name="nummod:gov">650</dep>
     <dep name="obj">3441</dep>
-    <dep name="obl">7799</dep>
-    <dep name="orphan">65</dep>
-    <dep name="parataxis">1222</dep>
+    <dep name="obl">7800</dep>
+    <dep name="orphan">44</dep>
+    <dep name="parataxis">1223</dep>
     <dep name="punct">12336</dep>
     <dep name="root">4384</dep>
     <dep name="vocative">1</dep>

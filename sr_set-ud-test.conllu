@@ -58,7 +58,7 @@
 5	pokušavaju	pokušavati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
 6	da	da	SCONJ	Cs	_	7	mark	_	_
 7	predstave	predstaviti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	xcomp	_	_
-8	prve	prvi	ADJ	Mlompa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	nummod	_	_
+8	prve	prvi	NUM	Mlompa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	nummod	_	_
 9	dogovore	dogovor	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 10	sa	sa	ADP	Si	Case=Ins	11	case	_	_
 11	Prištinom	Priština	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
@@ -83,7 +83,7 @@
 30	nacionalne	nacionalan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	_
 31	interese	interes	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	_
 32	i	i	CCONJ	Cc	_	34	cc	_	_
-33	prvi	prvi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	nummod	_	_
+33	prvi	prvi	NUM	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	nummod	_	_
 34	korak	korak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	31	conj	_	_
 35	ka	ka	ADP	Sd	Case=Dat	36	case	_	_
 36	priznavanju	priznavanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	34	nmod	_	_
@@ -137,7 +137,7 @@
 11	iz	iz	ADP	Sg	Case=Gen	12	case	_	_
 12	Brisela	Brisel	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	"	"	PUNCT	Z	_	15	punct	_	SpaceAfter=No
-14	prvi	prvi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	nummod	_	_
+14	prvi	prvi	NUM	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	nummod	_	_
 15	korak	korak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	acl	_	_
 16	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 17	ka	ka	ADP	Sd	Case=Dat	18	case	_	_
@@ -306,7 +306,7 @@
 6	moglo	moći	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	_
 7	da	da	SCONJ	Cs	_	8	mark	_	_
 8	počne	početi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	xcomp	_	_
-9	1.	1.	ADJ	Mdo	NumType=Ord	10	nummod	_	_
+9	1.	1.	NUM	Mdo	NumType=Ord	10	nummod	_	_
 10	novembra	novembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	6	punct	_	_
 12	pratiće	pratiti	VERB	Vmf3s	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -423,7 +423,7 @@
 13	da	da	SCONJ	Cs	_	15	mark	_	_
 14	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	dobro	dobar	ADV	Rgp	Degree=Pos	9	ccomp	_	_
-16	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	19	mark	_	_
+16	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	19	nsubj	_	_
 17	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 18	dogovori	dogovor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
 19	postignuti	postignut	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	15	csubj	_	_
@@ -751,9 +751,9 @@
 8	oteti	oteti	VERB	Vmn	VerbForm=Inf	10	amod	_	_
 9	putnički	putnički	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	avioni	avion	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
-11	11.	11.	ADJ	Mdo	NumType=Ord	12	nummod	_	_
+11	11.	11.	NUM	Mdo	NumType=Ord	12	nummod	_	_
 12	septembra	septembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
-13	2001.	2001.	ADJ	Mdo	NumType=Ord	14	nummod	_	_
+13	2001.	2001.	NUM	Mdo	NumType=Ord	14	nummod	_	_
 14	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	Z	_	6	punct	_	_
 
@@ -788,7 +788,7 @@
 27	u	u	ADP	Sa	Case=Acc	28	case	_	_
 28	ponedeljak	ponedeljak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
 29	(	(	PUNCT	Z	_	31	punct	_	SpaceAfter=No
-30	5.	5.	ADJ	Mdo	NumType=Ord	31	nummod	_	_
+30	5.	5.	NUM	Mdo	NumType=Ord	31	nummod	_	_
 31	septembra	septembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	parataxis	_	SpaceAfter=No
 32	)	)	PUNCT	Z	_	31	punct	_	SpaceAfter=No
 33	.	.	PUNCT	Z	_	14	punct	_	_
@@ -862,12 +862,12 @@
 23	u	u	ADP	Sl	Case=Loc	24	case	_	_
 24	Briselu	Brisel	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
 25	povodom	povodom	ADP	Sg	Case=Gen	27	case	_	_
-26	10.	10.	ADJ	Mdo	NumType=Ord	27	nummod	_	_
+26	10.	10.	NUM	Mdo	NumType=Ord	27	nummod	_	_
 27	godišnjice	godišnjica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
 28	napada	napad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
-29	11.	11.	ADJ	Mdo	NumType=Ord	30	nummod	_	_
+29	11.	11.	NUM	Mdo	NumType=Ord	30	nummod	_	_
 30	septembra	septembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
-31	2001.	2001.	ADJ	Mdo	NumType=Ord	32	nummod	_	_
+31	2001.	2001.	NUM	Mdo	NumType=Ord	32	nummod	_	_
 32	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
 33	u	u	ADP	Sl	Case=Loc	34	case	_	_
 34	Sjedinjenim	sjedinjen	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	28	nmod	_	_
@@ -981,7 +981,7 @@
 4	mnogo	mnogo	ADV	Rgp	Degree=Pos	5	advmod	_	_
 5	bolje	dobro	ADV	Rgc	Degree=Cmp	6	advmod	_	_
 6	opremljeni	opremiti	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
-7	danas	danas	SCONJ	Cs	_	6	advmod	_	_
+7	danas	danas	ADV	Cs	_	6	advmod	_	_
 8	nego	nego	SCONJ	Cs	_	11	mark	_	_
 9	što	što	SCONJ	Cs	_	8	fixed	_	_
 10	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -1011,10 +1011,10 @@
 5	da	da	SCONJ	Cs	_	7	mark	_	_
 6	ćemo	hteti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	sprečiti	sprečiti	VERB	Vmn	VerbForm=Inf	4	ccomp	_	_
-8	sve	sav	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	det	_	_
+8	sve	sav	DET	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	det	_	_
 9	zavere	zavera	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	12	punct	_	_
-11	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	12	det	_	_
+11	sve	sav	DET	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	12	det	_	_
 12	napade	napad	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 13	,	,	PUNCT	Z	_	16	punct	_	_
 14	ali	ali	CCONJ	Cc	_	16	cc	_	_
@@ -1473,7 +1473,7 @@
 
 # sent_id = set-s453
 # text = Sedamnaesti samit NATO-a održan je u Istanbulu u ponedeljak i utorak (28. i 29. juna), a okupio je 46 šefova država i vlada.
-1	Sedamnaesti	sedamnaesti	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
+1	Sedamnaesti	sedamnaesti	NUM	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
 2	samit	samit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	NATO-a	NATO	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	održan	održati	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -1485,7 +1485,7 @@
 10	i	i	CCONJ	Cc	_	11	cc	_	_
 11	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
 12	(	(	PUNCT	Z	_	16	punct	_	SpaceAfter=No
-13	28.	28.	ADJ	Mdo	NumType=Ord	16	nummod	_	_
+13	28.	28.	NUM	Mdo	NumType=Ord	16	nummod	_	_
 14	i	i	CCONJ	Cc	_	15	cc	_	_
 15	29.	29.	ADJ	Mdo	NumType=Ord	13	conj	_	_
 16	juna	jun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
@@ -1503,7 +1503,7 @@
 
 # sent_id = set-s454
 # text = Sedamnaesti samit šefova država i vlada zemalja članica NATO-a u Istanbulu završen je u utorak (29. juna).
-1	Sedamnaesti	sedamnaesti	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
+1	Sedamnaesti	sedamnaesti	NUM	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
 2	samit	samit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 3	šefova	šef	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 4	država	država	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
@@ -1519,7 +1519,7 @@
 14	u	u	ADP	Sa	Case=Acc	15	case	_	_
 15	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 16	(	(	PUNCT	Z	_	18	punct	_	SpaceAfter=No
-17	29.	29.	ADJ	Mdo	NumType=Ord	18	nummod	_	_
+17	29.	29.	NUM	Mdo	NumType=Ord	18	nummod	_	_
 18	juna	jun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
 19	)	)	PUNCT	Z	_	18	punct	_	SpaceAfter=No
 20	.	.	PUNCT	Z	_	12	punct	_	_
@@ -1694,7 +1694,7 @@
 5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	otvorio	otvoriti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 7	put	put	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
-8	prvoj	prvi	ADJ	Mlofsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	nummod	_	_
+8	prvoj	prvi	NUM	Mlofsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	nummod	_	_
 9	misiji	misija	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 10	NATO-a	NATO	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 11	u	u	ADP	Sl	Case=Loc	12	case	_	_
@@ -1795,7 +1795,7 @@
 3	u	u	ADP	Sl	Case=Loc	4	case	_	_
 4	Istanbulu	Istanbul	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
 5	američki	američki	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
-6	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+6	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	Džordž	Džordž	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 8	V.	V.	PROPN	Y	_	7	flat	_	_
 9	Buš	Buš	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
@@ -2086,7 +2086,7 @@
 19	još	još	ADV	Rgp	Degree=Pos	20	advmod	_	_
 20	uvek	uvek	ADV	Rgp	Degree=Pos|PronType=Tot	21	advmod	_	_
 21	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
-22	puno	puno	ADV	Rgp	Degree=Pos	23	det:numgov	_	_
+22	puno	puno	DET	Rgp	Degree=Pos	23	det:numgov	_	_
 23	prostora	prostor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	obj	_	_
 24	za	za	ADP	Sa	Case=Acc	26	case	_	_
 25	dalju	dalek	ADJ	Agcfsay	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	26	amod	_	_
@@ -2130,7 +2130,7 @@
 8	lokalna	lokalan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	banka	banka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 10	uvela	uvesti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	_
-11	prvu	prvi	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	nummod	_	_
+11	prvu	prvi	NUM	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	nummod	_	_
 12	kreditnu	kreditan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
 13	karticu	kartica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 14	u	u	ADP	Sl	Case=Loc	15	case	_	_
@@ -2260,22 +2260,22 @@
 9	milijarde	milijarda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	flat	_	_
 10	evra	evro	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
 11	u	u	ADP	Sl	Case=Loc	13	case	_	_
-12	2003.	2003.	ADJ	Mdo	NumType=Ord	13	nummod	_	_
+12	2003.	2003.	NUM	Mdo	NumType=Ord	13	nummod	_	_
 13	godini	godina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Z	_	16	punct	_	_
 15	na	na	ADP	Sa	Case=Acc	16	case	_	_
-16	5,3	5,3	NUM	Mdc	NumType=Card	8	orphan	_	_
+16	5,3	5,3	NUM	Mdc	NumType=Card	5	conj	_	_
 17	milijarde	milijarda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	flat	_	_
 18	u	u	ADP	Sl	Case=Loc	19	case	_	_
-19	2004.	2004.	ADJ	Mdo	NumType=Ord	12	orphan	_	_
+19	2004.	2004.	ADJ	Mdo	NumType=Ord	16	orphan	_	_
 
 # sent_id = set-s503
 # text = Samo u prvom kvartalu 2005. godine iznosila je ukupno 2,1 miijarde evra.
 1	Samo	samo	ADV	Rgp	Degree=Pos	4	advmod	_	_
 2	u	u	ADP	Sl	Case=Loc	4	case	_	_
-3	prvom	prvi	ADJ	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	nummod	_	_
+3	prvom	prvi	NUM	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	nummod	_	_
 4	kvartalu	kvartal	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
-5	2005.	2005.	ADJ	Mdo	NumType=Ord	6	nummod	_	_
+5	2005.	2005.	NUM	Mdo	NumType=Ord	6	nummod	_	_
 6	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 7	iznosila	iznositi	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2290,7 +2290,7 @@
 1	Banke	banka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	očekuju	očekivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	da	da	SCONJ	Cs	_	11	mark	_	_
-4	kreditne	kreditan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	orphan	_	SpaceAfter=No
+4	kreditne	kreditan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	8	punct	_	_
 6	pre	pre	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	cc	_	_
 7	nego	nego	CCONJ	Cc	_	6	fixed	_	_
@@ -2361,7 +2361,7 @@
 9	u	u	ADP	Sl	Case=Loc	10	case	_	_
 10	poređenju	poređenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
 11	sa	sa	ADP	Si	Case=Ins	12	case	_	_
-12	2.165	2.165	NUM	Mdc	NumType=Card	4	orphan	_	_
+12	2.165	2.165	NUM	Mdc	NumType=Card	2	conj	_	_
 13	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	16	advmod	_	_
 14	ih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
 15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
@@ -2398,7 +2398,7 @@
 23	i	i	CCONJ	Cc	_	31	cc	_	_
 24	do	do	ADP	Sg	Case=Gen	25	case	_	_
 25	jeseni	jesen	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	31	obl	_	_
-26	2004.	2004.	ADJ	Mdo	NumType=Ord	27	nummod	_	_
+26	2004.	2004.	NUM	Mdo	NumType=Ord	27	nummod	_	_
 27	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
 28	u	u	ADP	Sl	Case=Loc	29	case	_	_
 29	opticaju	opticaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
@@ -2623,7 +2623,7 @@
 11	ne	ne	PART	Qz	Polarity=Neg	12	advmod	_	_
 12	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
 13	,	,	PUNCT	Z	_	2	punct	_	_
-14	kako	kako	SCONJ	Cs	_	17	advmod	_	_
+14	kako	kako	ADV	Cs	_	17	advmod	_	_
 15	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
 16	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	_
 17	izgledalo	izgledati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
@@ -2784,7 +2784,7 @@
 8	u	u	ADP	Sa	Case=Acc	9	case	_	_
 9	subotu	subota	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 10	(	(	PUNCT	Z	_	12	punct	_	SpaceAfter=No
-11	15.	15.	ADJ	Mdo	NumType=Ord	12	nummod	_	_
+11	15.	15.	NUM	Mdo	NumType=Ord	12	nummod	_	_
 12	marta	mart	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
 13	)	)	PUNCT	Z	_	12	punct	_	_
 14	da	da	SCONJ	Cs	_	19	mark	_	_
@@ -2805,7 +2805,7 @@
 29	,	,	PUNCT	Z	_	31	punct	_	_
 30	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	31	nsubj	_	_
 31	počinje	počinjati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_
-32	2.	2.	ADJ	Mdo	NumType=Ord	33	nummod	_	_
+32	2.	2.	NUM	Mdo	NumType=Ord	33	nummod	_	_
 33	aprila	april	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
 34	.	.	PUNCT	Z	_	5	punct	_	_
 
@@ -3095,7 +3095,7 @@
 34	veterane	veteran	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	32	appos	_	_
 35	sukoba	sukob	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
 36	iz	iz	ADP	Sg	Case=Gen	38	case	_	_
-37	2001.	2001.	ADJ	Mdo	NumType=Ord	38	nummod	_	_
+37	2001.	2001.	NUM	Mdo	NumType=Ord	38	nummod	_	_
 38	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	Z	_	5	punct	_	_
 
@@ -3208,7 +3208,7 @@
 21	DPA	DPA	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 22	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
 23	u	u	ADP	Sa	Case=Acc	26	case	_	_
-24	ime	ime	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	23	goeswith	_	_
+24	ime	ime	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	23	amod	_	_
 25	stranih	stran	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	_
 26	interesa	interes	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
 27	.	.	PUNCT	Z	_	6	punct	_	_
@@ -3798,7 +3798,7 @@
 25	od	od	ADP	Sg	Case=Gen	26	case	_	_
 26	one	onaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	24	obl	_	_
 27	u	u	ADP	Sl	Case=Loc	29	case	_	_
-28	prvom	prvi	ADJ	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	nummod	_	_
+28	prvom	prvi	NUM	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	nummod	_	_
 29	mandatu	mandat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	Z	_	12	punct	_	_
 
@@ -3899,7 +3899,7 @@
 
 # sent_id = set-s767
 # text = Drugi istaknuti autor, Hasan Džemal iz Milijeta, snažno se protivi postupku.
-1	Drugi	drugi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nummod	_	_
+1	Drugi	drugi	NUM	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nummod	_	_
 2	istaknuti	istaknut	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	autor	autor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Z	_	5	punct	_	_
@@ -4039,7 +4039,7 @@
 # text = Srbija obeležila treću godišnjicu od ubistva premijera Đinđića
 1	Srbija	Srbija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	obeležila	obeležiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-3	treću	treći	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	nummod	_	_
+3	treću	treći	NUM	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	nummod	_	_
 4	godišnjicu	godišnjica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 5	od	od	ADP	Sg	Case=Gen	6	case	_	_
 6	ubistva	ubistvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
@@ -4055,7 +4055,7 @@
 5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	atentator	atentator	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	ubio	ubiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	_
-8	prvog	prvi	ADJ	Mlomsay	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	nummod	_	_
+8	prvog	prvi	NUM	Mlomsay	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	nummod	_	_
 9	premijera	premijer	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 10	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11	nakon	nakon	ADP	Sg	Case=Gen	13	case	_	_
@@ -4115,7 +4115,7 @@
 12	u	u	ADP	Sa	Case=Acc	13	case	_	_
 13	nedelju	nedelja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
 14	(	(	PUNCT	Z	_	16	punct	_	SpaceAfter=No
-15	12.	12.	ADJ	Mdo	NumType=Ord	16	nummod	_	_
+15	12.	12.	NUM	Mdo	NumType=Ord	16	nummod	_	_
 16	mart	mart	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
 17	)	)	PUNCT	Z	_	16	punct	_	_
 18	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
@@ -4126,7 +4126,7 @@
 23	Zoranu	Zoran	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	22	flat	_	_
 24	Đinđiću	Đinđić	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	23	flat	_	_
 25	na	na	ADP	Sa	Case=Acc	27	case	_	_
-26	treću	treći	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	nummod	_	_
+26	treću	treći	NUM	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	nummod	_	_
 27	godišnjicu	godišnjica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
 28	njegovog	njegov	DET	Ps3nsg	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det	_	_
 29	ubistva	ubistvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
@@ -4195,7 +4195,7 @@
 10	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	14	punct	_	_
 12	samo	samo	ADV	Rgp	Degree=Pos	13	advmod	_	_
-13	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	14	det:numgov	_	_
+13	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	14	det:numgov	_	_
 14	nedelja	nedelja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
 15	nakon	nakon	ADP	Sg	Case=Gen	17	case	_	_
 16	prethodnog	prethodan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
@@ -4270,7 +4270,7 @@
 14	pušten	pustiti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	conj	_	_
 15	i	i	CCONJ	Cc	_	16	cc	_	_
 16	video	video	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-17	zapis	zapis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	goeswith	_	_
+17	zapis	zapis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
 18	ubistva	ubistvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	Z	_	1	punct	_	_
 
@@ -4334,9 +4334,9 @@
 5	sam	sam	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	_
 6	predao	predati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	advcl	_	_
 7	vlastima	vlast	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
-8	2.	2.	ADJ	Mdo	NumType=Ord	9	nummod	_	_
+8	2.	2.	NUM	Mdo	NumType=Ord	9	nummod	_	_
 9	maja	maj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
-10	2004.	2004.	ADJ	Mdo	NumType=Ord	11	nummod	_	_
+10	2004.	2004.	NUM	Mdo	NumType=Ord	11	nummod	_	_
 11	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 12	porasle	porasti	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 13	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -4365,9 +4365,9 @@
 12	Milenkovića	Milenković	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	11	flat	_	_
 13	u	u	ADP	Sl	Case=Loc	14	case	_	_
 14	Solunu	Solun	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
-15	16.	16.	ADJ	Mdo	NumType=Ord	16	nummod	_	_
+15	16.	16.	NUM	Mdo	NumType=Ord	16	nummod	_	_
 16	jula	jul	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
-17	2004.	2004.	ADJ	Mdo	NumType=Ord	18	nummod	_	_
+17	2004.	2004.	NUM	Mdo	NumType=Ord	18	nummod	_	_
 18	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	Z	_	5	punct	_	_
 
@@ -4377,7 +4377,7 @@
 2	,	,	PUNCT	Z	_	1	punct	_	_
 3	Ulemek	Ulemek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	negira	negirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	bilo	bilo	PART	Qo	_	7	det	_	_
+5	bilo	bilo	DET	Qo	_	7	det	_	_
 6	kakvu	kakav	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	5	flat	_	_
 7	umešanost	umešanost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 8	u	u	ADP	Sa	Case=Acc	9	case	_	_
@@ -4513,7 +4513,7 @@
 3	tužioca	tužilac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	ispitala	ispitati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-6	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	7	det:numgov	_	_
+6	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	7	det:numgov	_	_
 7	osoba	osoba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	obj	_	_
 8	koje	koji	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	10	obj	_	_
 9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -4744,7 +4744,7 @@
 19	operateri	operater	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
 20	narušili	narušiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	_
 21	time	taj	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	_
-22	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	24	mark	_	_
+22	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	24	nsubj	_	_
 23	nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	skremblovali	skremblovati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	21	acl	_	_
 25	emitovanje	emitovanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
@@ -4758,7 +4758,7 @@
 3	u	u	ADP	Sa	Case=Acc	4	case	_	_
 4	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 5	(	(	PUNCT	Z	_	7	punct	_	SpaceAfter=No
-6	17.	17.	ADJ	Mdo	NumType=Ord	7	nummod	_	_
+6	17.	17.	NUM	Mdo	NumType=Ord	7	nummod	_	_
 7	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
 8	)	)	PUNCT	Z	_	7	punct	_	_
 9	pokrenula	pokrenuti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -4782,7 +4782,7 @@
 9	tom	taj	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	sistemu	sistem	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
 11	do	do	ADP	Sg	Case=Gen	13	case	_	_
-12	30.	30.	ADJ	Mdo	NumType=Ord	13	nummod	_	_
+12	30.	30.	NUM	Mdo	NumType=Ord	13	nummod	_	_
 13	septembra	septembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 14	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -4797,7 +4797,7 @@
 7	u	u	ADP	Sl	Case=Loc	8	case	_	_
 8	Grčkoj	Grčka	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
 9	do	do	ADP	Sg	Case=Gen	11	case	_	_
-10	30.	30.	ADJ	Mdo	NumType=Ord	11	nummod	_	_
+10	30.	30.	NUM	Mdo	NumType=Ord	11	nummod	_	_
 11	decembra	decembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 12	.	.	PUNCT	Z	_	2	punct	_	_
 
@@ -4944,7 +4944,7 @@
 16	sužavanja	sužavanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
 17	arterija	arterija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
 18	,	,	PUNCT	Z	_	22	punct	_	_
-19	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	22	mark	_	_
+19	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	22	nsubj	_	_
 20	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 21	čest	čest	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
 22	uzrok	uzrok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	acl	_	_
@@ -4976,7 +4976,7 @@
 13	u	u	ADP	Sa	Case=Acc	14	case	_	_
 14	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 15	(	(	PUNCT	Z	_	17	punct	_	SpaceAfter=No
-16	17.	17.	ADJ	Mdo	NumType=Ord	17	nummod	_	_
+16	17.	17.	NUM	Mdo	NumType=Ord	17	nummod	_	_
 17	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
 18	)	)	PUNCT	Z	_	17	punct	_	_
 19	grčki	grčki	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
@@ -5007,7 +5007,7 @@
 
 # sent_id = set-s1356
 # text = Prve novine za slepe i osobe sa poremećenim vidom u Srbiji dostigle su u petak (20. jun) u Novom Sadu prvi tiraž od 200 čitalaca.
-1	Prve	prvi	ADJ	Mlofpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	nummod	_	_
+1	Prve	prvi	NUM	Mlofpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	nummod	_	_
 2	novine	novina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
 3	za	za	ADP	Sa	Case=Acc	4	case	_	_
 4	slepe	slep	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	nmod	_	_
@@ -5023,13 +5023,13 @@
 14	u	u	ADP	Sa	Case=Acc	15	case	_	_
 15	petak	petak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
 16	(	(	PUNCT	Z	_	18	punct	_	SpaceAfter=No
-17	20.	20.	ADJ	Mdo	NumType=Ord	18	nummod	_	_
+17	20.	20.	NUM	Mdo	NumType=Ord	18	nummod	_	_
 18	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
 19	)	)	PUNCT	Z	_	18	punct	_	_
 20	u	u	ADP	Sl	Case=Loc	21	case	_	_
 21	Novom	nov	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	_
 22	Sadu	Sad	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	21	flat	_	_
-23	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	nummod	_	_
+23	prvi	prvi	NUM	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	nummod	_	_
 24	tiraž	tiraž	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
 25	od	od	ADP	Sg	Case=Gen	27	case	_	_
 26	200	200	NUM	Mdc	NumType=Card	27	nummod:gov	_	_
@@ -5075,7 +5075,7 @@
 13	u	u	ADP	Sa	Case=Acc	14	case	_	_
 14	četvrtak	četvrtak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 15	(	(	PUNCT	Z	_	17	punct	_	SpaceAfter=No
-16	19.	19.	ADJ	Mdo	NumType=Ord	17	nummod	_	_
+16	19.	19.	NUM	Mdo	NumType=Ord	17	nummod	_	_
 17	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
 18	)	)	PUNCT	Z	_	17	punct	_	_
 19	u	u	ADP	Sl	Case=Loc	20	case	_	_
@@ -5206,7 +5206,7 @@
 20	u	u	ADP	Sa	Case=Acc	21	case	_	_
 21	ponedeljak	ponedeljak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
 22	(	(	PUNCT	Z	_	24	punct	_	SpaceAfter=No
-23	4.	4.	ADJ	Mdo	NumType=Ord	24	nummod	_	_
+23	4.	4.	NUM	Mdo	NumType=Ord	24	nummod	_	_
 24	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
 25	)	)	PUNCT	Z	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	Z	_	8	punct	_	_
@@ -5241,7 +5241,7 @@
 7	u	u	ADP	Sa	Case=Acc	8	case	_	_
 8	ponedeljak	ponedeljak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 9	(	(	PUNCT	Z	_	11	punct	_	SpaceAfter=No
-10	4.	4.	ADJ	Mdo	NumType=Ord	11	nummod	_	_
+10	4.	4.	NUM	Mdo	NumType=Ord	11	nummod	_	_
 11	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 12	)	)	PUNCT	Z	_	11	punct	_	_
 13	u	u	ADP	Sa	Case=Acc	14	case	_	_
@@ -5345,7 +5345,7 @@
 7	u	u	ADP	Sa	Case=Acc	8	case	_	_
 8	ponedeljak	ponedeljak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 9	(	(	PUNCT	Z	_	11	punct	_	SpaceAfter=No
-10	4.	4.	ADJ	Mdo	NumType=Ord	11	nummod	_	_
+10	4.	4.	NUM	Mdo	NumType=Ord	11	nummod	_	_
 11	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 12	)	)	PUNCT	Z	_	11	punct	_	_
 13	u	u	ADP	Sl	Case=Loc	14	case	_	_
@@ -5431,7 +5431,7 @@
 6	sastati	sastati	VERB	Vmn	VerbForm=Inf	0	root	_	_
 7	na	na	ADP	Sl	Case=Loc	8	case	_	_
 8	Kosovu	Kosovo	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
-9	8.	8.	ADJ	Mdo	NumType=Ord	10	nummod	_	_
+9	8.	8.	NUM	Mdo	NumType=Ord	10	nummod	_	_
 10	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
 11	kao	kao	SCONJ	Cs	_	16	mark	_	_
 12	što	što	SCONJ	Cs	_	11	fixed	_	_
@@ -5445,7 +5445,7 @@
 20	u	u	ADP	Sa	Case=Acc	21	case	_	_
 21	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
 22	(	(	PUNCT	Z	_	24	punct	_	SpaceAfter=No
-23	5.	5.	ADJ	Mdo	NumType=Ord	24	nummod	_	_
+23	5.	5.	NUM	Mdo	NumType=Ord	24	nummod	_	_
 24	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
 25	)	)	PUNCT	Z	_	24	punct	_	_
 26	Info	Info	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -5527,7 +5527,7 @@
 8	u	u	ADP	Sa	Case=Acc	9	case	_	_
 9	nedelju	nedelja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 10	(	(	PUNCT	Z	_	12	punct	_	SpaceAfter=No
-11	3.	3.	ADJ	Mdo	NumType=Ord	12	nummod	_	_
+11	3.	3.	NUM	Mdo	NumType=Ord	12	nummod	_	_
 12	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
 13	)	)	PUNCT	Z	_	12	punct	_	_
 14	sa	sa	ADP	Si	Case=Ins	16	case	_	_
@@ -5598,11 +5598,11 @@
 7	u	u	ADP	Sa	Case=Acc	8	case	_	_
 8	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
 9	(	(	PUNCT	Z	_	11	punct	_	SpaceAfter=No
-10	29.	29.	ADJ	Mdo	NumType=Ord	11	nummod	_	_
+10	29.	29.	NUM	Mdo	NumType=Ord	11	nummod	_	_
 11	decembra	decembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 12	)	)	PUNCT	Z	_	11	punct	_	_
 13	akreditive	akreditiv	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
-14	prvog	prvi	ADJ	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	nummod	_	_
+14	prvog	prvi	NUM	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	nummod	_	_
 15	kosovskog	kosovski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	ambasadora	ambasador	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 17	u	u	ADP	Sl	Case=Loc	18	case	_	_
@@ -5658,7 +5658,7 @@
 10	u	u	ADP	Sa	Case=Acc	11	case	_	_
 11	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 12	(	(	PUNCT	Z	_	14	punct	_	SpaceAfter=No
-13	5.	5.	ADJ	Mdo	NumType=Ord	14	nummod	_	_
+13	5.	5.	NUM	Mdo	NumType=Ord	14	nummod	_	_
 14	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
 15	)	)	PUNCT	Z	_	14	punct	_	_
 16	sa	sa	ADP	Si	Case=Ins	17	case	_	_
@@ -5675,7 +5675,7 @@
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	priznala	priznati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	Kosovo	Kosovo	PROPN	Npnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
-5	2008.	2008.	ADJ	Mdo	NumType=Ord	6	nummod	_	_
+5	2008.	2008.	NUM	Mdo	NumType=Ord	6	nummod	_	_
 6	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Z	_	3	punct	_	_
 
@@ -5847,7 +5847,7 @@
 40	izveštaju	izveštaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_
 41	UNODC-a	UNODC	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
 42	od	od	ADP	Sg	Case=Gen	44	case	_	_
-43	29.	29.	ADJ	Mdo	NumType=Ord	44	nummod	_	_
+43	29.	29.	NUM	Mdo	NumType=Ord	44	nummod	_	_
 44	maja	maj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
 45	.	.	PUNCT	Z	_	28	punct	_	_
 
@@ -5984,8 +5984,8 @@
 6	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	8	advmod	_	_
 7	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	bezbedni	bezbedan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
-9	kao	kao	SCONJ	Cs	_	8	advmod	_	SpaceAfter=No
-10	,	,	PUNCT	Z	_	14	punct	_	_
+9	kao	kao	ADV	Cs	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	_	_
 11	ili	ili	CCONJ	Cc	_	14	cc	_	_
 12	čak	čak	ADV	Rgp	Degree=Pos	13	discourse	_	_
 13	i	i	CCONJ	Cc	_	8	discourse	_	_
@@ -5999,7 +5999,7 @@
 21	skoro	skoro	ADV	Rgp	Degree=Pos	19	advmod	_	_
 22	bilo	bilo	PART	Qo	_	23	discourse	_	_
 23	kom	koji	DET	Pi-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Int,Rel	25	det	_	_
-24	drugom	drugi	ADJ	Mlonsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	nummod	_	_
+24	drugom	drugi	NUM	Mlonsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	nummod	_	_
 25	mestu	mesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
 26	.	.	PUNCT	Z	_	8	punct	_	_
 
@@ -6022,7 +6022,7 @@
 15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	snašao	snaći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
 17	Balkan	Balkan	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
-18	devedesetih	devedeseti	ADJ	Mlofpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	nummod	_	_
+18	devedesetih	devedeseti	NUM	Mlofpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	nummod	_	_
 19	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
 20	,	,	PUNCT	Z	_	3	punct	_	_
 21	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
@@ -6252,7 +6252,7 @@
 13	u	u	ADP	Sa	Case=Acc	14	case	_	_
 14	petak	petak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 15	(	(	PUNCT	Z	_	17	punct	_	SpaceAfter=No
-16	26.	26.	ADJ	Mdo	NumType=Ord	17	nummod	_	_
+16	26.	26.	NUM	Mdo	NumType=Ord	17	nummod	_	_
 17	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	parataxis	_	SpaceAfter=No
 18	)	)	PUNCT	Z	_	17	punct	_	_
 19	u	u	ADP	Sl	Case=Loc	20	case	_	_
@@ -6286,7 +6286,7 @@
 23	u	u	ADP	Sa	Case=Acc	24	case	_	_
 24	sredu	sreda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
 25	(	(	PUNCT	Z	_	27	punct	_	SpaceAfter=No
-26	24.	24.	ADJ	Mdo	NumType=Ord	27	nummod	_	_
+26	24.	24.	NUM	Mdo	NumType=Ord	27	nummod	_	_
 27	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	parataxis	_	SpaceAfter=No
 28	)	)	PUNCT	Z	_	27	punct	_	_
 29	da	da	SCONJ	Cs	_	33	mark	_	_
@@ -6476,7 +6476,7 @@
 5	čine	činiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 6	oko	oko	ADV	Rgp	Degree=Pos	7	advmod	_	_
 7	90	90	NUM	Mdc	NumType=Card	8	nummod:gov	_	_
-8	procenata	procent	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	advmod	_	_
+8	procenata	procent	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 9	od	od	ADP	Sg	Case=Gen	14	case	_	_
 10	ukupno	ukupno	ADV	Rgp	Degree=Pos	11	advmod	_	_
 11	oko	oko	ADV	Rgp	Degree=Pos	12	advmod	_	_
@@ -6921,7 +6921,7 @@
 27	u	u	ADP	Sa	Case=Acc	28	case	_	_
 28	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
 29	(	(	PUNCT	Z	_	31	punct	_	SpaceAfter=No
-30	19.	19.	ADJ	Mdo	NumType=Ord	31	nummod	_	_
+30	19.	19.	NUM	Mdo	NumType=Ord	31	nummod	_	_
 31	maj	maj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	28	parataxis	_	SpaceAfter=No
 32	)	)	PUNCT	Z	_	31	punct	_	_
 33	potpredsednik	potpredsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
@@ -6933,7 +6933,7 @@
 39	,	,	PUNCT	Z	_	40	punct	_	_
 40	koje	koji	DET	Pi-npn	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	43	nsubj	_	_
 41	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
-42	prva	prvi	ADJ	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	43	nummod	_	_
+42	prva	prvi	NUM	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	43	nummod	_	_
 43	destinacija	destinacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	38	acl	_	_
 44	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	46	det	_	_
 45	trodnevne	trodnevan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
@@ -6981,7 +6981,7 @@
 2	mirovnim	mirovni	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 3	sporazumom	sporazum	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
 4	iz	iz	ADP	Sg	Case=Gen	6	case	_	_
-5	1995.	1995.	ADJ	Mdo	NumType=Ord	6	nummod	_	_
+5	1995.	1995.	NUM	Mdo	NumType=Ord	6	nummod	_	_
 6	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 7	okončane	okončati	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 8	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -7305,7 +7305,7 @@
 7	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	regiona	region	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9	da	da	SCONJ	Cs	_	16	mark	_	_
-10	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	nummod	_	_
+10	prvi	prvi	NUM	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	nummod	_	_
 11	put	put	ADV	Rgp	Degree=Pos	16	advmod	_	_
 12	u	u	ADP	Sl	Case=Loc	13	case	_	_
 13	istoriji	istorija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
@@ -7387,7 +7387,7 @@
 5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	posetio	posetiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	_
 7	BiH	BiH	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
-8	od	od	ADP	Sg	Case=Gen	9	goeswith	_	_
+8	od	od	ADP	Sg	Case=Gen	9	case	_	_
 9	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	12	mark	_	_
 10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	_
@@ -7395,7 +7395,7 @@
 13	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 14	Bil	Bil	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
 15	Klinton	Klinton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	_
-16	1999.	1999.	ADJ	Mdo	NumType=Ord	17	nummod	_	_
+16	1999.	1999.	NUM	Mdo	NumType=Ord	17	nummod	_	_
 17	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 18	,	,	PUNCT	Z	_	19	punct	_	_
 19	Bajden	Bajden	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
@@ -7455,7 +7455,7 @@
 29	da	da	SCONJ	Cs	_	30	mark	_	_
 30	proglasi	proglasiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
 31	nezavisnost	nezavisnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
-32	28.	28.	ADJ	Mdo	NumType=Ord	33	nummod	_	_
+32	28.	28.	NUM	Mdo	NumType=Ord	33	nummod	_	_
 33	novembra	novembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
 34	.	.	PUNCT	Z	_	22	punct	_	_
 
@@ -7466,7 +7466,7 @@
 3	podržavamo	podržavati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	nezavisno	nezavisan	ADJ	Agpnpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	_
 5	Kosovo	Kosovo	PROPN	Npnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
-6	,	,	PUNCT	Z	_	8	punct	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 7	"	"	PUNCT	Z	_	3	punct	_	_
 8	rekla	reći	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	parataxis	_	_
 9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -7502,7 +7502,7 @@
 7	nezavisnost	nezavisnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 8	od	od	ADP	Sg	Case=Gen	9	case	_	_
 9	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
-10	28.	28.	ADJ	Mdo	NumType=Ord	11	nummod	_	_
+10	28.	28.	NUM	Mdo	NumType=Ord	11	nummod	_	_
 11	novembra	novembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Z	_	13	punct	_	_
 13	najavio	najaviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	parataxis	_	_
@@ -7513,7 +7513,7 @@
 18	u	u	ADP	Sa	Case=Acc	19	case	_	_
 19	petak	petak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
 20	(	(	PUNCT	Z	_	22	punct	_	SpaceAfter=No
-21	20.	20.	ADJ	Mdo	NumType=Ord	22	nummod	_	_
+21	20.	20.	NUM	Mdo	NumType=Ord	22	nummod	_	_
 22	jula	jul	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	parataxis	_	SpaceAfter=No
 23	)	)	PUNCT	Z	_	22	punct	_	SpaceAfter=No
 24	,	,	PUNCT	Z	_	25	punct	_	_
@@ -7542,7 +7542,7 @@
 4	predlog	predlog	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 5	izneo	izneti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	samo	samo	ADV	Rgp	Degree=Pos	7	advmod	_	_
-7	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	8	det:numgov	_	_
+7	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	8	det:numgov	_	_
 8	sati	sat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obj	_	_
 9	pre	pre	SCONJ	Cs	_	16	mark	_	_
 10	nego	nego	SCONJ	Cs	_	9	fixed	_	_
@@ -7648,7 +7648,7 @@
 18	usvajanja	usvajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
 19	ravna	ravan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	ccomp	_	_
 20	nuli	nula	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
-21	,	,	PUNCT	Z	_	23	punct	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 22	"	"	PUNCT	Z	_	4	punct	_	_
 23	rekao	reći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis	_	_
 24	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
@@ -7731,7 +7731,7 @@
 14	evropski	evropski	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
 15	saveznici	saveznik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	11	conj	_	_
 16	proteklih	protekao	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
-17	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	18	det:numgov	_	_
+17	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	18	det:numgov	_	_
 18	nedelja	nedelja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 19	.	.	PUNCT	Z	_	3	punct	_	_
 
@@ -8042,7 +8042,7 @@
 3	podržavamo	podržavati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	nezavisno	nezavisan	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
 5	Kosovo	Kosovo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
-6	,	,	PUNCT	Z	_	8	punct	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 7	"	"	PUNCT	Z	_	3	punct	_	_
 8	rekla	reći	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	parataxis	_	_
 9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -8100,7 +8100,7 @@
 
 # sent_id = set-s2270
 # text = Drugi političari u pokrajini rekli su da bi trebalo odrediti rok za postizanje rešenja sa podrškom međunarodne zajednice.
-1	Drugi	drugi	ADJ	Mlompn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	nummod	_	_
+1	Drugi	drugi	NUM	Mlompn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	nummod	_	_
 2	političari	političar	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	u	u	ADP	Sl	Case=Loc	4	case	_	_
 4	pokrajini	pokrajina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -8133,7 +8133,7 @@
 9	za	za	ADP	Sa	Case=Acc	10	case	_	_
 10	nezavisnost	nezavisnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
 11	Kosova	Kosovo	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	Z	_	14	punct	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 13	"	"	PUNCT	Z	_	2	punct	_	_
 14	rekao	reći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	parataxis	_	_
 15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
@@ -8204,7 +8204,7 @@
 37	nezavisnost	nezavisnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
 38	do	do	ADP	Sg	Case=Gen	39	case	_	_
 39	Božića	Božić	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
-40	.	.	PUNCT	Z	_	14	punct	_	SpaceAfter=No
+40	.	.	PUNCT	Z	_	29	punct	_	SpaceAfter=No
 41	"	"	PUNCT	Z	_	29	punct	_	_
 
 # newdoc id = set.sr.96
@@ -8223,7 +8223,7 @@
 
 # sent_id = set-s2275
 # text = Četvrti kongres o NLO i Novom dobu biće održan u Istanbulu.
-1	Četvrti	četvrti	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
+1	Četvrti	četvrti	NUM	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
 2	kongres	kongres	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	o	o	ADP	Sl	Case=Loc	4	case	_	_
 4	NLO	NLO	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -8289,12 +8289,12 @@
 4	Turskoj	Turska	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	4	punct	_	_
 6	biće	biti	VERB	Vmf3s	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
-7	13.	13.	ADJ	Mdo	NumType=Ord	10	nummod	_	_
+7	13.	13.	NUM	Mdo	NumType=Ord	10	nummod	_	_
 8	i	i	CCONJ	Cc	_	9	cc	_	_
 9	14.	14.	ADJ	Mdo	NumType=Ord	7	conj	_	_
 10	juna	jun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
 11	domaćin	domaćin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-12	četvrtog	četvrti	ADJ	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	nummod	_	_
+12	četvrtog	četvrti	NUM	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	nummod	_	_
 13	Međunarodnog	međunarodni	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	kongresa	kongres	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 15	o	o	ADP	Sl	Case=Loc	16	case	_	_
@@ -8308,7 +8308,7 @@
 23	u	u	ADP	Sa	Case=Acc	24	case	_	_
 24	sredu	sreda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
 25	(	(	PUNCT	Z	_	27	punct	_	SpaceAfter=No
-26	3.	3.	ADJ	Mdo	NumType=Ord	27	nummod	_	_
+26	3.	3.	NUM	Mdo	NumType=Ord	27	nummod	_	_
 27	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	24	parataxis	_	SpaceAfter=No
 28	)	)	PUNCT	Z	_	27	punct	_	_
 29	novinska	novinski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
@@ -8372,7 +8372,7 @@
 17	u	u	ADP	Sa	Case=Acc	18	case	_	_
 18	utorak	utorak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
 19	(	(	PUNCT	Z	_	21	punct	_	SpaceAfter=No
-20	2.	2.	ADJ	Mdo	NumType=Ord	21	nummod	_	_
+20	2.	2.	NUM	Mdo	NumType=Ord	21	nummod	_	_
 21	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	parataxis	_	SpaceAfter=No
 22	)	)	PUNCT	Z	_	21	punct	_	_
 23	rumunsko	rumunski	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
@@ -8435,12 +8435,12 @@
 4	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	cop	_	_
 5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 6	od	od	ADP	Sg	Case=Gen	8	case	_	_
-7	1.	1.	ADJ	Mdo	NumType=Ord	8	nummod	_	_
+7	1.	1.	NUM	Mdo	NumType=Ord	8	nummod	_	_
 8	juna	jun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
 9	do	do	ADP	Sg	Case=Gen	10	case	_	_
 10	subote	subota	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
 11	(	(	PUNCT	Z	_	13	punct	_	SpaceAfter=No
-12	6.	6.	ADJ	Mdo	NumType=Ord	13	nummod	_	_
+12	6.	6.	NUM	Mdo	NumType=Ord	13	nummod	_	_
 13	jun	jun	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
 14	)	)	PUNCT	Z	_	13	punct	_	_
 15	domaćin	domaćin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -8567,7 +8567,7 @@
 3	Split	Split	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 4	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	_
 5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-6	1.	1.	ADJ	Mdo	NumType=Ord	7	nummod	_	_
+6	1.	1.	NUM	Mdo	NumType=Ord	7	nummod	_	_
 7	juna	jun	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
 8	domaćin	domaćin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 9	Međunarodnog	međunarodni	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -8586,7 +8586,7 @@
 6	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	7	nsubj	_	_
 7	datiraju	datirati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
 8	iz	iz	ADP	Sg	Case=Gen	11	case	_	_
-9	Drugog	drugi	ADJ	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	nummod	_	_
+9	Drugog	drugi	NUM	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	nummod	_	_
 10	svetskog	svetski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	rata	rat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	Z	_	4	punct	_	_
@@ -8594,7 +8594,7 @@
 # sent_id = set-s2293
 # text = Učenica 11. razreda Američkog univerziteta u Sofiji osvojila je prvu nagradu na bugarskom Nacionalnom takmičenju za mlade naučne talente.
 1	Učenica	učenica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
-2	11.	11.	ADJ	Mdo	NumType=Ord	3	nummod	_	_
+2	11.	11.	NUM	Mdo	NumType=Ord	3	nummod	_	_
 3	razreda	razred	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	Američkog	američki	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	univerziteta	univerzitet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -8602,7 +8602,7 @@
 7	Sofiji	Sofija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
 8	osvojila	osvojiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-10	prvu	prvi	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	nummod	_	_
+10	prvu	prvi	NUM	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	nummod	_	_
 11	nagradu	nagrada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 12	na	na	ADP	Sl	Case=Loc	15	case	_	_
 13	bugarskom	bugarski	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
@@ -8769,7 +8769,7 @@
 # text = "Sledećih nekoliko dana, čak i sati, biće od presudnog značaja za budućnost BiH", ukazuje se u poruci Kancelarije visokog predstavnika objavljenoj u sredu (24. septembra) i dodaje da najviši međunarodni predstavnik u BiH, Pedi Ešdaun, "snažno veruje da članstvo u PfP, a zatim u NATO-u, nudi najbolju garanciju BiH za dugoročan mir i stabilnost".
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Sledećih	sledeći	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
-3	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	4	det:numgov	_	_
+3	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	4	det:numgov	_	_
 4	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	8	punct	_	_
 6	čak	čak	ADV	Rgp	Degree=Pos	7	advmod	_	_
@@ -8796,7 +8796,7 @@
 27	u	u	ADP	Sa	Case=Acc	28	case	_	_
 28	sredu	sreda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
 29	(	(	PUNCT	Z	_	31	punct	_	SpaceAfter=No
-30	24.	24.	ADJ	Mdo	NumType=Ord	31	nummod	_	_
+30	24.	24.	NUM	Mdo	NumType=Ord	31	nummod	_	_
 31	septembra	septembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	parataxis	_	SpaceAfter=No
 32	)	)	PUNCT	Z	_	31	punct	_	_
 33	i	i	CCONJ	Cc	_	34	cc	_	_
@@ -8907,7 +8907,7 @@
 25	,	,	PUNCT	Z	_	27	punct	_	_
 26	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	27	nsubj	_	_
 27	predstavlja	predstavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
-28	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	nummod	_	_
+28	prvi	prvi	NUM	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	nummod	_	_
 29	korak	korak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
 30	ka	ka	ADP	Sd	Case=Dat	32	case	_	_
 31	mogućem	moguć	ADJ	Agpnsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
@@ -9153,14 +9153,14 @@
 
 # sent_id = set-s2745
 # text = Prvi put od okončanja rata u BiH 1992 - 1995, vojnici dve vojske u zemlji nosili bi iste uniforme i polagali istu zakletvu pod jednim grbom, zastavom i himnom.
-1	Prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
+1	Prvi	prvi	NUM	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	nummod	_	_
 2	put	put	ADV	Rgp	Degree=Pos	17	advmod	_	_
 3	od	od	ADP	Sg	Case=Gen	4	case	_	_
 4	okončanja	okončanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
 5	rata	rat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
 6	u	u	ADP	Sl	Case=Loc	7	case	_	_
 7	BiH	BiH	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
-8	1992	1992	ADJ	Mdo	NumType=Ord	5	nummod	_	_
+8	1992	1992	NUM	Mdo	NumType=Ord	5	nummod	_	_
 9	-	-	PUNCT	Z	_	10	punct	_	_
 10	1995	1995	ADJ	Mdo	NumType=Ord	8	conj	_	SpaceAfter=No
 11	,	,	PUNCT	Z	_	2	punct	_	_
@@ -9222,7 +9222,7 @@
 32	,	,	PUNCT	Z	_	34	punct	_	_
 33	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	34	nsubj	_	_
 34	predstavlja	predstavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	_
-35	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	nummod	_	_
+35	prvi	prvi	NUM	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	nummod	_	_
 36	korak	korak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
 37	ka	ka	ADP	Sd	Case=Dat	38	case	_	_
 38	pridruživanju	pridruživanje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	36	nmod	_	_
@@ -9244,7 +9244,7 @@
 11	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	12	compound	_	_
 12	moglo	moći	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 13	dogoditi	dogoditi	VERB	Vmn	VerbForm=Inf	12	xcomp	_	_
-14	2007.	2007.	ADJ	Mdo	NumType=Ord	15	nummod	_	_
+14	2007.	2007.	NUM	Mdo	NumType=Ord	15	nummod	_	_
 15	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 16	.	.	PUNCT	Z	_	12	punct	_	_
 
@@ -9338,7 +9338,7 @@
 38	podrže	podržati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	_
 39	reforme	reforma	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	38	obj	_	_
 40	neophodne	neophodan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	39	acl	_	_
-41	kako	kako	SCONJ	Cs	_	46	advmod	_	_
+41	kako	kako	ADV	Cs	_	46	advmod	_	_
 42	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	aux	_	_
 43	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	46	compound	_	_
 44	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
@@ -9410,7 +9410,7 @@
 11	5,3	5,3	NUM	Mdc	NumType=Card	8	obl	_	_
 12	odsto	odsto	ADV	Rgp	Degree=Pos	11	flat	_	_
 13	u	u	ADP	Sl	Case=Loc	15	case	_	_
-14	2009.	2009.	ADJ	Mdo	NumType=Ord	15	nummod	_	_
+14	2009.	2009.	NUM	Mdo	NumType=Ord	15	nummod	_	_
 15	godini	godina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Z	_	23	punct	_	_
 17	ali	ali	CCONJ	Cc	_	23	cc	_	_
@@ -9511,7 +9511,7 @@
 3	,	,	PUNCT	Z	_	2	punct	_	_
 4	neki	neki	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	radnici	radnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
-6	mesecima	mesec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	8	advmod	_	_
+6	mesecima	mesec	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
 7	nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	dobili	dobiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 9	plate	plata	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
@@ -9529,7 +9529,7 @@
 8	glavnih	glavni	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 9	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	ccomp	_	_
 10	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
-11	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	14	mark	_	_
+11	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	14	nsubj	_	_
 12	ekonomija	ekonomija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 13	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	razvila	razviti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	_
@@ -9701,7 +9701,7 @@
 6	nedostatka	nedostatak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
 7	sredstava	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Z	_	6	punct	_	_
-9	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	11	det:numgov	_	_
+9	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	11	det:numgov	_	_
 10	obalskih	obalski	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
 11	projekata	projekat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	_
 12	moralo	morati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -9784,7 +9784,7 @@
 6	međutim	međutim	ADV	Rgp	Degree=Pos	3	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	Z	_	6	punct	_	_
 8	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-9	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	17	mark	_	_
+9	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	17	nsubj	_	_
 10	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 11	banke	banka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
 12	u	u	ADP	Sl	Case=Loc	13	case	_	_
@@ -9928,7 +9928,7 @@
 16	evra	evro	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
 17	na	na	ADP	Sl	Case=Loc	18	case	_	_
 18	kraju	kraj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
-19	2009.	2009.	ADJ	Mdo	NumType=Ord	20	nummod	_	_
+19	2009.	2009.	NUM	Mdo	NumType=Ord	20	nummod	_	_
 20	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 21	--	--	PUNCT	Z	_	26	punct	_	_
 22	a	a	CCONJ	Cc	_	26	cc	_	_
@@ -10049,7 +10049,7 @@
 # sent_id = set-s3067
 # text = U drugom delu našeg izveštaja, zabrinuti eko-aktivisti savetuju sporiji pristup razvoju proizvodnje gasa iz uljanog škriljca.
 1	U	u	ADP	Sl	Case=Loc	3	case	_	_
-2	drugom	drugi	ADJ	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	nummod	_	_
+2	drugom	drugi	NUM	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	nummod	_	_
 3	delu	deo	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
 4	našeg	naš	DET	Ps1msg	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
 5	izveštaja	izveštaj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
@@ -10223,7 +10223,7 @@
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	u	u	ADP	Sl	Case=Loc	5	case	_	_
 5	tome	taj	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
-6	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	mark	_	_
+6	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	nsubj	_	_
 7	oni	oni	PRON	Pp3mpn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 8	[	[	PUNCT	Z	_	9	punct	_	SpaceAfter=No
 9	vlast	vlast	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
@@ -10457,7 +10457,7 @@
 13	,	,	PUNCT	Z	_	17	punct	_	_
 14	kao	kao	SCONJ	Cs	_	17	cc	_	_
 15	i	i	CCONJ	Cc	_	14	fixed	_	_
-16	sve	sav	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	17	det	_	_
+16	sve	sav	DET	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	17	det	_	_
 17	garancije	garancija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
 18	koje	koji	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	21	obj	_	_
 19	ove	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
@@ -10696,7 +10696,7 @@
 
 # sent_id = set-s3092
 # text = Osim u Poljskoj, razne kompanije vrše istraživanja u Austriji, Mađarskoj, Irskoj, Švedskoj i Velikoj Britaniji.
-1	Osim	osim	SCONJ	Cs	_	3	advmod	_	_
+1	Osim	osim	ADV	Cs	_	3	advmod	_	_
 2	u	u	ADP	Sl	Case=Loc	3	case	_	_
 3	Poljskoj	Poljska	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 4	,	,	PUNCT	Z	_	3	punct	_	_
@@ -10831,7 +10831,7 @@
 7	Država	država	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	flat	_	_
 8	u	u	ADP	Sl	Case=Loc	9	case	_	_
 9	Atini	Atina	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
-10	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	11	det:numgov	_	_
+10	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	11	det:numgov	_	_
 11	sati	sat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 12	pre	pre	ADP	Sg	Case=Gen	13	case	_	_
 13	početka	početak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
@@ -10840,7 +10840,7 @@
 16	u	u	ADP	Sa	Case=Acc	17	case	_	_
 17	petak	petak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
 18	(	(	PUNCT	Z	_	20	punct	_	SpaceAfter=No
-19	12.	12.	ADJ	Mdo	NumType=Ord	20	nummod	_	_
+19	12.	12.	NUM	Mdo	NumType=Ord	20	nummod	_	_
 20	januara	januar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	parataxis	_	SpaceAfter=No
 21	)	)	PUNCT	Z	_	20	punct	_	SpaceAfter=No
 22	.	.	PUNCT	Z	_	3	punct	_	_
@@ -10937,7 +10937,7 @@
 26	ministarstvu	ministarstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	24	nmod	_	_
 27	ekonomije	ekonomija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
 28	krajem	krajem	ADP	Sg	Case=Gen	30	case	_	_
-29	2005.	2005.	ADJ	Mdo	NumType=Ord	30	nummod	_	_
+29	2005.	2005.	NUM	Mdo	NumType=Ord	30	nummod	_	_
 30	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	Z	_	1	punct	_	_
 
@@ -10957,7 +10957,7 @@
 12	raspuštene	raspustiti	ADJ	Appfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	amod	_	_
 13	terorističke	teroristički	ADJ	Appfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	amod	_	_
 14	organizacije	organizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
-15	17.	17.	ADJ	Mdo	NumType=Ord	14	nummod	_	_
+15	17.	17.	NUM	Mdo	NumType=Ord	14	nummod	_	_
 16	novembar	novembar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	Z	_	20	punct	_	_
 18	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	20	nsubj	_	_
@@ -10985,11 +10985,11 @@
 # text = Među žrtvama 17. novembra nalazi se nekoliko oficira SAD, druge strane diplomate i suprug grčkog ministra inostranih poslova Dore Bakojanis.
 1	Među	među	ADP	Si	Case=Ins	2	case	_	_
 2	žrtvama	žrtva	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	5	obl	_	_
-3	17.	17.	ADJ	Mdo	NumType=Ord	4	nummod	_	_
+3	17.	17.	NUM	Mdo	NumType=Ord	4	nummod	_	_
 4	novembra	novembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	nalazi	nalaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	compound	_	_
-7	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	8	det:numgov	_	_
+7	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	8	det:numgov	_	_
 8	oficira	oficir	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
 9	SAD	SAD	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	13	punct	_	_
@@ -11081,7 +11081,7 @@
 # sent_id = set-s3198
 # text = U prvim izveštajima ukazano je da je raketa pogodila ambasadu u blizini glavnog ulaza i eksplodirala u toaletima na trećem spratu, gde se takođe nalazi kancelarija ambasadora.
 1	U	u	ADP	Sl	Case=Loc	3	case	_	_
-2	prvim	prvi	ADJ	Mlompl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	3	nummod	_	_
+2	prvim	prvi	NUM	Mlompl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	3	nummod	_	_
 3	izveštajima	izveštaj	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
 4	ukazano	ukazati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -11099,7 +11099,7 @@
 17	u	u	ADP	Sl	Case=Loc	18	case	_	_
 18	toaletima	toalet	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
 19	na	na	ADP	Sl	Case=Loc	21	case	_	_
-20	trećem	treći	ADJ	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	nummod	_	_
+20	trećem	treći	NUM	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	nummod	_	_
 21	spratu	sprat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	Z	_	26	punct	_	_
 23	gde	gde	ADV	Rgp	Degree=Pos|PronType=Int,Rel	26	advmod	_	_
@@ -11162,7 +11162,7 @@
 14	,	,	PUNCT	Z	_	15	punct	_	_
 15	sprečavajući	sprečavati	ADV	Rr	Tense=Pres|VerbForm=Conv	8	xcomp	_	_
 16	pristup	pristup	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
-17	svim	sav	ADJ	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	18	det	_	_
+17	svim	sav	DET	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	18	det	_	_
 18	ulazima	ulaz	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
 19	i	i	CCONJ	Cc	_	20	cc	_	_
 20	izlazima	izlaz	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
@@ -11245,7 +11245,7 @@
 5	rešena	rešiti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 6	da	da	SCONJ	Cs	_	7	mark	_	_
 7	uloži	uložiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
-8	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	det	_	_
+8	sve	sav	DET	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	det	_	_
 9	napore	napor	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	13	punct	_	_
 11	što	što	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Int,Rel	13	obj	_	_
@@ -11289,7 +11289,7 @@
 20	diplomatska	diplomatski	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
 21	vozila	vozilo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
 22	i	i	CCONJ	Cc	_	25	cc	_	_
-23	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	25	det:numgov	_	_
+23	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	25	det:numgov	_	_
 24	okolnih	okolni	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_
 25	zgrada	zgrada	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
 26	.	.	PUNCT	Z	_	6	punct	_	_
@@ -11299,7 +11299,7 @@
 # sent_id = set-s3456
 # text = Predstavljena prva zajednička jedinica Oružanih snaga BiH
 1	Predstavljena	predstaviti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
-2	prva	prvi	ADJ	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nummod	_	_
+2	prva	prvi	NUM	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nummod	_	_
 3	zajednička	zajednički	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	jedinica	jedinica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 5	Oružanih	oružan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
@@ -11371,7 +11371,7 @@
 3	visokih	visok	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
 4	zvaničnika	zvaničnik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	6	punct	_	_
-6	lokalnih	lokalan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	8	orphan	_	_
+6	lokalnih	lokalan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 7	i	i	CCONJ	Cc	_	9	cc	_	_
 8	SFOR-ovih	SFOR-ov	ADJ	Aspmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Poss=Yes	9	amod	_	_
 9	generala	general	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
@@ -11393,12 +11393,12 @@
 25	u	u	ADP	Sa	Case=Acc	26	case	_	_
 26	petak	petak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
 27	(	(	PUNCT	Z	_	29	punct	_	SpaceAfter=No
-28	26.	26.	ADJ	Mdo	NumType=Ord	29	nummod	_	_
+28	26.	26.	NUM	Mdo	NumType=Ord	29	nummod	_	_
 29	novembra	novembar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
 30	)	)	PUNCT	Z	_	29	punct	_	_
 31	u	u	ADP	Sl	Case=Loc	32	case	_	_
 32	Sarajevu	Sarajevo	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
-33	prvu	prvi	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	nummod	_	_
+33	prvu	prvi	NUM	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	nummod	_	_
 34	zajedničku	zajednički	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
 35	jedinicu	jedinica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 36	oružanih	oružan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	_
@@ -11427,7 +11427,7 @@
 17	vojni	vojni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	orkestar	orkestar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 19	iz	iz	ADP	Sg	Case=Gen	24	case	_	_
-20	sve	sav	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	det	_	_
+20	sve	sav	DET	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	det	_	_
 21	tri	tri	NUM	Mlc	NumType=Card	24	nummod	_	_
 22	konstitutivne	konstitutivan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 23	etničke	etnički	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
@@ -11689,7 +11689,7 @@
 # text = To je prvi put od sukoba u BiH da je oficir VRS javno ispunio direktno naređenje bošnjačkog zvaničnika.
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	prvi	prvi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nummod	_	_
+3	prvi	prvi	NUM	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nummod	_	_
 4	put	put	ADV	Rgp	Degree=Pos	0	root	_	_
 5	od	od	ADP	Sg	Case=Gen	6	case	_	_
 6	sukoba	sukob	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
@@ -11773,7 +11773,7 @@
 # text = Međutim, 1. septembar 2005. je naš krajnji rok za pronalaženje rešenja, određivanje uniformi i procedura".
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
-3	1.	1.	ADJ	Mdo	NumType=Ord	4	nummod	_	_
+3	1.	1.	NUM	Mdo	NumType=Ord	4	nummod	_	_
 4	septembar	septembar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 5	2005.	2005.	ADJ	Mdo	NumType=Ord	4	nmod	_	_
 6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -11818,10 +11818,10 @@
 10	u	u	ADP	Sa	Case=Acc	11	case	_	_
 11	petak	petak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 12	(	(	PUNCT	Z	_	14	punct	_	SpaceAfter=No
-13	25.	25.	ADJ	Mdo	NumType=Ord	14	nummod	_	_
+13	25.	25.	NUM	Mdo	NumType=Ord	14	nummod	_	_
 14	mart	mart	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	SpaceAfter=No
 15	)	)	PUNCT	Z	_	14	punct	_	_
-16	sedmu	sedmi	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	nummod	_	_
+16	sedmu	sedmi	NUM	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	nummod	_	_
 17	i	i	CCONJ	Cc	_	18	cc	_	_
 18	poslednju	poslednji	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	_
 19	reviziju	revizija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
@@ -11882,7 +11882,7 @@
 24	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	26	nsubj	_	_
 25	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 26	obezbeđen	obezbediti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
-27	2009.	2009.	ADJ	Mdo	NumType=Ord	28	nummod	_	_
+27	2009.	2009.	NUM	Mdo	NumType=Ord	28	nummod	_	_
 28	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
 29	.	.	PUNCT	Z	_	7	punct	_	_
 
@@ -11949,7 +11949,7 @@
 6	Josipa	Josip	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	5	flat	_	_
 7	Broza	Broz	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	_
 8	Tita	Tito	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	_
-9	godinama	godina	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	11	advmod	_	_
+9	godinama	godina	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_
 10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	stajala	stajati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 12	neupotrebljena	neupotrebljen	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	acl	_	_
@@ -12004,7 +12004,7 @@
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	neće	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	biti	biti	AUX	Van	VerbForm=Inf	5	cop	_	_
-4	prvo	prvi	ADJ	Mlonsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nummod	_	_
+4	prvo	prvi	NUM	Mlonsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nummod	_	_
 5	renoviranje	renoviranje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 6	Galeba	galeb	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Z	_	5	punct	_	_
@@ -12316,7 +12316,7 @@
 5	hipnoze	hipnoza	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	na	na	ADP	Sl	Case=Loc	7	case	_	_
 7	kraju	kraj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
-8	2016.	2016.	ADJ	Mdo	NumType=Ord	9	nummod	_	_
+8	2016.	2016.	NUM	Mdo	NumType=Ord	9	nummod	_	_
 9	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	Z	_	4	punct	_	_
 
@@ -12358,7 +12358,7 @@
 3	Beograda	Beograd	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 5	u	u	ADP	Sl	Case=Loc	7	case	_	_
-6	2016.	2016.	ADJ	Mdo	NumType=Ord	7	nummod	_	_
+6	2016.	2016.	NUM	Mdo	NumType=Ord	7	nummod	_	_
 7	godini	godina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
 8	organizovana	organizovati	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 9	izložba	izložba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -12378,7 +12378,7 @@
 23	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	29	nsubj	_	_
 24	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 25	pre	pre	ADP	Sg	Case=Gen	28	case	_	_
-26	Drugog	drugi	ADJ	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	nummod	_	_
+26	Drugog	drugi	NUM	Mlomsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	nummod	_	_
 27	svetskog	svetski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
 28	rata	rat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	29	obl	_	_
 29	putovala	putovati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	acl	_	_
@@ -12406,7 +12406,7 @@
 
 # sent_id = news-s476
 # text = Za sada se takmiče u disciplini auto-putevi.
-1	Za	za	ADP	Sa	Case=Acc	4	advmod	_	_
+1	Za	za	ADP	Sa	Case=Acc	4	case	_	_
 2	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	1	fixed	_	_
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	compound	_	_
 4	takmiče	takmičiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12468,7 +12468,7 @@
 11	dobijene	dobiti	ADJ	Appfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	_
 12	posle	posle	ADP	Sg	Case=Gen	15	case	_	_
 13	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
-14	četrdesete	četrdeseti	ADJ	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	nummod	_	_
+14	četrdesete	četrdeseti	NUM	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	nummod	_	_
 15	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
 16	od	od	ADP	Sg	Case=Gen	17	case	_	_
 17	strane	strana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
@@ -12521,12 +12521,12 @@
 2	zajednica	zajednica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 3	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-5	i	i	CCONJ	Cc	_	6	fixed	_	_
+5	i	i	CCONJ	Cc	_	6	discourse	_	_
 6	dalje	daleko	ADV	Rgc	Degree=Cmp	13	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	Z	_	9	punct	_	_
 8	pri	pri	ADP	Sl	Case=Loc	9	case	_	_
 9	kraju	kraj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
-10	2016.	2016.	ADJ	Mdo	NumType=Ord	11	nummod	_	_
+10	2016.	2016.	NUM	Mdo	NumType=Ord	11	nummod	_	_
 11	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Z	_	9	punct	_	_
 13	odraz	odraz	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -12591,7 +12591,7 @@
 1	Srbija	Srbija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	postala	postati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	prva	prvi	ADJ	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nummod	_	_
+4	prva	prvi	NUM	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	nummod	_	_
 5	zemlja	zemlja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	_
 6	u	u	ADP	Sl	Case=Loc	7	case	_	_
 7	svetu	svet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -12615,7 +12615,7 @@
 25	,	,	PUNCT	Z	_	29	punct	_	_
 26	do	do	ADP	Sg	Case=Gen	29	case	_	_
 27	pre	pre	ADP	Sg	Case=Gen	29	case	_	_
-28	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	29	det:numgov	_	_
+28	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	29	det:numgov	_	_
 29	meseci	mesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
 30	,	,	PUNCT	Z	_	29	punct	_	_
 31	verski	verski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
@@ -12624,11 +12624,11 @@
 
 # sent_id = news-s486
 # text = Sve nacionalne institucije i svi državni univerziteti, fakulteti i instituti Srbije su oćutali muftijino postavljenje.
-1	Sve	sav	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	det	_	_
+1	Sve	sav	DET	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	det	_	_
 2	nacionalne	nacionalan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
 3	institucije	institucija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
 4	i	i	CCONJ	Cc	_	7	cc	_	_
-5	svi	sav	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	det	_	_
+5	svi	sav	DET	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	det	_	_
 6	državni	državni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
 7	univerziteti	univerzitet	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	Z	_	9	punct	_	_
@@ -12667,7 +12667,7 @@
 21	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	obeležio	obeležiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	conj	_	_
 23	moju	moj	DET	Ps1fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	25	det	_	_
-24	2016.	2016.	ADJ	Mdo	NumType=Ord	25	nummod	_	_
+24	2016.	2016.	NUM	Mdo	NumType=Ord	25	nummod	_	_
 25	godinu	godina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
 26	.	.	PUNCT	Z	_	14	punct	_	_
 
@@ -12686,7 +12686,7 @@
 11	u	u	ADP	Sl	Case=Loc	12	case	_	_
 12	Mladenovcu	Mladenovac	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
 13	i	i	CCONJ	Cc	_	16	cc	_	_
-14	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	16	det	_	_
+14	sve	sav	DET	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	16	det	_	_
 15	druge	drugi	ADJ	Mlompa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
 16	šamare	šamar	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	_
 17	srpskoj	srpski	ADJ	Agpfsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
@@ -12826,7 +12826,7 @@
 1	Morali	morati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
 3	u	u	ADP	Sl	Case=Loc	5	case	_	_
-4	2016.	2016.	ADJ	Mdo	NumType=Ord	5	nummod	_	_
+4	2016.	2016.	NUM	Mdo	NumType=Ord	5	nummod	_	_
 5	godini	godina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
 6	da	da	SCONJ	Cs	_	7	mark	_	_
 7	kažemo	kazati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	xcomp	_	_
@@ -12933,7 +12933,7 @@
 14	srpskom	srpski	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	vojskom	vojska	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
 16	u	u	ADP	Sl	Case=Loc	19	case	_	_
-17	Prvom	prvi	ADJ	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	nummod	_	_
+17	Prvom	prvi	NUM	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	nummod	_	_
 18	svetskom	svetski	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 19	ratu	rat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
 20	našli	naći	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	acl	_	_
