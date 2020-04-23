@@ -9689,15 +9689,15 @@
 # sent_id = set-s2436
 # text = "Hajde da se ne igramo jedni sa drugima.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
-2	Hajde	hajde	AUX	Vam2s	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+2	Hajde	hajde	INTJ	I	_	6	discourse	_	_
 3	da	da	SCONJ	Cs	_	6	mark	_	_
 4	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 5	ne	ne	PART	Qz	Polarity=Neg	6	advmod	_	_
-6	igramo	igrati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	igramo	igrati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	jedni	jedan	NUM	Mlcmpn	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	6	nsubj	_	_
 8	sa	sa	ADP	Si	Case=Ins	9	case	_	_
 9	drugima	drugi	ADJ	Mlompi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
-10	.	.	PUNCT	Z	_	2	punct	_	_
+10	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2437
 # text = Ovde smo imali rat.
