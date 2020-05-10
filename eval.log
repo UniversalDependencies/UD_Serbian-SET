@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Serbian-SET:
-commit ccf6528559284289bd7f7b98937dd935bcc2ec32
-Merge: 51f0ba1 78d8d0a
+commit a5227dbeaf93dee37aa3070316eefa6c171671e8
+Merge: 3a4976b 928c469
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 97673 of 97673 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1632503293258.
@@ -15,75 +15,28 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 77849 out of 97673 total words have one or more features.
+Features: 77846 out of 97673 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 32 out of 37 found in the corpus.
+Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 1237 bugs.
+Udapi: found 1151 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 97673 words.
 Genres: found 1 out of 17 known.
 validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-dev.conllu
-[Line 228 Sent set-s11 Node 7]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (7:ću:aux --> 6:da:mark)
-[Line 348 Sent set-s15 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'PRON'
-[Line 350 Sent set-s15 Node 18]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [19, 20]
-[Line 420 Sent set-s18 Node 22]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (22:bile:cop --> 17:su:aux)
-[Line 610 Sent set-s25 Node 12]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (12:bio:cop --> 4:je:aux)
-[Line 662 Sent set-s26 Node 22]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET'
-[Line 677 Sent set-s27 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7]
-[Line 3736 Sent set-s945 Node 14]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
-[Line 3736 Sent set-s945 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16]
-...suppressing further errors regarding Syntax
-[Line 9692 Sent set-s2436 Node 2]: [L5 Morpho aux-lemma] 'hajde' is not an auxiliary verb in language [sr]
-Morpho errors: 1
-Syntax errors: 27
-*** FAILED *** with 28 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-test.conllu
-[Line 1807 Sent set-s466 Node 15]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5, 6, 7, 8, 9, 10, 11, 12, 13]
-[Line 2114 Sent set-s496 Node 18]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (18:bilo:cop --> 17:je:aux)
-[Line 2118 Sent set-s496 Node 18]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (18:bilo:cop --> 21:godine:obl)
-[Line 2484 Sent set-s512 Node 2]: [L3 Syntax rel-upos-case] 'case' should not be 'AUX'
-[Line 2662 Sent set-s520 Node 21]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET'
-[Line 2894 Sent set-s727 Node 36]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (36:u:case --> 37:vezi:flat)
-[Line 2895 Sent set-s727 Node 36]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (36:u:case --> 38:sa:flat)
-[Line 3211 Sent set-s738 Node 23]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (23:u:case --> 24:ime:amod)
-[Line 3539 Sent set-s751 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-...suppressing further errors regarding Syntax
-Syntax errors: 19
-*** FAILED *** with 19 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-train.conllu
-[Line 223 Sent set-s43 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
-[Line 301 Sent set-s45 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:bio:cop --> 12:je:aux)
-[Line 858 Sent set-s65 Node 7]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (7:bila:cop --> 8:je:aux)
-[Line 909 Sent set-s68 Node 4]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (4:biti:cop --> 3:ćemo:aux)
-[Line 977 Sent set-s71 Node 20]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (20:bila:cop --> 6:je:aux)
-[Line 1160 Sent set-s79 Node 21]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [22]
-[Line 1230 Sent set-s82 Node 3]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (3:bio:cop --> 2:je:aux)
-[Line 1357 Sent set-s89 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8]
-[Line 1400 Sent set-s92 Node 3]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (3:bila:cop --> 2:je:aux)
-...suppressing further errors regarding Syntax
-[Line 10361 Sent set-s564 Node 13]: [L5 Morpho aux-lemma] 'vršiti' is not an auxiliary verb in language [sr]
-[Line 71828 Sent set-s3789 Node 6]: [L5 Morpho aux-lemma] 'će' is not an auxiliary verb in language [sr]
-[Line 75181 Sent news-s54 Node 9]: [L5 Morpho aux-lemma] 'dobiti' is not an auxiliary verb in language [sr]
-[Line 77015 Sent news-s168 Node 6]: [L5 Morpho aux-lemma] 'neće' is not an auxiliary verb in language [sr]
-[Line 78956 Sent news-s258 Node 21]: [L5 Morpho aux-lemma] 'neće' is not an auxiliary verb in language [sr]
-[Line 79014 Sent news-s260 Node 29]: [L5 Morpho aux-lemma] 'neće' is not an auxiliary verb in language [sr]
-[Line 79849 Sent news-s292 Node 41]: [L5 Morpho aux-lemma] 'priča' is not an auxiliary verb in language [sr]
-[Line 80695 Sent news-s327 Node 4]: [L5 Morpho aux-lemma] 'neće' is not an auxiliary verb in language [sr]
-Morpho errors: 8
-Syntax errors: 121
-*** FAILED *** with 129 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.663258175720725) = 0.17006619890275
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.873352922506732) = 0.268723976155917
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.761125179746613) * (availability=1) * (validity=0.01) = 0.00761125179746613
-STARS = 0
-UD_Serbian-SET	0.00761125179746613	0
+(weight=0.307692307692308) * (score{udapi}=0.882157812292036) = 0.271433173012934
+(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
+(TOTAL score=0.765913378682632) * (availability=1) * (validity=1) = 0.765913378682632
+STARS = 4
+UD_Serbian-SET	0.765913378682632	4
