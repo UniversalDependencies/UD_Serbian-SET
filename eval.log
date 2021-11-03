@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Serbian-SET:
-commit 7757bbf91eb167311dc8f3247e2be340ce68ac46
+commit f791e0417d96b3dd35ac0daaa3b37baaff3c976d
+Merge: 9cef8de a74ac4a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 11 20:12:12 2020 +0100
 Size: counted 97673 of 97673 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1632503293258.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 77846 out of 97673 total words have one or more features.
+Features: 78142 out of 97673 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1147
-Udapi: found 1147 bugs.
+               TOTAL        492
+Udapi: found 492 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 97673 words.
 Genres: found 1 out of 17 known.
 validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.663258175720725) = 0.17006619890275
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.882567342049492) = 0.271559182169074
+(weight=0.307692307692308) * (score{udapi}=0.949627839832912) = 0.29219318148705
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.766039387838772) * (availability=1) * (validity=1) = 0.766039387838772
+(TOTAL score=0.786673387156748) * (availability=1) * (validity=1) = 0.786673387156748
 STARS = 4
-UD_Serbian-SET	0.766039387838772	4
+UD_Serbian-SET	0.786673387156748	4
