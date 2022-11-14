@@ -263,7 +263,7 @@
 18	najgore	zlo	ADV	Rgs	Degree=Sup	12	conj	_	_
 19	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 20	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	25	discourse	_	_
-21	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	25	nsubj	_	_
+21	što	što	SCONJ	Cs	_	25	mark	_	_
 22	kompanija	kompanija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
 23	više	mnogo	ADV	Rgc	Degree=Cmp	25	advmod	_	_
 24	ne	ne	PART	Qz	Polarity=Neg	25	advmod	_	_
@@ -1340,7 +1340,7 @@
 16	"	"	PUNCT	Z	_	17	punct	_	SpaceAfter=No
 17	spremna	spreman	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	ccomp	_	_
 18	da	da	SCONJ	Cs	_	19	mark	_	_
-19	razmotri	razmotriti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	csubj	_	_
+19	razmotri	razmotriti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 20	manje	mali	ADJ	Agcfpay	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Plur	21	amod	_	_
 21	izmene	izmena	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
 22	u	u	ADP	Sl	Case=Loc	23	case	_	_
@@ -7669,7 +7669,7 @@
 14	,	,	PUNCT	Z	_	6	punct	_	_
 15	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	_
 16	povećava	povećavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	zabrinutost	zabrinutost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	nsubj	_	_
+17	zabrinutost	zabrinutost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
 18	u	u	ADP	Sl	Case=Loc	19	case	_	_
 19	pogledu	pogled	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
 20	kompatibilnosti	kompatibilnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
@@ -10868,7 +10868,7 @@
 20	20	20	NUM	Mdc	NumType=Card	23	nummod:gov	_	_
 21	odsto	odsto	ADV	Rgp	Degree=Pos	20	flat	_	_
 22	ukupnog	ukupan	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
-23	stanovništva	stanovništvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	nsubj	_	_
+23	stanovništva	stanovništvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	obj	_	_
 24	u	u	ADP	Sl	Case=Loc	25	case	_	_
 25	svetu	svet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	Z	_	10	punct	_	_
@@ -12687,7 +12687,7 @@
 5	samo	samo	ADV	Rgp	Degree=Pos	7	advmod	_	_
 6	u	u	ADP	Sl	Case=Loc	7	case	_	_
 7	tome	taj	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
-8	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	12	nsubj	_	_
+8	što	što	SCONJ	Cs	_	12	mark	_	_
 9	konkretna	konkretan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	žrtva	žrtva	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 11	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -12994,7 +12994,7 @@
 # text = Pored toga što se time stiče utisak da su ti zločini neminovnost, briše se odgovornost zločinaca.
 1	Pored	pored	ADP	Sg	Case=Gen	2	case	_	_
 2	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	_
-3	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	6	nsubj	_	_
+3	što	što	SCONJ	Cs	_	6	mark	_	_
 4	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 5	time	taj	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	_
 6	stiče	sticati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_

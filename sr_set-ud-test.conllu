@@ -276,7 +276,7 @@
 
 # sent_id = set-s307
 # text = Odluke o sprovođenju dogovora, koji nisu potpisivani, sada treba da usvoje vlade u Beogradu i Prištini.
-1	Odluke	odluka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+1	Odluke	odluka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	obj	_	_
 2	o	o	ADP	Sl	Case=Loc	3	case	_	_
 3	sprovođenju	sprovođenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
 4	dogovora	dogovor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -423,7 +423,7 @@
 13	da	da	SCONJ	Cs	_	15	mark	_	_
 14	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	dobro	dobar	ADV	Rgp	Degree=Pos	9	ccomp	_	_
-16	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	19	nsubj	_	_
+16	što	što	SCONJ	Cs	_	19	mark	_	_
 17	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 18	dogovori	dogovor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
 19	postignuti	postignut	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	15	csubj	_	_
@@ -9529,7 +9529,7 @@
 8	glavnih	glavni	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
 9	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	ccomp	_	_
 10	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
-11	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	14	nsubj	_	_
+11	što	što	SCONJ	Cs	_	14	mark	_	_
 12	ekonomija	ekonomija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 13	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	razvila	razviti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	_
@@ -9784,7 +9784,7 @@
 6	međutim	međutim	ADV	Rgp	Degree=Pos	3	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	Z	_	6	punct	_	_
 8	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
-9	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	17	nsubj	_	_
+9	što	što	SCONJ	Cs	_	17	mark	_	_
 10	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 11	banke	banka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
 12	u	u	ADP	Sl	Case=Loc	13	case	_	_
@@ -10223,7 +10223,7 @@
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	u	u	ADP	Sl	Case=Loc	5	case	_	_
 5	tome	taj	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
-6	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	nsubj	_	_
+6	što	što	SCONJ	Cs	_	11	mark	_	_
 7	oni	oni	PRON	Pp3mpn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 8	[	[	PUNCT	Z	_	9	punct	_	SpaceAfter=No
 9	vlast	vlast	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
