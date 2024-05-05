@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Serbian-SET:
-commit 58c7a5717328a29088d3778a2a6b24253c4f43cb
-Merge: a9d6f03 ce79bff
+commit 2cd29d7735ae4b7ac7339fecc22299912d6ea62e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 13:03:17 2023 +0100
 Size: counted 97673 of 97673 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1632503293258.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        459
-Udapi: found 459 bugs.
+               TOTAL        456
+Udapi: found 456 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 97673 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.663258175720725) = 0.17006619890275
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.953006460331924) = 0.293232757025207
+(weight=0.307692307692308) * (score{udapi}=0.953313607650016) = 0.293327263892313
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.787712962694905) * (availability=1) * (validity=1) = 0.787712962694905
+(TOTAL score=0.787807469562011) * (availability=1) * (validity=1) = 0.787807469562011
 STARS = 4
-UD_Serbian-SET	0.787712962694905	4
+UD_Serbian-SET	0.787807469562011	4
