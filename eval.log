@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Serbian-SET:
-commit 2cd29d7735ae4b7ac7339fecc22299912d6ea62e
+commit 6620fefa411eb6ac365b79f34f674e57ba1c58b8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:03:17 2023 +0100
+Date:   Sun May 5 13:28:44 2024 +0200
 Size: counted 97673 of 97673 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1632503293258.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,6 +29,11 @@ Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-train.conllu
+[Line 73381 Sent set-s3847 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:odsto:det --> 10:40:nummod)
+[Line 74122 Sent set-s3878 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:odsto:det --> 22:40:nummod)
+[Line 74191 Sent set-s3881 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:odsto:det --> 14:81,1:nummod)
+[Line 82952 Sent news-s412 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:onoliko:det --> 28:je:acl)
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
