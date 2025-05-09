@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Serbian-SET:
-commit 6620fefa411eb6ac365b79f34f674e57ba1c58b8
+commit 1b6607149b089b1f6db2f5707ee413d4a31edba1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:28:44 2024 +0200
+Date:   Mon Nov 11 16:38:09 2024 +0100
 Size: counted 97673 of 97673 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1632503293258.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,30 +20,70 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        456
-Udapi: found 456 bugs.
+               TOTAL         70
+Udapi: found 70 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 97673 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-dev.conllu
+[Line 147 Sent set-s8 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 212 Sent set-s10 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 246 Sent set-s12 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Nakon što' does not have the 'ExtPos' feature
+[Line 351 Sent set-s15 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 552 Sent set-s23 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 1004 Sent set-s481 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1128 Sent set-s485 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'da li' does not have the 'ExtPos' feature
+[Line 1301 Sent set-s490 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
+[Line 1309 Sent set-s490 Node 42]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
+[Line 2078 Sent set-s797 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 60
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-test.conllu
-*** PASSED ***
+[Line 450 Sent set-s313 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'da li' does not have the 'ExtPos' feature
+[Line 880 Sent set-s434 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Da li' does not have the 'ExtPos' feature
+[Line 985 Sent set-s438 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
+[Line 1195 Sent set-s444 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
+[Line 1588 Sent set-s456 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
+[Line 1974 Sent set-s473 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 2295 Sent set-s504 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'pre nego' does not have the 'ExtPos' feature
+[Line 2295 Sent set-s504 Node 6]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN' word 'pre'
+[Line 2883 Sent set-s727 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom na' does not have the 'ExtPos' feature
+[Line 2946 Sent set-s729 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'osim ako' does not have the 'ExtPos' feature
+[Line 3070 Sent set-s733 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'zašto što' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 1
+Warnings: 49
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-train.conllu
-[Line 73381 Sent set-s3847 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:odsto:det --> 10:40:nummod)
-[Line 74122 Sent set-s3878 Node 23]: [L3 Warning leaf-det] 'det' not expected to have children (23:odsto:det --> 22:40:nummod)
-[Line 74191 Sent set-s3881 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:odsto:det --> 14:81,1:nummod)
-[Line 82952 Sent news-s412 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:onoliko:det --> 28:je:acl)
-Warnings: 4
-*** PASSED ***
-Validity: 1
+[Line 160 Sent set-s41 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 443 Sent set-s48 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 551 Sent set-s53 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 576 Sent set-s54 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Da li' does not have the 'ExtPos' feature
+[Line 794 Sent set-s63 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
+[Line 1200 Sent set-s80 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom na' does not have the 'ExtPos' feature
+[Line 1257 Sent set-s83 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1445 Sent set-s94 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
+[Line 1527 Sent set-s98 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ne samo' does not have the 'ExtPos' feature
+[Line 1533 Sent set-s98 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'nego i' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 73381 Sent set-s3847 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:odsto:det --> 10:40:nummod)
+[Line 74122 Sent set-s3878 Node 23]: [L3 Syntax leaf-det] 'det' not expected to have children (23:odsto:det --> 22:40:nummod)
+[Line 74191 Sent set-s3881 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:odsto:det --> 14:81,1:nummod)
+[Line 82952 Sent news-s412 Node 25]: [L3 Syntax leaf-det] 'det' not expected to have children (25:onoliko:det --> 28:je:acl)
+Syntax errors: 4
+Warnings: 315
+*** FAILED *** with 4 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.663258175720725) = 0.17006619890275
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.953313607650016) = 0.293327263892313
+(weight=0.307692307692308) * (score{udapi}=0.99283322924452) = 0.305487147459852
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.787807469562011) * (availability=1) * (validity=1) = 0.787807469562011
-STARS = 4
-UD_Serbian-SET	0.787807469562011	4
+(TOTAL score=0.799715970525227) * (availability=1) * (validity=0.01) = 0.00799715970525227
+STARS = 0
+UD_Serbian-SET	0.00799715970525227	0
