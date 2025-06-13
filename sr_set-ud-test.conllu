@@ -2292,8 +2292,8 @@
 3	da	da	SCONJ	Cs	_	11	mark	_	_
 4	kreditne	kreditan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
 5	,	,	PUNCT	Z	_	8	punct	_	_
-6	pre	pre	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	cc	_	_
-7	nego	nego	CCONJ	Cc	_	6	fixed	_	_
+6	pre	pre	SCONJ	Cs	_	8	mark	_	_
+7	nego	nego	SCONJ	Cs	_	6	fixed	_	_
 8	debitne	debitni	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
 9	kartice	kartica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	Z	_	9	punct	_	_
