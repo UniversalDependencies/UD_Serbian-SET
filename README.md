@@ -38,6 +38,7 @@ are compatible (corresponding documents are in the same section in both language
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: manual native
 UPOS: converted from manual
