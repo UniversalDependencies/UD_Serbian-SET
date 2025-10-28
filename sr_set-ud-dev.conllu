@@ -1,6 +1,7 @@
 # newdoc id = set.sr.1
 # url = NA
 # sent_id = set-s1
+# parallel_id = set/dev1
 # text = Proces privatizacije na Kosovu pod lupom
 1	Proces	proces	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	privatizacije	privatizacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -10,6 +11,7 @@
 6	lupom	lupa	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 
 # sent_id = set-s2
+# parallel_id = set/dev2
 # text = Kosovo ozbiljno analizira svoje procese privatizacije u svetlu čestih pritužbi.
 1	Kosovo	Kosovo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	ozbiljno	ozbiljno	ADV	Rgp	Degree=Pos	3	advmod	_	_
@@ -24,6 +26,7 @@
 11	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3
+# parallel_id = set/dev3
 # text = Feronikel je privatizovan pre pet godina i još uvek posluje, ali postoje zabrinutosti oko bezbednosti njegovih radnika.
 1	Feronikel	Feronikel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -46,6 +49,7 @@
 19	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s4
+# parallel_id = set/dev4
 # text = Bar na papiru, to izgleda kao odlična ideja.
 1	Bar	bar	ADV	Rgp	Degree=Pos	6	discourse	_	_
 2	na	na	ADP	Sl	Case=Loc	3	case	_	_
@@ -59,6 +63,7 @@
 10	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s5
+# parallel_id = set/dev5
 # text = Vlada prodaje preduzeća, rešava se tereta upravljanja njima, a novac od prodaje pomaže u finansiranju državnog budžeta.
 1	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	prodaje	prodavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -82,6 +87,7 @@
 20	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s6
+# parallel_id = set/dev6
 # text = Ali, na Kosovu, kritičari kažu da je pravni proces vezan za privatizaciju složen i politički nabijen, što će imati dugoročan uticaj na ekonomiju.
 1	Ali	ali	CCONJ	Cc	_	4	cc	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	4	punct	_	_
@@ -112,6 +118,7 @@
 27	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s7
+# parallel_id = set/dev7
 # text = Oni kažu da neki vlasnici i zaposleni mogu da koriste određene rupe u zakonu, dok ostali ne dobijaju gotovo ništa.
 1	Oni	oni	PRON	Pp3mpn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	kažu	kazati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -137,6 +144,7 @@
 22	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s8
+# parallel_id = set/dev8
 # text = Tu je i etnička komponenta, s obzirom da pojedinci iz različitih zajednica mogu da kažu da je diskriminacija -- bilo sada ili ranije -- uticala na njihovu mogućnost ostvarivanja koristi od privatizacije.
 1	Tu	tu	ADV	Rgp	Degree=Pos|PronType=Dem	2	advmod	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -174,6 +182,7 @@
 34	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s9
+# parallel_id = set/dev9
 # text = Esat Beriša je jedan takav primer.
 1	Esat	Esat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Beriša	Beriša	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -184,6 +193,7 @@
 7	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s10
+# parallel_id = set/dev10
 # text = "Moj otac je radio u Hidrotehnici, [kao i ja], do decembra 1990. godine, ali onda sam ja otpušten zato što su nas srpske vlasti otpustile.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
@@ -219,6 +229,7 @@
 32	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s11
+# parallel_id = set/dev11
 # text = Posle rata sam se nadao da ću dobiti svoj posao nazad, ali to se nikada nije dogodilo."
 1	Posle	posle	ADP	Sg	Case=Gen	2	case	_	_
 2	rata	rat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
@@ -242,6 +253,7 @@
 20	"	"	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s12
+# parallel_id = set/dev12
 # text = Nakon što je Hidrotehnika privatizovana 2006. godine, "nikada nisam dobio bilo kakvu nadoknadu, a najgore je to što kompanija više ne postoji, jer je novi vlasnik promenio njenu namenu", rekao je Beriša za SETimes.
 1	Nakon	nakon	SCONJ	Cs	_	5	mark	_	_
 2	što	što	SCONJ	Cs	_	1	fixed	_	_
@@ -286,6 +298,7 @@
 41	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s13
+# parallel_id = set/dev13
 # text = U nekim slučajevima kompanije su kupovane više zbog zemljišta nego zbog želje da se nastavi rad.
 1	U	u	ADP	Sl	Case=Loc	3	case	_	_
 2	nekim	neki	DET	Pi-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
@@ -306,6 +319,7 @@
 17	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s14
+# parallel_id = set/dev14
 # text = On nije usamljen: diskriminatorni zakon koji je nametnuo Miloševićev režim primorao je hiljade Kosovara da napuste svoje poslove.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -329,6 +343,7 @@
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s15
+# parallel_id = set/dev15
 # text = Osim toga, mnoge kompanije koje su privatizovane promenile su lokaciju poslovanja i vrlo često se zaposleni, kao što je Beriša, skidaju sa platnog spiska, što dovodi do čestih protesta ispred Agencije za privatizaciju.
 1	Osim	osim	ADP	Sg	Case=Gen	2	case	_	_
 2	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	9	parataxis	_	SpaceAfter=No
@@ -370,6 +385,7 @@
 38	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s16
+# parallel_id = set/dev16
 # text = Dardan Sejdiu, ekonomski ekspert iz pokreta Vetvendosje, veliki je kritičar toga.
 1	Dardan	Dardan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 2	Sejdiu	Sejdiu	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -387,6 +403,7 @@
 14	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s17
+# parallel_id = set/dev17
 # text = "Deceniju kasnije vidimo da je ekonomija užasno nestrukturirana.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Deceniju	decenija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -400,6 +417,7 @@
 10	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s18
+# parallel_id = set/dev18
 # text = Većina proizvodnih kompanija više ne postoji ili se koriste za skladištenje robe; efikasnost kao koncept su, čini se, bile samo reči, a nezaposlenost se produbljuje.
 1	Većina	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 2	proizvodnih	proizvodni	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
@@ -433,6 +451,7 @@
 30	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s19
+# parallel_id = set/dev19
 # text = Na kraju je i broj stranih investitora samo simboličan, a i suma koju su uložili je simbolična", rekao je Sejdiu za SETimes.
 1	Na	na	ADP	Sl	Case=Loc	2	case	_	_
 2	kraju	kraj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
@@ -462,6 +481,7 @@
 26	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s20
+# parallel_id = set/dev20
 # text = Privatizacija javnih i državnih kompanija poslednjih godina donela je više od 600 miliona evra, koji su prebačeni u banke u inostranstvu, a kosovska vlada ne koristi ta sredstva.
 1	Privatizacija	privatizacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 2	javnih	javan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
@@ -496,6 +516,7 @@
 31	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s21
+# parallel_id = set/dev21
 # text = Sejdiu kaže da je to premalo i da su zemlje u regionu prodale samo jednu ili nekoliko kompanija po toj ceni.
 1	Sejdiu	Sejdiu	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -521,6 +542,7 @@
 22	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s22
+# parallel_id = set/dev22
 # text = Seb Bitići, izvršni direktor Instituta za balkansku politiku, slaže se sa tim.
 1	Seb	Seb	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 2	Bitići	Bitići	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -539,6 +561,7 @@
 15	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s23
+# parallel_id = set/dev23
 # text = "Glavni nedostaci su prodaja po nižim cenama, s obzirom da se vrednost [kompanija] smanjivala zbog lošeg upravljanja, nefunkcionisanje preduzeća i optužbe za korupciju", rekao je on za SETimes.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Glavni	glavni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -578,6 +601,7 @@
 36	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s24
+# parallel_id = set/dev24
 # text = Tu su takođe troškovi izgubljenih mogućnosti: "U nekim slučajevima je privatizacija mogla da donese bolje usluge i efikasnost."
 1	Tu	tu	ADV	Rgp	Degree=Pos|PronType=Dem	0	root	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -603,6 +627,7 @@
 22	"	"	PUNCT	Z	_	14	punct	_	_
 
 # sent_id = set-s25
+# parallel_id = set/dev25
 # text = Sejdiu kaže da je, iz ove perspektive, proces "bio prenagljen… bez plana za ekonomski razvoj" i da je privatizacija dovela do velikih problema za radnike.
 1	Sejdiu	Sejdiu	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -637,6 +662,7 @@
 31	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s26
+# parallel_id = set/dev26
 # text = On ukazuje na kompanije u istočnom regionu Ana Morava, gde je ranije bilo "skoro 17.000 radnika, u preduzećima koja su sada privatizovana.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ukazuje	ukazivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -666,6 +692,7 @@
 26	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s27
+# parallel_id = set/dev27
 # text = Danas ta preduzeća zapošljavaju [manje od] 1.700 njih -- ni 10 odsto radne snage nije zadržano", tvrdi Sejdiu.
 1	Danas	danas	ADV	Rgp	Degree=Pos	4	advmod	_	_
 2	ta	taj	DET	Pd-npn	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
@@ -692,6 +719,7 @@
 23	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s28
+# parallel_id = set/dev28
 # text = Bitići kaže da bi jači sindikati doneli bolje ishode.
 1	Bitići	Bitići	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -705,6 +733,7 @@
 10	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s29
+# parallel_id = set/dev29
 # text = "Ovde je glavni problem nepostojanje pravih sindikata.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Ovde	ovde	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	_
@@ -717,6 +746,7 @@
 9	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s30
+# parallel_id = set/dev30
 # text = Radnici nisu mogli da ispregovaraju sporazum koji omogućava lakšu tranziciju.
 1	Radnici	radnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -731,6 +761,7 @@
 11	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s31
+# parallel_id = set/dev31
 # text = Toliko je radnika otpušteno.
 1	Toliko	toliko	DET	Rgp	Degree=Pos|PronType=Dem	3	det:numgov	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -739,6 +770,7 @@
 5	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s32
+# parallel_id = set/dev32
 # text = Kada su u pitanju oni koji i dalje rade, [ne postoji] garancija za bezbednost na radu.
 1	Kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	mark	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -762,6 +794,7 @@
 20	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s33
+# parallel_id = set/dev33
 # text = Feronikeli je flagrantan slučaj u kojem nedostatak političke volje da se reši pitanje bezbednosti na radu ugrožava živote radnika", rekao je on za SETimes.
 1	Feronikeli	Feronikeli	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -792,6 +825,7 @@
 27	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s34
+# parallel_id = set/dev34
 # text = Poslednjih meseci povređeno je više radnika kompanije Feronikel na centralnom Kosovu, što je primoralo predsednika parlamenta Jakupa Krasnićija da pozove na bolje i sigurnije uslove rada.
 1	Poslednjih	poslednji	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	meseci	mesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
@@ -823,6 +857,7 @@
 28	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s35
+# parallel_id = set/dev35
 # text = Feronikel je privatizovan 2007. godine.
 1	Feronikel	Feronikel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -834,6 +869,7 @@
 # newdoc id = set.sr.19
 # url = NA
 # sent_id = set-s476
+# parallel_id = set/dev36
 # text = Izaslanik UN-a izjavio da preuranjeno pokretanje novog procesa za Kipar nije preporučljivo
 1	Izaslanik	izaslanik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	UN-a	UN	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -849,6 +885,7 @@
 12	preporučljivo	preporučljiv	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	ccomp	_	_
 
 # sent_id = set-s477
+# parallel_id = set/dev37
 # text = Sada nije trenutak za pokretanje nove runde razgovora o ponovnom ujedinjenju Kipra, izjavio je u sredu visoki zvaničnik UN-a, ukazujući na nepovoljne uslove za pregovore.
 1	Sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	2	advmod	_	_
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -880,6 +917,7 @@
 28	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s478
+# parallel_id = set/dev38
 # text = Podsekretar UN-a za politička pitanja Kieran Prendergast (levo) rukuje se sa liderom kiparskih Turaka Mehmetom Alijem Talatom tokom posete podeljenom ostrvu.
 1	Podsekretar	podsekretar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 2	UN-a	UN	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -907,6 +945,7 @@
 24	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s479
+# parallel_id = set/dev39
 # text = Visoki zvaničnik UN-a rekao je u sredu (22. juna) Savetu bezbednosti da, iako i kiparski Grci i kiparski Turci žele rešenje kojim će se okončati podela Kipra, ne može preporučiti novu rundu razgovora.
 1	Visoki	visok	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	zvaničnik	zvaničnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -948,6 +987,7 @@
 38	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s480
+# parallel_id = set/dev40
 # text = "Preuranjeno pokretanje intenzivnog novog procesa ne bi bilo preporučljivo", rekao je podsekretar UN-a za politička pitanja Kieran Prendergast informišući Savet bezbednosti o svojim posetama Kipru, Grčkoj i Turskoj ranije ovog meseca.
 1	"	"	PUNCT	Z	_	10	punct	_	SpaceAfter=No
 2	Preuranjeno	preuranjen	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
@@ -987,6 +1027,7 @@
 36	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s481
+# parallel_id = set/dev41
 # text = "Ništa pozitivno ne bi doneli novi pokušaji koji bi se završili, kao što su se završila prethodna dva, velikim neuspehom, ili frustrirajućim zastojem."
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Ništa	ništa	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Neg	6	obj	_	_
@@ -1019,6 +1060,7 @@
 29	"	"	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s482
+# parallel_id = set/dev42
 # text = Poslednja međunarodna nastojanja za ujedinjenje Kipra propala su u aprilu prošle godine, kada su kiparski Grci u velikom broju odbacili UN-ov plan rešenja.
 1	Poslednja	poslednji	ADJ	Agpnpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
 2	međunarodna	međunarodni	ADJ	Agpnpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	_
@@ -1047,6 +1089,7 @@
 25	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s483
+# parallel_id = set/dev43
 # text = Mada je većina kiparskih Turaka podržala predloženi sporazum, samo je međunarodno priznati deo mediteranskog ostrva pod kontrolom kiparskih Grka na kraju ušao u EU 1. maja 2004. godine.
 1	Mada	mada	SCONJ	Cs	_	6	mark	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -1080,6 +1123,7 @@
 30	.	.	PUNCT	Z	_	23	punct	_	_
 
 # sent_id = set-s484
+# parallel_id = set/dev44
 # text = Prendergast je primetio da je nakon toga bilo pozitivnih kretanja, uključujući "srdačne kontakte" koje su održavali političari kiparskih Grka i kiparskih Turaka u pokušaju da unaprede međusobno razumevanje.
 1	Prendergast	Prendergast	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -1115,6 +1159,7 @@
 32	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s485
+# parallel_id = set/dev45
 # text = "Postoje korisni kontakti i na drugim nivoima, da li među ekspertima o određenim temama, ili među običnim ljudima sada kada mogu da prelaze na drugu stranu", dodao je Prendergast.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Postoje	postojati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1153,6 +1198,7 @@
 35	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s486
+# parallel_id = set/dev46
 # text = Sa druge strane, dodao je on, čini se da postoji velika razlika između izraženih stavova dve strane, a i uzajamno poverenje je slabo.
 1	Sa	sa	ADP	Sg	Case=Gen	3	case	_	_
 2	druge	drugi	ADJ	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -1183,6 +1229,7 @@
 27	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s487
+# parallel_id = set/dev47
 # text = Mada sve strane govore da žele rešenje, nedostaju preduslovi za postizanje dogovora, rekao je on.
 1	Mada	mada	SCONJ	Cs	_	4	mark	_	_
 2	sve	sav	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
@@ -1204,6 +1251,7 @@
 18	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s488
+# parallel_id = set/dev48
 # text = "Ljudi sa strane mogu da pomognu, ali zainteresovane strane moraju da prikupe viziju, hrabrost i političku volju neophodnu za postizanje sporazuma, sa svime što to podrazumeva, putem kompromisa", rekao je Prendergast.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Ljudi	čovek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -1246,6 +1294,7 @@
 39	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s489
+# parallel_id = set/dev49
 # text = "Lideri moraju da vode, a ne samo da prate svoje pristalice."
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Lideri	lider	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -1264,6 +1313,7 @@
 15	"	"	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s490
+# parallel_id = set/dev50
 # text = Predsednik kiparskih Grka Tasos Papadopulos smatra da je planom koji je prošle godine finalizovao generalni sekretar UN-a Kofi Anan strani kiparskih Turaka i Turskoj dato "skoro sve što su hteli, više nego što im je bilo potrebno i više nego što je pravedno", rekao je Prendergast u obraćanju Savetu.
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	kiparskih	kiparski	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -1321,6 +1371,7 @@
 54	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s491
+# parallel_id = set/dev51
 # text = Predsednik kiparskih Turaka Mehmet Ali Talat je u međuvremenu izjavio da će njegova strana biti "spremna da razmotri manje izmene u parametrima plana, ali veruje da je veoma važno imati jasnu i konačnu listu zahteva strane kiparskih Grka", ukazao je izaslanik UN-a.
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 2	kiparskih	kiparski	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -1371,6 +1422,7 @@
 47	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s492
+# parallel_id = set/dev52
 # text = Talat je takođe izrazio razočarenje što Savet bezbednosti nije reagovao na Ananov pozitivan izveštaj od 28. maja prošle godine i ublažio ograničenja koja su uvedena kiparskim Turcima.
 1	Talat	Talat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -1402,6 +1454,7 @@
 28	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s493
+# parallel_id = set/dev53
 # text = Anan je ukazao da namerava da se kreće "veoma pažljivo" u potrazi za rešenjem, s obzirom na situaciju.
 1	Anan	Anan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -1429,6 +1482,7 @@
 # newdoc id = set.sr.23
 # url = NA
 # sent_id = set-s568
+# parallel_id = set/dev54
 # text = Srbi upleteni u diplomatsku zavrzlamu oko poređenja Kosova i Osetije
 1	Srbi	Srbin	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	upleteni	uplesti	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -1442,6 +1496,7 @@
 10	Osetije	Osetija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
 
 # sent_id = set-s569
+# parallel_id = set/dev55
 # text = Dok lideri u Prištini i Tirani odbacuju svako poređenje između kosovskog sukoba i borbi oko Abhazije i Južne Osetije, Srbi su uvučeni u diplomatsku igru.
 1	Dok	dok	SCONJ	Cs	_	7	mark	_	_
 2	lideri	lider	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -1472,6 +1527,7 @@
 27	.	.	PUNCT	Z	_	23	punct	_	_
 
 # sent_id = set-s570
+# parallel_id = set/dev56
 # text = Predsednik Kosova Fatmir Sejdiju izjavio je u utorak (12. avgusta) da situacija u njegovoj zemlji ne može da se poredi ni sa jednom drugom oblašću na svetu, pa ni sa Abhazijom i Južnom Osetijom.
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	Kosova	Kosovo	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
@@ -1513,6 +1569,7 @@
 38	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s571
+# parallel_id = set/dev57
 # text = Sejdiju je rekao da je Kosovo slučaj sui generis sa posebnim istorijskim, pravnim, političkim i ustavnim osobenostima.
 1	Sejdiju	Sejdiju	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -1536,6 +1593,7 @@
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s572
+# parallel_id = set/dev58
 # text = "Oni koji se protive nezavisnosti Kosova žele da od Kosova naprave presedan za druga rešenja, ali mislim da argumenti dokazuju da stvari stoje drugačije," rekao je Sejdiju.
 1	"	"	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 2	Oni	onaj	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	8	nsubj	_	_
@@ -1571,6 +1629,7 @@
 32	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s573
+# parallel_id = set/dev59
 # text = Potpredsednik vlade Hajredin Kuči ponovio je taj stav i naglasio da je Kosovo "poseban slučaj."
 1	Potpredsednik	potpredsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	vlade	vlada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -1592,6 +1651,7 @@
 18	"	"	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s574
+# parallel_id = set/dev60
 # text = Na drugoj strani, Srbija se našla u diplomatskom škripcu.
 1	Na	na	ADP	Sl	Case=Loc	3	case	_	_
 2	drugoj	drugi	ADJ	Mlofsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -1606,6 +1666,7 @@
 11	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s575
+# parallel_id = set/dev61
 # text = U situaciji u kojoj Gruzija insistira na svom "teritorijalnom integritetu, a Rusija šalje vojsku da štiti od navodnih zločina, Beograd rizikuje da se otuđi od ključnog saveznika, ili da dovede u pitanje svoj stav o Kosovu.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	situaciji	situacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
@@ -1650,6 +1711,7 @@
 41	.	.	PUNCT	Z	_	24	punct	_	_
 
 # sent_id = set-s576
+# parallel_id = set/dev62
 # text = "Bilo bi logično da Srbija iskoristi situaciju u Gruziji u svojoj diplomatskoj borbi protiv nezavisnosti Kosova," napisao je beogradski vebsajt B92 u sredu.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
@@ -1680,6 +1742,7 @@
 27	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s577
+# parallel_id = set/dev63
 # text = "Međutim, Beograd bi se time našao u nerešivom škripcu:
 1	"	"	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 2	Međutim	međutim	ADV	Rgp	Degree=Pos	8	discourse	_	SpaceAfter=No
@@ -1695,6 +1758,7 @@
 12	:	:	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s578
+# parallel_id = set/dev64
 # text = Morao bi da podržava princip teritorijalnog integriteta, što bi dovelo do sukoba sa Moskvom, na čiju podršku Beograd računa u Savetu Bezbednosti UN.
 1	Morao	morati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
@@ -1724,6 +1788,7 @@
 26	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s579
+# parallel_id = set/dev65
 # text = "Podrška Južnoj Osetiji i Rusiji bi, međutim, "oslabila argumente Beograda protiv nezavisnosti Kosova," napisao je B92.
 1	"	"	PUNCT	Z	_	12	punct	_	SpaceAfter=No
 2	Podrška	podrška	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -1750,6 +1815,7 @@
 23	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s580
+# parallel_id = set/dev66
 # text = Sekretar Srbije za Kosovo Oliver Ivanović rekao je da svet mora da nauči "lekciju" iz oba sukoba.
 1	Sekretar	sekretar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -1773,6 +1839,7 @@
 20	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s581
+# parallel_id = set/dev67
 # text = "Međunarodni sukobi ne mogu se rešavati silom, nasiljem i kršenjem međunarodnog prava," rekao je on.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Međunarodni	međunarodni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -1796,6 +1863,7 @@
 20	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s582
+# parallel_id = set/dev68
 # text = Prema rečima kosovskog analitičara Ilira Dugolija, međutim, slučajevi Gruzije i Kosova potpuno su različiti.
 1	Prema	prema	ADP	Sl	Case=Loc	2	case	_	_
 2	rečima	reč	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	16	obl	_	_
@@ -1816,6 +1884,7 @@
 17	.	.	PUNCT	Z	_	16	punct	_	_
 
 # sent_id = set-s583
+# parallel_id = set/dev69
 # text = "Paralele o tome su lažne," kaže on.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Paralele	paralela	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -1830,6 +1899,7 @@
 11	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s584
+# parallel_id = set/dev70
 # text = "Kosovo je bilo ravnopravno predstavljeno u bivšoj jugoslovenskoj federaciji; bilo je međunarodni protektorat na čekanju rešenja svog konačnog statusa.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Kosovo	Kosovo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
@@ -1855,6 +1925,7 @@
 22	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s585
+# parallel_id = set/dev71
 # text = Volja kosovskog naroda za nezavisnošću je nesporna, čak i ljudima koji se ona ne sviđa ili se sa njom ne slažu," rekao je Dugoli, član Kosovskog instituta za politička istraživanja i razvoj.
 1	Volja	volja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 2	kosovskog	kosovski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -1895,6 +1966,7 @@
 37	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s586
+# parallel_id = set/dev72
 # text = Sused Kosova, Albanija, podržava Gruziju po pitanju teritorijalnog integriteta, ali istovremeno naglašava da je Kosovo poseban slučaj.
 1	Sused	sused	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Kosova	Kosovo	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
@@ -1919,6 +1991,7 @@
 21	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s587
+# parallel_id = set/dev73
 # text = Tirana u potpunosti podržava integritet i suverenitet Gruzije i odbacuje svaku paralelu sa Kosovom, rekao je albanski premijer Sali Beriša.
 1	Tirana	Tirana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	u	u	ADP	Sl	Case=Loc	3	case	_	_
@@ -1944,6 +2017,7 @@
 22	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s588
+# parallel_id = set/dev74
 # text = "Manjine se ne mogu koristiti za opravdavanje vojne intervencije", dodao je on.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Manjine	manjina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	obj	_	_
@@ -1963,6 +2037,7 @@
 16	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s589
+# parallel_id = set/dev75
 # text = "Svuda postoje manjine i ako se manjine koriste, ako se koristi vojna sila, onda je međunarodni poredak u ozbiljnoj opasnosti."
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Svuda	svuda	ADV	Rgp	Degree=Pos|PronType=Tot	3	advmod	_	_
@@ -1991,6 +2066,7 @@
 25	"	"	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s590
+# parallel_id = set/dev76
 # text = Ministarstvo spoljnih poslova pozvalo je sve strane da izbegavaju dalju eskalaciju sukoba.
 1	Ministarstvo	ministarstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 2	spoljnih	spoljni	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -2009,6 +2085,7 @@
 # newdoc id = set.sr.32
 # url = NA
 # sent_id = set-s793
+# parallel_id = set/dev77
 # text = Vladavina "kralja Otoa" privedena kraju
 1	Vladavina	vladavina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 2	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
@@ -2019,6 +2096,7 @@
 7	kraju	kraj	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
 
 # sent_id = set-s794
+# parallel_id = set/dev78
 # text = Tokom njegovog trenerskog mandata Grčka je dobila mesto na mapi svetskog fudbala.
 1	Tokom	tokom	ADP	Sg	Case=Gen	4	case	_	_
 2	njegovog	njegov	DET	Ps3msg	Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
@@ -2035,6 +2113,7 @@
 13	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s795
+# parallel_id = set/dev79
 # text = Međutim, posle ispadanja tima sa Svetskog prvenstva, Rehagelova era je završena.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	13	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -2052,6 +2131,7 @@
 14	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s796
+# parallel_id = set/dev80
 # text = Oto Rehagel je devet godina bio trener grčke reprezentacije.
 1	Oto	Oto	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	Rehagel	Rehagel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -2065,6 +2145,7 @@
 10	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s797
+# parallel_id = set/dev81
 # text = Grčka se dostojanstveno držala na utakmici protiv Argentine, s obzirom da je ekipa Dijega Maradone jedan od favorita na Svetskom prvenstvu 2010.
 1	Grčka	Grčka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_
@@ -2091,6 +2172,7 @@
 23	2010.	2010.	ADJ	Mdo	NumType=Ord	19	obl	_	_
 
 # sent_id = set-s798
+# parallel_id = set/dev82
 # text = Međutim, tim na kraju nije uspeo da nadoknadi štetu koju mu je doneo poraz na prvoj utakmici njegove grupe protiv Republike Koreje, koja je završena rezultatom 0-2 -- što je gubitak zbog kojeg je ulazak u drugi krug postao herkulovski zadatak, bez obzira na pobedu nad Nigerijom koja je usledila.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -2148,6 +2230,7 @@
 54	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s799
+# parallel_id = set/dev83
 # text = Porazom od Argentine obeležen je kraj jedne ere, jer je trener Oto Rehagel najavio svoj dugo očekivani odlazak iz reprezentacije, koju je trenirao proteklih devet godina.
 1	Porazom	poraz	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
 2	od	od	ADP	Sg	Case=Gen	3	case	_	_
@@ -2180,6 +2263,7 @@
 29	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s800
+# parallel_id = set/dev84
 # text = Njegova zaostavština uključuje Evropsko prvenstvo 2004, kvalifikovanje za turnir UEFA 2008, kvalifikovanje za Svetsko prvenstvo u Južnoj Africi i, naravno, meteorski uspon grčkog tima na svetskoj listi FIFA.
 1	Njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	zaostavština	zaostavština	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -2216,6 +2300,7 @@
 33	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s801
+# parallel_id = set/dev85
 # text = Rehagel je odlučio da se ne vrati u Atinu sa timom, kako bi mogao da prisustvuje nekim utakmicama druge faze.
 1	Rehagel	Rehagel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -2241,6 +2326,7 @@
 22	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s802
+# parallel_id = set/dev86
 # text = Samo će vreme pokazati da li je njegov odlazak bio zajednička odluka ili je "kralj Oto", kako ga lokalni mediji često nazivaju, ogorčen.
 1	Samo	samo	ADV	Rgp	Degree=Pos	4	advmod	_	_
 2	će	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2272,6 +2358,7 @@
 28	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s803
+# parallel_id = set/dev87
 # text = Istaknuti portugalski trener Fernando Santos verovatno će, kako se misli, biti kandidat za naslednika 72-godišnjeg Rehagela.
 1	Istaknuti	istaknut	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 2	portugalski	portugalski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -2294,6 +2381,7 @@
 19	.	.	PUNCT	Z	_	14	punct	_	_
 
 # sent_id = set-s804
+# parallel_id = set/dev88
 # text = Santos, 55, trenirao je tri najpopularnija grčka tima -- AEK Atinu, Panatinaikos Atinu i PAOK Solun -- nakon što je bio trener portugalske "Velike trojke": Porta, Sportinga i Benfike.
 1	Santos	Santos	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	3	punct	_	_
@@ -2334,6 +2422,7 @@
 37	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s805
+# parallel_id = set/dev89
 # text = Ako se prognoze ostvare, očekuje se da će on sprovesti "pokret mladih" u reprezentaciji, čiji su najistaknutiji igrači u svojim ranim ili srednjim tridesetim.
 1	Ako	ako	SCONJ	Cs	_	4	mark	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_
@@ -2366,6 +2455,7 @@
 29	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s806
+# parallel_id = set/dev90
 # text = Pored svega toga, bezbednosni problemi koji su morili Svetsko prvenstvo u Južnoj Africi bili su vrlo očigledni unutar i van stadiona Piter Mokaba u brdovitom gradu Polokvane.
 1	Pored	pored	ADP	Sg	Case=Gen	2	case	_	_
 2	svega	sve	DET	Pi-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	18	obl	_	_
@@ -2398,6 +2488,7 @@
 29	.	.	PUNCT	Z	_	18	punct	_	_
 
 # sent_id = set-s807
+# parallel_id = set/dev91
 # text = Grupe grčkih navijača navodno su uznemiravane na putu ka stadionu, a u samom objektu je vladao metež.
 1	Grupe	grupa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 2	grčkih	grčki	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -2420,6 +2511,7 @@
 19	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s808
+# parallel_id = set/dev92
 # text = Jedan od velikih sponzora Svetskog prvenstva -- međunarodni brend piva -- prodavao je svoj poizvod na stadionu.
 1	Jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	4	nummod	_	_
 2	od	od	ADP	Sg	Case=Gen	4	case	_	_
@@ -2441,6 +2533,7 @@
 18	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s809
+# parallel_id = set/dev93
 # text = U smislu same igre, Maradonine "preventivne" izjave o mogućoj gruboj igri protiv zvezda njegovog tima pokazale su se neosnovanim, jer nijedan argentinski igrač nije zadobio ni najmanju povredu.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	smislu	smisao	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
@@ -2477,6 +2570,7 @@
 33	.	.	PUNCT	Z	_	19	punct	_	_
 
 # sent_id = set-s810
+# parallel_id = set/dev94
 # text = Sa druge strane, tri glavna grčka igrača bila su zamenjena zbog povreda pretrpljenih tokom utakmice.
 1	Sa	sa	ADP	Sg	Case=Gen	3	case	_	_
 2	druge	drugi	ADJ	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -2497,6 +2591,7 @@
 17	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s811
+# parallel_id = set/dev95
 # text = Pre nego što je odbrambeni igrač Martin Demikelis ubacio odbijenu loptu u grčku mrežu u 76. minutu, "čudesni" Mesi je uglavnom bio blokiran od strane mladog vođe navale FK Đenove Sokratisa Papastatopulosa, čija bi jaka igra na Svetskom prvenstvu 2010. mogla da se pokaže kao ulaznica za neki još veći klub.
 1	Pre	pre	SCONJ	Cs	_	9	mark	_	_
 2	nego	nego	SCONJ	Cs	_	1	fixed	_	_
@@ -2556,6 +2651,7 @@
 56	.	.	PUNCT	Z	_	26	punct	_	_
 
 # sent_id = set-s812
+# parallel_id = set/dev96
 # text = Predstavnici grčkih medija odseli su u istom hotelu kao argentinski igrači i osoblje tima.
 1	Predstavnici	predstavnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	grčkih	grčki	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -2574,6 +2670,7 @@
 15	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s813
+# parallel_id = set/dev97
 # text = To se pokazalo kao magnet za argentinske i lokalne navijače, od kojih su mnogi bili naoružani vuvuzelama, koje su brujale tokom čitavog Svetskog prvenstva, kao i dobošima i harmonikama, pretvarajući Polokvane u mali Buenos Ajres.
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_
@@ -2617,6 +2714,7 @@
 40	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s814
+# parallel_id = set/dev98
 # text = Pa ipak, obezbeđenje je bilo izuzetno jako, pa ni navijači ni mediji nisu uspeli da dođu do igrača u hotelu.
 1	Pa	pa	CCONJ	Cc	_	2	discourse	_	_
 2	ipak	ipak	ADV	Rgp	Degree=Pos	8	discourse	_	SpaceAfter=No
@@ -2645,6 +2743,7 @@
 # newdoc id = set.sr.34
 # url = NA
 # sent_id = set-s822
+# parallel_id = set/dev99
 # text = Otkazivanje parade u Srbiji moglo bi da dovede do zabranjivanja organizacija
 1	Otkazivanje	otkazivanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 2	parade	parada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
@@ -2659,6 +2758,7 @@
 11	organizacija	organizacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
 
 # sent_id = set-s823
+# parallel_id = set/dev100
 # text = Beogradska gej Parada ponosa -- koja je trebalo da se održi ranije ove nedelje -- otkazana je zbog pretnji ekstremističkih organizacija.
 1	Beogradska	beogradski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 2	gej	gej	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -2684,6 +2784,7 @@
 22	.	.	PUNCT	Z	_	16	punct	_	_
 
 # sent_id = set-s824
+# parallel_id = set/dev101
 # text = Policija proverava dokumenta srpskog ultranacionaliste u nedelju (20. septembra) u Beogradu.
 1	Policija	policija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	proverava	proveravati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2701,6 +2802,7 @@
 14	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s825
+# parallel_id = set/dev102
 # text = Srpske vlasti razmatraju zabranu političkih grupa koje prete drugima, rekli su zvaničnici u utorak (22. septembra).
 1	Srpske	srpski	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 2	vlasti	vlast	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -2724,6 +2826,7 @@
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s826
+# parallel_id = set/dev103
 # text = Katalizator su bile pretnje ultranacionalističkih grupa koje su dovele do otkazivanja nedeljne gej Parade ponosa u Beogradu.
 1	Katalizator	katalizator	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -2745,6 +2848,7 @@
 18	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s827
+# parallel_id = set/dev104
 # text = Zamenik ministra pravosuđa Slobodan Homen izjavio je za B92 da vlasti planiraju da zatraže od najvišeg suda u Srbiji da "zabrani sve organizacije koje iznose pretnje".
 1	Zamenik	zamenik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	ministra	ministar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2777,6 +2881,7 @@
 29	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s828
+# parallel_id = set/dev105
 # text = Ultranacionalističke grupe Obraz i Srpski narodni pokret 1389 protivile su se gej paradi.
 1	Ultranacionalističke	ultranacionalistički	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 2	grupe	grupa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
@@ -2794,6 +2899,7 @@
 14	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s829
+# parallel_id = set/dev106
 # text = Lider Obraza Mladen Obradović upozorio je da će organizatori biti odgovorni za ono što bi moglo da se desi ako se događaj održi kao što je planirano.
 1	Lider	lider	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	Obraza	obraz	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -2825,6 +2931,7 @@
 28	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s830
+# parallel_id = set/dev107
 # text = Prema izveštajima lokalnih medija, grupa od oko 10.000 huligana planirala je da zaspe učesnike parade kamenicama sakrivenim u šahtovima duž puta kojim je trebalo da se kreće parada.
 1	Prema	prema	ADP	Sl	Case=Loc	2	case	_	_
 2	izveštajima	izveštaj	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
@@ -2858,6 +2965,7 @@
 30	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s831
+# parallel_id = set/dev108
 # text = Grupe su takođe planirale da napadnu švedsku ambasadu, koja je trebalo da bude domaćin prijema za učesnike parade.
 1	Grupe	grupa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2881,6 +2989,7 @@
 20	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s832
+# parallel_id = set/dev109
 # text = Određeni članovi tih ekstremističkih grupa čak su hteli da se infiltriraju među učesnike parade, što bi im omogućilo da kasnije direktno napadnu učesnike.
 1	Određeni	određen	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	članovi	član	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
@@ -2909,6 +3018,7 @@
 25	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s833
+# parallel_id = set/dev110
 # text = Ministarstvo unutrašnjih poslova saopštilo je da policija ne može da garantuje bezbednost učesnika parade i preporučilo da se parada premesti iz centra grada u park Ušće, u blizini reka Dunava i Save, gde bi učesnici parade mogli da budu bolje zaštićeni.
 1	Ministarstvo	ministarstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 2	unutrašnjih	unutrašnji	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -2956,6 +3066,7 @@
 44	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s834
+# parallel_id = set/dev111
 # text = "Ministarstvo unutrašnjih poslova je obavezno da skrene pažnju na visok rizik kada su u pitanju imovina i ljudski životi.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Ministarstvo	ministarstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
@@ -2980,6 +3091,7 @@
 21	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s835
+# parallel_id = set/dev112
 # text = Predložili smo da se izabere lokacija koju bi policija mogla da obezbedi, kako ne bismo bili odgovorni ni za jedan ljudski život", rekao je ministar unutrašnjih poslova Ivica Dačić.
 1	Predložili	predložiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -3016,6 +3128,7 @@
 33	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s836
+# parallel_id = set/dev113
 # text = Organizatori su to odbili.
 1	Organizatori	organizator	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -3024,6 +3137,7 @@
 5	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s837
+# parallel_id = set/dev114
 # text = "Tradicija u svim velikim svetskim gradovima je da se takvi događaji održavaju na glavnim ulicama, kako bi se pokazalo da su članovi gej i lezbejskog dela stanovništva ravnopravni članovi društva.
 1	"	"	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 2	Tradicija	tradicija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -3060,6 +3174,7 @@
 33	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s838
+# parallel_id = set/dev115
 # text = Ne želimo da šetamo oko nekog travnjaka u blizini reke; to ne bi bila Parada ponosa", rekla je članica organizacionog odbora Majda Puača.
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	_
 2	želimo	želeti	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3090,6 +3205,7 @@
 27	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s839
+# parallel_id = set/dev116
 # text = Predlaganje druge lokacije pokazalo je da je "država ustuknula pred pretnjama nasiljem", rekli su organizatori.
 1	Predlaganje	predlaganje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 2	druge	drugi	ADJ	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -3112,6 +3228,7 @@
 19	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s840
+# parallel_id = set/dev117
 # text = Šef srpske policije Milorad Veljović rekao je u ponedeljak da će biti preduzete "striktnije mere" protiv onih koji promovišu nasilno ponašanje, ukazujući da je u nedelju uhapšeno 37 osoba, nakon što su pokušale da organizuju anti-gej skup u centru Beograda.
 1	Šef	šef	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	srpske	srpski	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -3160,6 +3277,7 @@
 45	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s841
+# parallel_id = set/dev118
 # text = Policija je takođe saopštila da "ubuduće" nikakvi javni skupovi neće biti dozvoljeni u centru Beograda, iz bezbednosnih razloga.
 1	Policija	policija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -3187,6 +3305,7 @@
 # newdoc id = set.sr.39
 # url = NA
 # sent_id = set-s926
+# parallel_id = set/dev119
 # text = Drugi krug predsedničkih izbora u Rumuniji u senci niskih udaraca u predizbornoj kampanji
 1	Drugi	drugi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	krug	krug	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -3203,6 +3322,7 @@
 13	kampanji	kampanja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
 
 # sent_id = set-s927
+# parallel_id = set/dev120
 # text = Predsedničke izbore, koji ulaze u drugi krug ovog vikenda, obeležili su niski udarci
 1	Predsedničke	predsednički	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	izbore	izbor	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
@@ -3221,6 +3341,7 @@
 15	udarci	udarac	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
 
 # sent_id = set-s928
+# parallel_id = set/dev121
 # text = Izborni plakati u Bukureštu.
 1	Izborni	izborni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	plakati	plakat	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -3229,6 +3350,7 @@
 5	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s929
+# parallel_id = set/dev122
 # text = Aktuelni predsednik Trajan Basesku i bivši šef diplomatije, socijaldemokrata Mirča Đoana, izlaze jedan drugom na megdan u nedelju (6. decembra) u drugom krugu predsedničkih izbora.
 1	Aktuelni	aktuelan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -3262,6 +3384,7 @@
 30	.	.	PUNCT	Z	_	14	punct	_	_
 
 # sent_id = set-s930
+# parallel_id = set/dev123
 # text = Kampanju su obeležile ružne stvari prošle nedelje, kada su iz protivničkih tabora krenuli lični napadi.
 1	Kampanju	kampanja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -3282,6 +3405,7 @@
 17	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s931
+# parallel_id = set/dev124
 # text = Kontroverza je krenula pošto je emitovan snimak koji navodno prikazuje Baseskua kako udara dete za vreme jednog mitinga 2004. godine.
 1	Kontroverza	kontroverza	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -3306,6 +3430,7 @@
 21	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s932
+# parallel_id = set/dev125
 # text = Na snimku se vidi predsednik kako se naginje preko bine, na kojoj se obraćao skupu u gradu Plojesti tokom kampanje za lokalne izbore pre pet godina, da bi saslušao ženu koja traži pomoć.
 1	Na	na	ADP	Sl	Case=Loc	2	case	_	_
 2	snimku	snimak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
@@ -3345,6 +3470,7 @@
 36	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s933
+# parallel_id = set/dev126
 # text = Jedno dete im se približilo i, u jednom trenutku tokom razgovora, Basesku navodno udara dečaka jako u bradu.
 1	Jedno	jedan	NUM	Mlcnsn	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	2	nummod	_	_
 2	dete	dete	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
@@ -3369,6 +3495,7 @@
 21	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s934
+# parallel_id = set/dev127
 # text = Predsednik je zatražio od Nacionalnog instituta za krivično veštačenje da analizira snimak i odredi da li je autentičan.
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -3391,6 +3518,7 @@
 19	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s935
+# parallel_id = set/dev128
 # text = Ta ustanova objavila je saopštenje u kome kaže da je svoje nalaze podnela predsedništvu.
 1	Ta	taj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ustanova	ustanova	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -3409,6 +3537,7 @@
 15	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s936
+# parallel_id = set/dev129
 # text = "Sporni snimak sadrži elemente kompjuterske montaže; nije ni autentičan, niti je vešto napravljena kopija autentičnog snimka", rekao je Basesku, predstavljajući zaključak na 18 stranica.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Sporni	sporan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -3443,6 +3572,7 @@
 31	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s937
+# parallel_id = set/dev130
 # text = Basesku je tužio novine koje su prve objavile fotografije navodnog incidenta, kao i Dinua Patričua, biznismena koji je rekao da je prisustvovao tom događaju.
 1	Basesku	Basesku	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -3473,6 +3603,7 @@
 27	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s938
+# parallel_id = set/dev131
 # text = U odgovoru na napade koji su zbog toga usledili od strane bivšeg komunističkog disidenta i pesnika Mirče Dineskua, predsednikova supruga Marija Basesku, koja se do sada držala po strani i u senci, objavila je otvoreno pismo u kome odbacuje tvrdnje da ju je muž tukao.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	odgovoru	odgovor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	36	obl	_	_
@@ -3525,6 +3656,7 @@
 49	.	.	PUNCT	Z	_	36	punct	_	_
 
 # sent_id = set-s939
+# parallel_id = set/dev132
 # text = "Danas prekidam ćutnju jer je ono što danas govore mediji i ljudi koji iza njih stoje za mene neprihvatljivo."
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Danas	danas	ADV	Rgp	Degree=Pos	3	advmod	_	_
@@ -3550,6 +3682,7 @@
 22	"	"	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s940
+# parallel_id = set/dev133
 # text = Asocijacija Pro Demokratija (APD), jedna od vodećih rumunskih nevladinih organizacija koja se bori za demokratiju i koja je, između ostalih, nadgledala izbore u Rumuniji, osudila je "manjak etike i profesionalizma koji karakteriše predsedničku predizbornu kampanju".
 1	Asocijacija	asocijacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
 2	Pro	pro	X	Xf	Foreign=Yes	1	flat	_	_
@@ -3597,6 +3730,7 @@
 44	.	.	PUNCT	Z	_	31	punct	_	_
 
 # sent_id = set-s941
+# parallel_id = set/dev134
 # text = "U tom kontekstu, APD poslednji put poziva na normalnost i integritet izborne takmace, koji su izgleda zaboravili da cilj ne opravdava uvek sredstva", piše u saopštenju.
 1	"	"	PUNCT	Z	_	9	punct	_	SpaceAfter=No
 2	U	u	ADP	Sl	Case=Loc	4	case	_	_
@@ -3632,6 +3766,7 @@
 32	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s942
+# parallel_id = set/dev135
 # text = "Prljavi predizborni napadi dostigli su do sada nezabeleženi nivo.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Prljavi	prljav	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
@@ -3646,6 +3781,7 @@
 11	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s943
+# parallel_id = set/dev136
 # text = Pozitivne teme kampanje su sve prekrivene blatom takvih napada", izjavio je politički urednik rumunskog lista Evenimentul Zilei za SETimes.
 1	Pozitivne	pozitivan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 2	teme	tema	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -3671,6 +3807,7 @@
 22	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s944
+# parallel_id = set/dev137
 # text = "Cilj tih napada na ličnost je da se pokrenu emocije kod izbornog tela: da se glasači protivnika navedu da ne izađu na glasanje ili da se privuku novi glasači koji su besni zbog takvih 'otkrića'", dodao je on.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Cilj	cilj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -3719,6 +3856,7 @@
 45	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s945
+# parallel_id = set/dev138
 # text = Prema anketi INSOMAR objavljenoj u utorak, Đoana ima podršku 54 % birača, a Basesku 46 %.
 1	Prema	prema	ADP	Sl	Case=Loc	2	case	_	_
 2	anketi	anketa	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
@@ -3743,6 +3881,7 @@
 # newdoc id = set.sr.43
 # url = NA
 # sent_id = set-s1039
+# parallel_id = set/dev139
 # text = Kultura i društvo: Kadare dobio književnu nagradu
 1	Kultura	kultura	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	_
 2	i	i	CCONJ	Cc	_	3	cc	_	_
@@ -3754,6 +3893,7 @@
 8	nagradu	nagrada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 
 # sent_id = set-s1040
+# parallel_id = set/dev140
 # text = Albanskom piscu Ismailu Kadareu dodeljena je nagrada KULT.
 1	Albanskom	albanski	ADJ	Agpmsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	piscu	pisac	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
@@ -3766,6 +3906,7 @@
 9	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1041
+# parallel_id = set/dev141
 # text = Takođe u vestima iz kulture: srpska učenica ušla u polufinale na takmičenju Gugla za najbolju fotografiju.
 1	Takođe	takođe	ADV	Rgp	Degree=Pos	3	advmod	_	_
 2	u	u	ADP	Sl	Case=Loc	3	case	_	_
@@ -3787,12 +3928,14 @@
 18	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1042
+# parallel_id = set/dev142
 # text = Ismail Kadare.
 1	Ismail	Ismail	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	Kadare	Kadare	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
 3	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s1043
+# parallel_id = set/dev143
 # text = Albanski pisac Ismail Kadare dobio je u četvrtak (11. jun) nagradu za najbolju knjigu na dodeli albanskih nagrada KULT iz oblasti kulture.
 1	Albanski	albanski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	pisac	pisac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -3821,6 +3964,7 @@
 25	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1044
+# parallel_id = set/dev144
 # text = Nagrada mu je dodeljena za roman "Pogrešna večera".
 1	Nagrada	nagrada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	mu	on	PRON	Pp3msd	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
@@ -3835,6 +3979,7 @@
 11	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1045
+# parallel_id = set/dev145
 # text = Konkurs, koji se održava petu godinu, obuhvata književnost, prevođenje, muziku, slikarstvo i film.
 1	Konkurs	Konkurs	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	5	punct	_	_
@@ -3857,6 +4002,7 @@
 19	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1046
+# parallel_id = set/dev146
 # text = Kosovsko svetsko bijenale karikature uključeno je na listu glavnih događaja u svetu vezanih za karikature, izvestili su lokalni mediji u sredu (10. jun).
 1	Kosovsko	kosovski	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 2	svetsko	svetski	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
@@ -3887,6 +4033,7 @@
 27	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1047
+# parallel_id = set/dev147
 # text = Festival je uvršten na tu prestižnu listu po odluci briselske Federacije organizacija karikaturista.
 1	Festival	festival	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -3904,6 +4051,7 @@
 14	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1048
+# parallel_id = set/dev148
 # text = Srpska učenica Vesna Stojaković iz Novog Sada kvalifikovala se u polufinale Guglovog konkursa za najbolju fotografiju.
 1	Srpska	srpski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	učenica	učenica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -3924,6 +4072,7 @@
 17	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1049
+# parallel_id = set/dev149
 # text = Stojaković je jedan od 36 polufinalista i jedan od preko 1000 učesnika iz 82 zemlje.
 1	Stojaković	Stojaković	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -3943,6 +4092,7 @@
 16	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1050
+# parallel_id = set/dev150
 # text = Radovi finalista biće izloženi u londonskoj Sači galeriji 23. juna, kada će biti izabran i pobednik.
 1	Radovi	rad	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	finalista	finalist	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
@@ -3964,6 +4114,7 @@
 18	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1051
+# parallel_id = set/dev151
 # text = Drugi međunarodni folklorni festival Dukat fest 2009. počeo je u utorak (16. jun) u Banja Luci, u Bosni i Hercegovini (BiH).
 1	Drugi	drugi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 2	međunarodni	međunarodni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
@@ -3994,6 +4145,7 @@
 27	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1052
+# parallel_id = set/dev152
 # text = Taj događaj koji se završava u nedelju (21. jun) okupio je deset popularnih folk ansambala iz Srbije, Hrvatske, Rusije, Grčke, Mongolije, Toga, Letonije, Bugarske, Poljske i BiH.
 1	Taj	taj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	događaj	događaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -4035,6 +4187,7 @@
 38	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s1053
+# parallel_id = set/dev153
 # text = Istorijski muzej usredsređen na tursku civilizaciju uskoro će biti otvoren u Ankari, saopštio je u ponedeljak (15. jun) turski ministar kulture i turizma Ertugrul Gunaj.
 1	Istorijski	istorijski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	muzej	muzej	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -4067,6 +4220,7 @@
 29	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s1054
+# parallel_id = set/dev154
 # text = Tender za izbor najboljeg projekta za muzej biće održan u septembru, rekao je ministar.
 1	Tender	tender	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	za	za	ADP	Sa	Case=Acc	3	case	_	_
@@ -4086,6 +4240,7 @@
 16	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1055
+# parallel_id = set/dev155
 # text = Novi muzej deo je vladine inicijative za podsticanje turizma i dostizanje cilja od 30 miliona stranih turista 2010. i 2011. godine.
 1	Novi	nov	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	muzej	muzej	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -4111,6 +4266,7 @@
 22	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1056
+# parallel_id = set/dev156
 # text = Rumunska teniserka Raluka Olaru pobedila je u nedelju (14. jun) na ATP teniskom turniru u Marselju, u Francuskoj, javili su rumunski mediji.
 1	Rumunska	rumunski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	teniserka	teniserka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -4141,6 +4297,7 @@
 27	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1057
+# parallel_id = set/dev157
 # text = Dvadesetogodišnja Olaru je u finalu porazila Slovenku Mašu Zec-Peškirič, 6-7, 7-5, 6-4.
 1	Dvadesetogodišnja	dvadesetogodišnja	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	Olaru	Olaru	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -4160,6 +4317,7 @@
 16	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1058
+# parallel_id = set/dev158
 # text = Osvojivši turnir Olaru je dobila 150 poena i 73. je na svetu u ženskom tenisu.
 1	Osvojivši	osvojiti	ADV	Rr	Tense=Past|VerbForm=Conv	5	xcomp	_	_
 2	turnir	turnir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
@@ -4179,6 +4337,7 @@
 16	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1059
+# parallel_id = set/dev159
 # text = Banja Luka, u Bosni i Hercegovini, biće domaćin međunarodnog festivala kratkog filma "Kratkofil" od utorka (16. jun) do subote.
 1	Banja	Banja	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 2	Luka	Luka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	SpaceAfter=No
@@ -4208,6 +4367,7 @@
 26	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s1060
+# parallel_id = set/dev160
 # text = Na festivalu će biti prikazano 55 igranih, crtanih, dokumentarnih i eksperimentalnih filmskih radova, sa fokusom na islandsku kinematografiju, koja je novitet ovog festivala.
 1	Na	na	ADP	Sl	Case=Loc	2	case	_	_
 2	festivalu	festival	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
@@ -4241,6 +4401,7 @@
 # newdoc id = set.sr.46
 # url = NA
 # sent_id = set-s1108
+# parallel_id = set/dev161
 # text = Korak napred za nezavisnost sudova u Makedoniji
 1	Korak	korak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	napred	napred	ADV	Rgp	Degree=Pos	1	advmod	_	_
@@ -4251,6 +4412,7 @@
 7	Makedoniji	Makedonija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
 
 # sent_id = set-s1109
+# parallel_id = set/dev162
 # text = Pravosudni savet Makedonije će ubuduće birati i razrešavati sudije, što je prethodno bilo u nadležnosti poslanika.
 1	Pravosudni	pravosudni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	savet	savet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -4272,6 +4434,7 @@
 18	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1110
+# parallel_id = set/dev163
 # text = "Nadam se da će sudije, koje prvi put vrše pravo izbora članova Saveta, izabrati najbolje kandidate, rekao je ministar pravde Mihajlo Manevski.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Nadam	nadati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4302,6 +4465,7 @@
 27	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1111
+# parallel_id = set/dev164
 # text = Više od 600 sudija u Makedoniji je u sredu (15. novembra) tajnim glasanjem biralo osam članova novog Pravosudnog saveta.
 1	Više	mnogo	ADV	Rgc	Degree=Cmp	3	advmod	_	_
 2	od	od	ADP	Sg	Case=Gen	1	fixed	_	_
@@ -4327,6 +4491,7 @@
 22	.	.	PUNCT	Z	_	16	punct	_	_
 
 # sent_id = set-s1112
+# parallel_id = set/dev165
 # text = Savet preuzima u nadležnost izbor i razrešenje sudija, nešto za šta su prethodno bili zaduženi poslanici u parlamentu.
 1	Savet	savet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	preuzima	preuzimati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4350,6 +4515,7 @@
 20	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1113
+# parallel_id = set/dev166
 # text = To telo će takođe biti ovlašćeno da ukida imunitet sudija i ocenjuje njihov učinak.
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	telo	telo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
@@ -4368,6 +4534,7 @@
 15	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1114
+# parallel_id = set/dev167
 # text = Sa tim promenama pokrenut je važan deo pravosudnih reformi u Makedoniji.
 1	Sa	sa	ADP	Si	Case=Ins	3	case	_	_
 2	tim	taj	DET	Pd-fpi	Case=Ins|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
@@ -4383,6 +4550,7 @@
 12	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1115
+# parallel_id = set/dev168
 # text = Članovi Saveta postali su dvojica sudija Vrhovnog suda -- Vasil Grčev i Bekir Iseni.
 1	Članovi	član	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	xcomp	_	_
 2	Saveta	savet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -4401,6 +4569,7 @@
 15	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1116
+# parallel_id = set/dev169
 # text = Izabrani su i Bojan Eftimov (Osnovni sud br. 2 u Skoplju), Ljubin Aleksievski (ohridski sud) i Aleksandra Zafirovska (tetovski sud), kao i troje sudija iz apelacionih sudova -- Ruška Paparoska (štipska oblast) i Miruša Elenovska i Veli Vedat (skopska oblast).
 1	Izabrani	izabrati	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -4457,6 +4626,7 @@
 53	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s1117
+# parallel_id = set/dev170
 # text = "Danas se polažu temelji novog pravosudnog sistema u Makedoniji, rekao je ministar pravde Mihajlo Manevski.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Danas	danas	ADV	Rgp	Degree=Pos	4	advmod	_	_
@@ -4478,6 +4648,7 @@
 18	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1118
+# parallel_id = set/dev171
 # text = "Nadam se da će sudije, koje prvi put vrše pravo izbora članova Saveta, izabrati najbolje kandidate.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Nadam	nadati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4501,6 +4672,7 @@
 20	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1119
+# parallel_id = set/dev172
 # text = On je rekao da se pripreme za konstituisanje Saveta očekuju sredinom decembra.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -4517,6 +4689,7 @@
 13	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1120
+# parallel_id = set/dev173
 # text = "Sudije izabrane u Pravosudni savet imaju veliku odgovornost, zato što su članovi tela koje treba da obezbedi i garantuje nezavisnost i suverenost pravosudnog sistema, izjavila je Rahilka Stojkovska, predsednica komisije zadužene za izbor.
 1	"	"	PUNCT	Z	_	7	punct	_	SpaceAfter=No
 2	Sudije	Sudija	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
@@ -4558,6 +4731,7 @@
 38	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1121
+# parallel_id = set/dev174
 # text = Ona je potvrdila da se glasanje za članove Saveta odigralo bez incidenata ili nepravilnosti.
 1	Ona	on	PRON	Pp3fsn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -4576,6 +4750,7 @@
 15	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1122
+# parallel_id = set/dev175
 # text = Troje dodatnih članova Saveta biće izabrano u parlamentu posle otvorenog konkursa, a dvoje članova koje predloži predsednik izabraće poslanici.
 1	Troje	troje	NUM	Mls	NumType=Mult	3	nummod:gov	_	_
 2	dodatnih	dodatan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -4600,6 +4775,7 @@
 21	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1123
+# parallel_id = set/dev176
 # text = Ministar pravde i predsednik Vrhovnog suda takođe su članovi Saveta, tako da je njihov ukupan broj petnaest.
 1	Ministar	ministar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	pravde	pravda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4622,6 +4798,7 @@
 19	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1124
+# parallel_id = set/dev177
 # text = Takav izborni sistem predstavlja drastičnu promenu u odnosu na dosadašnju praksu.
 1	Takav	takav	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	izborni	izborni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -4637,6 +4814,7 @@
 12	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1125
+# parallel_id = set/dev178
 # text = Članove Pravosudnog saveta do sada je birao parlament, pa su mnogi tvrdili da su taj proces politizovale političke stranke.
 1	Članove	član	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
 2	Pravosudnog	pravosudni	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -4663,6 +4841,7 @@
 # newdoc id = set.sr.51
 # url = NA
 # sent_id = set-s1218
+# parallel_id = set/dev179
 # text = Voz Priština - Skoplje simbol promene
 1	Voz	voz	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	Priština	Priština	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4672,6 +4851,7 @@
 6	promene	promena	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 
 # sent_id = set-s1219
+# parallel_id = set/dev180
 # text = Putnički železnički saobraćaj između Prištine i Skoplja ponovo je uspostavljen posle šestogodišnjeg prekida uzrokovanog krizom u regionu.
 1	Putnički	putnički	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 2	železnički	železnički	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -4693,6 +4873,7 @@
 18	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s1220
+# parallel_id = set/dev181
 # text = Mnogi su ponovno uspostavljanje železničke linije pozdravili kao simbol obnovljenih odnosa posle višegodišnje krize u ovom delu jugoistočne Evrope.
 1	Mnogi	mnogi	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -4716,6 +4897,7 @@
 20	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1221
+# parallel_id = set/dev182
 # text = Železnički saobraćaj između Prištine i Skoplja obnovljen je 27. februara posle šestogodišnjeg prekida.
 1	Železnički	železnički	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	saobraćaj	saobraćaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -4733,6 +4915,7 @@
 14	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1222
+# parallel_id = set/dev183
 # text = Mnogi su ponovno uspostavljanje železničke linije pozdravili kao simbol obnovljenih odnosa nakon višegodišnje krize u ovom delu jugoistočne Evrope.
 1	Mnogi	mnogi	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -4756,6 +4939,7 @@
 20	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1223
+# parallel_id = set/dev184
 # text = Za sada postoji samo putnički saobraćaj.
 1	Za	za	ADP	Sa	Case=Acc	3	case	_	_
 2	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	1	fixed	_	_
@@ -4766,6 +4950,7 @@
 7	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1224
+# parallel_id = set/dev185
 # text = Međutim, članovi poslovne zajednice takođe žele da vide obnovu teretnog saobraćaja.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -4782,6 +4967,7 @@
 13	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1225
+# parallel_id = set/dev186
 # text = "Bolji transport znači bolje poslovanje", kaže Besim Idrizi, koji je povezan sa Kosovom preko svoje kompanije za građevinski materijal, kao i kroz porodične i društvene veze.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Bolji	dobar	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
@@ -4817,6 +5003,7 @@
 32	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1226
+# parallel_id = set/dev187
 # text = "Trenutno se teretni transport odvija isključivo velikim kamionima.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Trenutno	trenutno	ADV	Rgp	Degree=Pos	6	advmod	_	_
@@ -4830,6 +5017,7 @@
 10	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1227
+# parallel_id = set/dev188
 # text = Bolje je prekinuti sukobe i razvijati poslovanje."
 1	Bolje	dobro	ADV	Rgc	Degree=Cmp	0	root	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -4842,6 +5030,7 @@
 9	"	"	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s1228
+# parallel_id = set/dev189
 # text = Proširenje usluga i na transport robe verovatno će zavisiti od transformacije Makedonske železnice, čiji se početak očekuje uskoro.
 1	Proširenje	proširenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
 2	usluga	usluga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obl	_	_
@@ -4865,6 +5054,7 @@
 20	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1229
+# parallel_id = set/dev190
 # text = Železnička kompanija saopštila je da će doneti odluku na osnovu nivoa interesovanja.
 1	Železnička	železnički	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	kompanija	kompanija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -4881,6 +5071,7 @@
 13	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1230
+# parallel_id = set/dev191
 # text = Trenutno putnički vozovi saobraćaju dva puta dnevno.
 1	Trenutno	trenutno	ADV	Rgp	Degree=Pos	4	advmod	_	_
 2	putnički	putnički	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -4892,6 +5083,7 @@
 8	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1231
+# parallel_id = set/dev192
 # text = Na osnovu sporazuma sa civilnim vlastima na Kosovu, carinska i policijska provera vrši se na graničnom prelazu Blace.
 1	Na	na	ADP	Sl	Case=Loc	2	case	_	_
 2	osnovu	osnov	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
@@ -4915,6 +5107,7 @@
 20	.	.	PUNCT	Z	_	14	punct	_	_
 
 # sent_id = set-s1232
+# parallel_id = set/dev193
 # text = Voz polazi iz Skoplja u 9.40 pre podne i 4.10 popodne.
 1	Voz	Voz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	polazi	polaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4930,6 +5123,7 @@
 12	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1233
+# parallel_id = set/dev194
 # text = Zaustavlja se u stanicama Skoplje Sever, Gorce Petrov, Volkovo, Jankovik, Uroševac i Kosovo Polje, završavajući svoj put u Prištini.
 1	Zaustavlja	zaustavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	_
@@ -4958,6 +5152,7 @@
 25	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s1234
+# parallel_id = set/dev195
 # text = Svečano ponovno uspostavljanje linije Skoplje - Priština održano je u decembru prošle godine, kada je grupa ministara makedonske vlade otputovala vozom.
 1	Svečano	svečan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 2	ponovno	ponovan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
@@ -4984,6 +5179,7 @@
 23	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1235
+# parallel_id = set/dev196
 # text = Međutim, ispostavilo se da su malo poranili, s obzirom da nije bila uspostavljena procedura kontrole putnika i robe, a nedostajali su i neki objekti.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -5015,6 +5211,7 @@
 28	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1236
+# parallel_id = set/dev197
 # text = Zbog toga je došlo do odlaganja početka redovnog saobraćaja.
 1	Zbog	zbog	ADP	Sg	Case=Gen	2	case	_	_
 2	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
@@ -5028,6 +5225,7 @@
 10	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1237
+# parallel_id = set/dev198
 # text = Međutim, objekti su izgrađeni za samo dva meseca i vozovi sada saobraćaju.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -5045,6 +5243,7 @@
 14	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1238
+# parallel_id = set/dev199
 # text = Ako počne i teretni saobraćaj, carinska i fitosanitarna inspekcija poljoprivrednih proizvoda biće obavljana u Volkovu, oko 10 kilometara od granice.
 1	Ako	ako	SCONJ	Cs	_	2	mark	_	_
 2	počne	početi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
@@ -5073,6 +5272,7 @@
 # newdoc id = set.sr.61
 # url = NA
 # sent_id = set-s1473
+# parallel_id = set/dev200
 # text = Balkanske manjine rade na funkcionalnom multikulturalizmu
 1	Balkanske	balkanski	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 2	manjine	manjina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -5082,6 +5282,7 @@
 6	multikulturalizmu	multikulturalizam	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
 
 # sent_id = set-s1474
+# parallel_id = set/dev201
 # text = Manjine širom Balkana se povezuju i izrađuju dokumente ustavnog tipa usmerene na zaštitu i zadovoljavanje svojih prava.
 1	Manjine	manjina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
 2	širom	širom	ADP	Sg	Case=Gen	3	case	_	_
@@ -5103,6 +5304,7 @@
 18	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1475
+# parallel_id = set/dev202
 # text = Cilj koncepta "ustav u ustavu" pre svega je da se pomogne ogromnoj romskoj zajednici u regionu.
 1	Cilj	cilj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	koncepta	koncept	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5125,6 +5327,7 @@
 19	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s1476
+# parallel_id = set/dev203
 # text = Romska zajednica čini najveću manjinu na Balkanu i -- prema nedavnoj analizi Centra za međunarodni krizni menadžment i rešavanje konflikta -- njena situacija "u regionu ostaje posebno problematična i čini se da države nemaju neke namere ili podsticaje da to promene".
 1	Romska	romski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	zajednica	zajednica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -5172,6 +5375,7 @@
 44	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1477
+# parallel_id = set/dev204
 # text = Skender Veliju, koji je na čelu romske unije Amaro-Drom u Albaniji, rekao je da su tamošnje manjine osnovale grupu koja predstavlja Grke, Makedonce, Srbe, Crnogorce i Bosance i razmatra njihove specifične probleme.
 1	Skender	Skender	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 2	Veliju	Veliju	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -5213,6 +5417,7 @@
 38	.	.	PUNCT	Z	_	14	punct	_	_
 
 # sent_id = set-s1478
+# parallel_id = set/dev205
 # text = "Razmatrali smo situaciju i postupanje prema manjinama u Albaniji i napravljen je 'ustavni' dokument u okviru ustava, sa pravima manjina u Albaniji, u poređenju sa ostalim zemljama regiona", rekao je Veliju za SETimes.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Razmatrali	razmatrati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -5257,6 +5462,7 @@
 41	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1479
+# parallel_id = set/dev206
 # text = On je objasnio da se glavni zahtevi odnose na jezik, identitet i kulturu.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -5275,6 +5481,7 @@
 15	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1480
+# parallel_id = set/dev207
 # text = Grupu koja je radila na tom dokumentu vodio je univerzitetski profesor Kimet Fetahu, član makedonske manjine u Albaniji, koji je takođe organizovao okrugle stolove sa predstavnicima raznih manjina.
 1	Grupu	grupa	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 2	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
@@ -5309,6 +5516,7 @@
 31	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1481
+# parallel_id = set/dev208
 # text = Dokument je upućen institucijama zemlje i međunarodnim telima.
 1	Dokument	dokument	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -5321,6 +5529,7 @@
 9	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1482
+# parallel_id = set/dev209
 # text = "Digli smo svoj glas tražeći poboljšanje socijalne i ekonomske situacije romskog naroda, njihovog obrazovanja, zdravstva, infrastrukture, smeštaja, zapošljavanja, što je postalo deo nacionalne strategije za poboljšanje uslova života Roma", rekao je Veliju.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Digli	dići	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -5366,6 +5575,7 @@
 42	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1483
+# parallel_id = set/dev210
 # text = Milan Antonijević, direktor beogradske NVO JUKOM, kaže da Romi čine najveću etničku manjinu u Srbiji, a slede Albanci, Bosanci, Mađari i drugi.
 1	Milan	Milan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	Antonijević	Antonijević	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -5397,6 +5607,7 @@
 28	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1484
+# parallel_id = set/dev211
 # text = Država "ne zna kako da napravi atmosferu u kojoj bi bilo normalno izaći i [reći] svoju nacionalnost, jer se pokazalo da je državni aparat sile i represije i dalje vrlo jak, pa se ljudi ne izjašnjavaju onako kako bi to učinili u drugačijim okolnostima", rekao je on za SETimes.
 1	Država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
@@ -5457,6 +5668,7 @@
 57	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1485
+# parallel_id = set/dev212
 # text = Alma Mašić, direktorka Omladinske inicijative za ljudska prava u Sarajevu, istakla je da "samo 3 odsto Roma u Bosni i Hercegovini ima stalan posao.
 1	Alma	Alma	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 2	Mašić	Mašić	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	SpaceAfter=No
@@ -5488,6 +5700,7 @@
 28	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s1486
+# parallel_id = set/dev213
 # text = Najveći izvor prihoda ove etničke manjine je samozaposlenost u sektoru prikupljanja materijala za reciklažu i recikliranje otpada", rekla je ona za SETimes.
 1	Najveći	velik	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
 2	izvor	izvor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -5516,6 +5729,7 @@
 25	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1487
+# parallel_id = set/dev214
 # text = Situacija je drugačija na Kosovu, gde je srpska zajednica postala manjina posle 1999. godine.
 1	Situacija	situacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -5535,6 +5749,7 @@
 16	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1488
+# parallel_id = set/dev215
 # text = "Moj život nije kao što je bio pre.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
@@ -5548,6 +5763,7 @@
 10	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1489
+# parallel_id = set/dev216
 # text = Mi, Srbi, nervozno čekamo da vidimo kakav će biti status Kosova.
 1	Mi	mi	PRON	Pp1-pn	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	3	punct	_	_
@@ -5565,6 +5781,7 @@
 14	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1490
+# parallel_id = set/dev217
 # text = Ne volim da me nazivaju manjinom i ne želim da to prihvatim", rekla je kosovska Srpkinja Milica Marković za SETimes.
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	_
 2	volim	voleti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5591,6 +5808,7 @@
 23	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1491
+# parallel_id = set/dev218
 # text = Bekim Blakaj, direktor kosovske kancelarije Centra za humanitarno pravo, okrivljuje paralelne srpske institucije.
 1	Bekim	Bekim	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 2	Blakaj	Blakaj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -5610,6 +5828,7 @@
 16	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s1492
+# parallel_id = set/dev219
 # text = "Ostale manjine su u znatnoj meri integrisane u kosovsko društvo, [pa su opet] na neki način više diskriminisane nego srpska manjina.
 1	"	"	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 2	Ostale	ostali	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
@@ -5639,6 +5858,7 @@
 26	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1493
+# parallel_id = set/dev220
 # text = Srpski jezik je zvanični jezik na celokupnoj teritoriji Kosova, ali to nije slučaj sa romskim, turskim ili bosanskim jezikom", rekao je on za SETimes.
 1	Srpski	srpski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	jezik	jezik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -5671,6 +5891,7 @@
 29	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1494
+# parallel_id = set/dev221
 # text = U Preševskoj dolini u Srbiji Albanci su manjina.
 1	U	u	ADP	Sl	Case=Loc	2	cc	_	_
 2	Preševskoj	preševski	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	obl	_	_
@@ -5683,6 +5904,7 @@
 9	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1495
+# parallel_id = set/dev222
 # text = "Ako želite da dobijete nešto [kao manjina] morate to da tražite.
 1	"	"	PUNCT	Z	_	11	punct	_	SpaceAfter=No
 2	Ako	ako	SCONJ	Cs	_	3	mark	_	_
@@ -5701,6 +5923,7 @@
 15	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s1496
+# parallel_id = set/dev223
 # text = Niko vam ništa neće dati ako ne tražite", rekao je ekonomista Abdula Ahmedi.
 1	Niko	niko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Neg	5	nsubj	_	_
 2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	obl	_	_
@@ -5720,6 +5943,7 @@
 16	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1497
+# parallel_id = set/dev224
 # text = On je izjavio za SETimes da su najurgentniji problemi nepriznavanje diploma Univerziteta Kosova, problemi sa priznavanjem diploma iz Albanije i Makedonije, kao i visoke stope nezaposlenosti mladih i njihova migracija u Aziju.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -5758,6 +5982,7 @@
 35	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1498
+# parallel_id = set/dev225
 # text = Antonijević iz JUKOM-a potvrđuje da Srbija tek treba da pronađe mehanizam za priznavanje univerzitetskih diploma sa Kosova.
 1	Antonijević	Antonijević	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	iz	iz	ADP	Sg	Case=Gen	3	case	_	_
@@ -5779,6 +6004,7 @@
 18	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1499
+# parallel_id = set/dev226
 # text = "Albanci moraju da imaju neka prava, jer su diplomirali na Univerzitetu Kosova i žele da rade u Srbiji i to bi trebalo da se ohrabruje", rekao je on.
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Albanci	Albanac	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -5815,6 +6041,7 @@
 33	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1500
+# parallel_id = set/dev227
 # text = Ferenc Tot je član mađarske manjine u Vojvodini.
 1	Ferenc	Ferenc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Tot	Tot	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -5827,6 +6054,7 @@
 9	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1501
+# parallel_id = set/dev228
 # text = "Ne osećam se kao građanin drugog reda, mada je puno onih koji svakodnevno pokušavaju da me uvere da jesam", rekao je on za SETimes.
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	_
@@ -5859,6 +6087,7 @@
 29	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1502
+# parallel_id = set/dev229
 # text = Marija Šoentaler iz nemačke zajednice u Vojvodini rekla je za SETimes da rešenje leži u članstvu u EU, jer će odgovor na to "ko je ko i šta je ko… u nekom trenutku biti Evropljanin".
 1	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 2	Šoentaler	Šoentaler	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
@@ -5904,6 +6133,7 @@
 # newdoc id = set.sr.78
 # url = NA
 # sent_id = set-s1858
+# parallel_id = set/dev230
 # text = Srpska država i građani suočeni sa dugovima
 1	Srpska	srpski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -5914,6 +6144,7 @@
 7	dugovima	dug	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
 
 # sent_id = set-s1859
+# parallel_id = set/dev231
 # text = Država i njeni građani suočavaju se sa ogromnim dugovima, a kraj tome se baš i ne vidi.
 1	Država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	i	i	CCONJ	Cc	_	4	cc	_	_
@@ -5936,6 +6167,7 @@
 19	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1860
+# parallel_id = set/dev232
 # text = Mnogi Srbi se oslanjaju na kredite za plaćanje dnevnih potrepština.
 1	Mnogi	mnogi	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	Srbi	Srbin	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -5950,6 +6182,7 @@
 11	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1861
+# parallel_id = set/dev233
 # text = Porodica Mrdak živi u stanu u Beogradu u kojem je većina stvari kupljena zahvaljujući bankovnim kreditima i zajmovima.
 1	Porodica	Porodica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	Mrdak	Mrdak	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
@@ -5972,6 +6205,7 @@
 19	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1862
+# parallel_id = set/dev234
 # text = "Prvo smo uzeli kredit da odemo na medeni mesec pre dve godine, a onda sam nasledio ovaj stan i uselili smo se.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Prvo	prvo	ADV	Rgp	Degree=Pos	4	advmod	_	_
@@ -6000,6 +6234,7 @@
 25	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1863
+# parallel_id = set/dev235
 # text = Okrečili smo ga, kupili nov nameštaj, nov frižider, popravljali.
 1	Okrečili	okrečiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -6016,6 +6251,7 @@
 13	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s1864
+# parallel_id = set/dev236
 # text = Nedavno smo morali da kupimo kola zbog bebe, pa smo uzeli još jedan kredit", rekao je Vladimir Mrdak za SETimes.
 1	Nedavno	nedavno	ADV	Rgp	Degree=Pos	3	advmod	_	_
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -6043,6 +6279,7 @@
 24	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1865
+# parallel_id = set/dev237
 # text = Porodici će biti potrebno najmanje pet godina da plati svoje trenutne dugove.
 1	Porodici	porodica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 2	će	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -6059,6 +6296,7 @@
 13	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1866
+# parallel_id = set/dev238
 # text = U međuvremenu, verovatno će uzeti još koji kredit od banke za nešto drugo.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	međuvremenu	međuvreme	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
@@ -6077,6 +6315,7 @@
 15	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1867
+# parallel_id = set/dev239
 # text = Ovo je uobičajena priča za mnoge Srbe.
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6088,6 +6327,7 @@
 8	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1868
+# parallel_id = set/dev240
 # text = Kada ih pitaju, porodice obično kažu da su opstale samo zahvaljujući kreditima i pozajmicama.
 1	Kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	mark	_	_
 2	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
@@ -6107,6 +6347,7 @@
 16	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1869
+# parallel_id = set/dev241
 # text = Ali, to ne važi samo za porodice.
 1	Ali	ali	CCONJ	Cc	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -6119,6 +6360,7 @@
 9	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1870
+# parallel_id = set/dev242
 # text = Vlada je uzimala kredite od MMF i EU.
 1	Vlada	Vlada	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -6131,6 +6373,7 @@
 9	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1871
+# parallel_id = set/dev243
 # text = U nedavnom izveštaju Fiskalnog saveta Srbije procenjuje se da vlada duguje više od 14,4 milijarde evra međunarodnim kreditorima; privreda je u dugu od 19,3 milijarde evra, a građani duguju 5,7 milijardi u kreditima.
 1	U	u	ADP	Sl	Case=Loc	3	case	_	_
 2	nedavnom	nedavan	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -6170,6 +6413,7 @@
 36	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1872
+# parallel_id = set/dev244
 # text = "Svi zaposleni u Srbiji morali bi da rade besplatno skoro pet godina da otplate te dugove", kaže ekonomista Milan Ćulibrk za SETimes.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Svi	sav	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
@@ -6199,6 +6443,7 @@
 26	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1873
+# parallel_id = set/dev245
 # text = Savet, koji je zadužen za fiskalnu politiku države, obelodanio je da će za otplatu dugova Srbija morati da izdvoji 5,1 milijaredu evra iz državnog budžeta -- skoro 14 odsto svog BDP-a
 1	Savet	savet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	5	punct	_	_
@@ -6235,6 +6480,7 @@
 33	BDP-a	BDP	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
 
 # sent_id = set-s1874
+# parallel_id = set/dev246
 # text = "Procenili smo da će državni dug do kraja ove godine dostići 50 odsto BDP -- što je više nego što zakon dozvoljava", rekao je član Fiskalnog saveta Vladimir Vučković za SETimes.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Procenili	proceniti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -6273,6 +6519,7 @@
 35	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s1875
+# parallel_id = set/dev247
 # text = Prema Vučkovićevim rečima, vlada je već prekršila dva zakona -- zakon o državnom budžetu i zakon o budžetskom sistemu -- prema kojima javni dugovi ne bi trebalo da premašuju 45 odsto BDP-a.
 1	Prema	prema	ADP	Sl	Case=Loc	3	case	_	_
 2	Vučkovićevim	vučkovićev	ADJ	Aspfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	3	amod	_	_
@@ -6310,6 +6557,7 @@
 34	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1876
+# parallel_id = set/dev248
 # text = Međutim, niti postoje mere i ograničenja kojima vlada može da se primora da se pridržava zakona, niti prekršioci mogu da se smatraju odgovornim.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -6339,6 +6587,7 @@
 26	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1877
+# parallel_id = set/dev249
 # text = "Vlada treba da usvoji jasan plan sa pouzdanim merama kako bi platila dugove u zakonom predviđenom vremenu", kaže Vučković.
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -6365,6 +6614,7 @@
 23	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1878
+# parallel_id = set/dev250
 # text = Državni sekretar Ministarstva finansija Dušan Nikezić izjavio je za SETimes da je, mada država jeste zadužena, taj dug u normalnim granicama.
 1	Državni	državni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	sekretar	sekretar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -6392,6 +6642,7 @@
 24	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1879
+# parallel_id = set/dev251
 # text = "Finansijska kriza je usporila proces otplate duga, ali mi ga otplaćujemo i sledimo preporuke MMF o štednji.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Finansijska	finansijski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -6415,6 +6666,7 @@
 20	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1880
+# parallel_id = set/dev252
 # text = Planiramo da uštedimo do 300 miliona evra do kraja ove godine", rekao je Nikezić.
 1	Planiramo	planirati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	da	da	SCONJ	Cs	_	3	mark	_	_
@@ -6435,6 +6687,7 @@
 17	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s1881
+# parallel_id = set/dev253
 # text = Prema ministarstvu finansija, od svih zemalja jugoistočne Evrope samo su Makedonija i Bosna i Hercegovina manje zadužene od Srbije.
 1	Prema	prema	ADP	Sl	Case=Loc	2	case	_	_
 2	ministarstvu	ministarstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
@@ -6459,6 +6712,7 @@
 21	.	.	PUNCT	Z	_	18	punct	_	_
 
 # sent_id = set-s1882
+# parallel_id = set/dev254
 # text = "Srbija treba da koristi nove kredite EU i MMF-a za investiranje u kompanije koje će se fokusirati na izvoz ili bar nadoknaditi uvoz i zadržati novac u zemlji", rekao je Ćulibrk.
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Srbija	Srbija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -6497,6 +6751,7 @@
 35	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1883
+# parallel_id = set/dev255
 # text = Dok država može da koristi nove kredite za ulaganje novca i ostvarivanje profita od toga, obični građani nemaju tu opciju.
 1	Dok	dok	SCONJ	Cs	_	3	mark	_	_
 2	država	država	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -6522,6 +6777,7 @@
 22	.	.	PUNCT	Z	_	19	punct	_	_
 
 # sent_id = set-s1884
+# parallel_id = set/dev256
 # text = Njihov novac je unapred potrošen na troškove života i osnovne potrebe.
 1	Njihov	njihov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	novac	novac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -6537,6 +6793,7 @@
 12	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1885
+# parallel_id = set/dev257
 # text = A, čak će i te dugove biti teško otplatiti.
 1	A	a	CCONJ	Cc	_	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -6551,6 +6808,7 @@
 11	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1886
+# parallel_id = set/dev258
 # text = Zbog slabljenja srpskog dinara, korisnici kredita danas duguju 80 milijardi dinara više nego početkom godine.
 1	Zbog	zbog	ADP	Sg	Case=Gen	2	case	_	_
 2	slabljenja	slabljenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
@@ -6573,6 +6831,7 @@
 # newdoc id = set.sr.80
 # url = NA
 # sent_id = set-s1906
+# parallel_id = set/dev259
 # text = Kultura i sport: Ivica Kostelić osvojio zlato u trci za Svetski kup
 1	Kultura	kultura	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	parataxis	_	_
 2	i	i	CCONJ	Cc	_	3	cc	_	_
@@ -6589,6 +6848,7 @@
 13	kup	kup	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 
 # sent_id = set-s1907
+# parallel_id = set/dev260
 # text = Hrvat Ivica Kostelić osvojio je svoje prvo zlato u Svetskom kupu od 2003. godine.
 1	Hrvat	Hrvat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Ivica	Ivica	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -6607,6 +6867,7 @@
 15	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1908
+# parallel_id = set/dev261
 # text = Takođe u pregledu vesti iz kulture i sporta za ovu nedelju: turski pisac Orhan Pamuk primio Nobelovu nagradu za književnost, a tri filma iz jugoistočne Evrope dobiće sredstva SE.
 1	Takođe	takođe	ADV	Rgp	Degree=Pos	3	advmod	_	_
 2	u	u	ADP	Sl	Case=Loc	3	case	_	_
@@ -6642,6 +6903,7 @@
 32	.	.	PUNCT	Z	_	17	punct	_	_
 
 # sent_id = set-s1909
+# parallel_id = set/dev262
 # text = (Sleva) Pjerik Burže iz Francuske (treće mesto), Ivica Kostelić iz Hrvatske (prvo mesto) i Romed Bauman iz Austrije (drugo mesto) dobijaju medalje posle trke u super kombinaciji FIS Svetskog skijaškog kupa, koja je vožena u nedelju u Rajteralmu, u Austriji.
 1	(	(	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Sleva	sleva	ADV	Rgp	Degree=Pos	30	parataxis	_	SpaceAfter=No
@@ -6697,6 +6959,7 @@
 52	.	.	PUNCT	Z	_	30	punct	_	_
 
 # sent_id = set-s1910
+# parallel_id = set/dev263
 # text = Hrvatski olimpijski skijaš Ivica Kostelić zauzeo je prvo mestu u trci u super kombinaciji FIS Svetskog skijaškog kupa, koja je vožena 10. decembra u Rajteralmu, u Austriji.
 1	Hrvatski	hrvatski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 2	olimpijski	olimpijski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -6730,6 +6993,7 @@
 30	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1911
+# parallel_id = set/dev264
 # text = On je završio sa vremenom 2:08.90, ispred Austrijanca Romeda Baumana sa 2:09.98 i Francuza Pjerika Buržea sa 2:10.41.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -6753,6 +7017,7 @@
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1912
+# parallel_id = set/dev265
 # text = To je prva Kostelićeva pobeda u Svetskom kupu od 2003. godine.
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -6768,6 +7033,7 @@
 12	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1913
+# parallel_id = set/dev266
 # text = Tri filma iz jugoistočne Evrope uvrštena su na listu 12 filmova koji će dobiti finansijsku podršku iz fonda za kinematografiju Saveta Evrope (SE) Eurimidžis.
 1	Tri	tri	NUM	Mlc	NumType=Card	2	nummod	_	_
 2	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -6798,6 +7064,7 @@
 27	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1914
+# parallel_id = set/dev267
 # text = Sredstva SE dobiće film srpskog režisera Stefana Arsenijevića "Ljubav i drugi zločini", film "Svet je veliki i spas vreba iza ugla", bugarskog režisera Stefana Komandareva i film holandske režiserke Marlen Goris "U vihoru" (koprodukcija Belgije, Bugarske, Nemačke i Francuske).
 1	Sredstva	sredstvo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
 2	SE	SE	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -6853,6 +7120,7 @@
 52	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1915
+# parallel_id = set/dev268
 # text = Hrvatski plivač Aleksej Puninski osvojio je 10. decembra zlatnu medalju u trci na 50 metara leptir stilom na Evropskom plivačkom prvenstvu u 25-metarskim bazenima u Hesinkiju.
 1	Hrvatski	hrvatski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	plivač	plivač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -6883,6 +7151,7 @@
 27	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1916
+# parallel_id = set/dev269
 # text = Puninski je završio na šestom mestu u trci na 100 metara slobodnim stilom.
 1	Puninski	Puninski	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -6900,6 +7169,7 @@
 14	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1917
+# parallel_id = set/dev270
 # text = Ovo je šesta zlatna i ukupno 19. medalja koju je Hrvatska osvojila na evropskim plivačkim prvenstvima u 25-metarskim bazenima.
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -6923,6 +7193,7 @@
 20	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1918
+# parallel_id = set/dev271
 # text = Izložba radova bugarskog slikara Svetlina Ruseva otovrena je u sredu (13. decembar) u Beču.
 1	Izložba	izložba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 2	radova	rad	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
@@ -6943,6 +7214,7 @@
 17	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1919
+# parallel_id = set/dev272
 # text = Izložba, koju je organizvala bugarska ambasada, trajaće do 27. decembra.
 1	Izložba	izložba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	5	punct	_	_
@@ -6959,6 +7231,7 @@
 13	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1920
+# parallel_id = set/dev273
 # text = Turski pisac Orhan Pamuk primio je Nobelovu nagradu za književnost na ceremoniji koja je održana u ponedeljak (11. decembar) u Stokholmu.
 1	Turski	turski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	pisac	pisac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -7001,6 +7274,7 @@
 12	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1922
+# parallel_id = set/dev274
 # text = Pamuk je svoj rodni grad Istanbul učinio "nezamenljivom književnom teritorijom, isto kao što je Dostojevski uradio sa Sankt Peterburgom, Džojs sa Dablinom ili Prust sa Parizom", rekao je na ceremoniji profesor Horas Engdal iz Odbora za dodelu Nobelove nagrade.
 1	Pamuk	Pamuk	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -7049,6 +7323,7 @@
 45	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s1923
+# parallel_id = set/dev275
 # text = U Skoplju je u utorak (12. decembar) otvoren 4. Romski amaterski pozorišni festival.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	Skoplju	Skoplje	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
@@ -7068,6 +7343,7 @@
 16	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s1924
+# parallel_id = set/dev276
 # text = Dvodnevnu manifestaciju zajedno su organizovali Asocijacija romske folklorne umetnosti i Ministarstvo kulture Makedonije.
 1	Dvodnevnu	dvodnevan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	manifestaciju	manifestacija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
@@ -7085,6 +7361,7 @@
 14	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1925
+# parallel_id = set/dev277
 # text = Ove godine na festivalu učestvuju četiri lokalne amaterske trupe -- Romani bah iz Velesa, Romano thagar iz Delčeva, Bela Kula iz Kičeva i Romano ilo iz Skoplja.
 1	Ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
@@ -7118,6 +7395,7 @@
 30	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1926
+# parallel_id = set/dev278
 # text = Rumunski grad Sibiu biće, zajedno sa Luksemburgom, Evropska prestonica kulture u 2007. godini, u skladu sa odlukom koju je Savet EU doneo ranije ove godine.
 1	Rumunski	rumunski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	grad	grad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -7150,6 +7428,7 @@
 29	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s1927
+# parallel_id = set/dev279
 # text = U sklopu programa rumuskih vlasti "Sibiu 2007", centralna banka Rumunije pustila je u opticaj srebrni novčić u vrednosti 5 rumunskih leja -- ili oko 1,46 evra -- posvećen toj prilici.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	sklopu	sklop	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
@@ -7189,6 +7468,7 @@
 # newdoc id = set.sr.81
 # url = NA
 # sent_id = set-s1928
+# parallel_id = set/dev280
 # text = Albaniju zahvata izborna groznica
 1	Albaniju	Albanija	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 2	zahvata	zahvatati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7196,6 +7476,7 @@
 4	groznica	groznica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 
 # sent_id = set-s1929
+# parallel_id = set/dev281
 # text = S obzirom da je dugotrajni zastoj oko lokalnih izbora konačno razrešen, albanske političke stranke pokrenule su svoje kampanje.
 1	S	sa	ADP	Si	Case=Ins	11	mark	_	_
 2	obzirom	obzir	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	1	fixed	_	_
@@ -7219,6 +7500,7 @@
 20	.	.	PUNCT	Z	_	16	punct	_	_
 
 # sent_id = set-s1930
+# parallel_id = set/dev282
 # text = Gradonačelnik Tirane Edi Rama govori na skupu održanom tokom vikenda.
 1	Gradonačelnik	gradonačelnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	Tirane	Tirana	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -7233,6 +7515,7 @@
 11	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1931
+# parallel_id = set/dev283
 # text = Tokom vikenda, dve glavne političke stranke u Albaniji zvanično su pokrenule svoje kampanje za lokalne izbore 18. februara.
 1	Tokom	tokom	ADP	Sg	Case=Gen	2	case	_	_
 2	vikenda	vikend	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
@@ -7256,6 +7539,7 @@
 20	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s1932
+# parallel_id = set/dev284
 # text = Tokom skupa održanog u subotu (20. januara) u Palati kongresa, levičarska koalicija Zajedno za budućnost, koju predvodi gradonačelnik Tirane Edi Rama, puštala je pesmu grupe Kvin "We will rock you" -- kao odgovor na glavnu muzičku temu desničarske Velike koalicije -- "The final countdown".
 1	Tokom	tokom	ADP	Sg	Case=Gen	2	case	_	_
 2	skupa	skup	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	27	obl	_	_
@@ -7313,6 +7597,7 @@
 54	.	.	PUNCT	Z	_	27	punct	_	_
 
 # sent_id = set-s1933
+# parallel_id = set/dev285
 # text = Oko 3.000 članova i pristalica prisustvovalo je skupu Velike koalicije.
 1	Oko	oko	ADV	Rgp	Degree=Pos	2	advmod	_	_
 2	3.000	3.000	NUM	Mdc	NumType=Card	3	nummod:gov	_	_
@@ -7327,6 +7612,7 @@
 11	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s1934
+# parallel_id = set/dev286
 # text = Obraćajući se okupljenima, premijer Sali Beriša je rekao kandidatima da će, onda kada budu izabrani, dobiti snažnu podršku vlade za svoje projekte.
 1	Obraćajući	obraćati	ADV	Rr	Tense=Pres|VerbForm=Conv	9	xcomp	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	_
@@ -7356,6 +7642,7 @@
 26	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s1935
+# parallel_id = set/dev287
 # text = Decentralizacija lokalne vlade ostaje glavni prioritet, rekao je Beriša.
 1	Decentralizacija	decentralizacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	lokalne	lokalan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -7370,6 +7657,7 @@
 11	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1936
+# parallel_id = set/dev288
 # text = On je takođe obećao rešenje pitanja legalizacije i imovine.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -7383,6 +7671,7 @@
 10	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1937
+# parallel_id = set/dev289
 # text = Beriša je formalno prihvatio ostavku ministra unutrašnjih poslova Sokola Oljdašija, koji će biti protivkandidat Rami u izbornoj trci za gradonačelnika Tirane.
 1	Beriša	Beriša	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -7409,6 +7698,7 @@
 23	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1938
+# parallel_id = set/dev290
 # text = U međuvremenu, govoreći na skupu Zajedno za budućnost, Rama je istakao da je konačno napravljen levičarski savez -- sa SP i Socijaldemokratskom partijom u njegovom jezgru.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	međuvremenu	međuvreme	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
@@ -7441,6 +7731,7 @@
 29	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s1939
+# parallel_id = set/dev291
 # text = Nije bilo lako stvoriti takvu koaliciju, rekao je Rama, koji se kandidovao za treći mandat na mestu gradonačelnika.
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	_
@@ -7465,6 +7756,7 @@
 21	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1940
+# parallel_id = set/dev292
 # text = Međutim, posle mnogih prepreka, sada postoji pravi savez, rekao je on.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -7483,6 +7775,7 @@
 15	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1941
+# parallel_id = set/dev293
 # text = Početak kampanje bio je poremećen incidentom koji se dogodio u nedelju u gradu Himari gde većinom žive Grci.
 1	Početak	početak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	kampanje	kampanja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -7505,6 +7798,7 @@
 19	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1942
+# parallel_id = set/dev294
 # text = Prema pisanju lokalnih medija, policija je uhapsila troje ljudi zbog pokušaja opstrukcije govora sadašnjeg gradonačelnika Vasila Bolana iz manjinske grčke stranke Unija za ljudska prava.
 1	Prema	prema	ADP	Sl	Case=Loc	2	case	_	_
 2	pisanju	pisanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
@@ -7535,6 +7829,7 @@
 27	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s1943
+# parallel_id = set/dev295
 # text = Bolano se kandidovao se drugi mandat.
 1	Bolano	Bolano	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_
@@ -7545,6 +7840,7 @@
 7	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1944
+# parallel_id = set/dev296
 # text = Albanski predsednik Alfred Mojsiju uputio je političkim strankama nacrt Kodeksa ponašanja vezan za kampanju.
 1	Albanski	albanski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -7563,6 +7859,7 @@
 15	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s1945
+# parallel_id = set/dev297
 # text = On je pozvao političare da urade svoj deo da osiguraju civilizovanu kampanju i slobodne i poštene izbore.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -7584,6 +7881,7 @@
 18	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s1946
+# parallel_id = set/dev298
 # text = U međuvremenu, Posmatračka izborna misija OEBS / ODIHR objavila je svoj drugi privremeni izveštaj, kojim je obuhvaćen period od 1. do 14. januara.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	međuvremenu	međuvreme	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
@@ -7613,6 +7911,7 @@
 26	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s1947
+# parallel_id = set/dev299
 # text = U izveštaju se navodi da se jednim od amandmana na Izborni zakon "… otvara mogućnost promene redosleda kandidata na listama kandidata nakon što liste registruju relevantne izborne komisije, kao i posle glasanja".
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	izveštaju	izveštaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
@@ -7652,6 +7951,7 @@
 36	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s1948
+# parallel_id = set/dev300
 # text = "Iako pravila takvog preraspoređivanja mogu javno da se iznesu u vreme registracije, to povećava zabrinutost u pogledu kompatibilnosti takvih zakonskih mera sa demokratskim principima, s obzirom da se smanjuje transparentnost za birače", navodi OEBS / ODIHR.
 1	"	"	PUNCT	Z	_	16	punct	_	SpaceAfter=No
 2	Iako	iako	SCONJ	Cs	_	6	mark	_	_
@@ -7699,6 +7999,7 @@
 # newdoc id = set.sr.87
 # url = NA
 # sent_id = set-s2069
+# parallel_id = set/dev301
 # text = MKSJ osudio bivšeg ministra u vladi Kosova za pokušaj zastrašivanja svedoka
 1	MKSJ	MKSJ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	osudio	osuditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -7713,6 +8014,7 @@
 11	svedoka	svedok	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
 
 # sent_id = set-s2070
+# parallel_id = set/dev302
 # text = Haški tribunal za ratne zločine u sredu je proglasio krivim bivšeg kosovskog ministra kulture i njegovog pomoćnika za nepoštovanje suda, zato što su pokušali da zaplaše zaštićenog svedoka na suđenju bivšem kosovskom premijeru Ramušu Haradinaju.
 1	Haški	haški	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	tribunal	tribunal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -7753,6 +8055,7 @@
 37	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s2071
+# parallel_id = set/dev303
 # text = MKSJ je osudio bivšeg kosovskog ministra kulture Astrita Haraćiju (levo) i njegovog savetnika Bajruša Morinu za pokušaj zastrašivanja svedoka.
 1	MKSJ	MKSJ	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -7778,6 +8081,7 @@
 22	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2072
+# parallel_id = set/dev304
 # text = Bivši kosovski ministar kulture Astrit Haraćija i njegov pomoćnik Bajruš Morina proglašeni su krivim za nepoštovanje suda i izrečene su im zatvorske kazne u trajanju pet i tri meseca, saopštio je u sredu (17. decembar) Međunarodni krivični tribunal za bivšu Jugoslaviju (MKSJ).
 1	Bivši	bivši	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
 2	kosovski	kosovski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
@@ -7829,6 +8133,7 @@
 48	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s2073
+# parallel_id = set/dev305
 # text = Obojica su "proglašeni krivim zato što su se svesno i svojevoljno mešali u sprovođenje pravde intervenišući kod svedoka čiji je identitet bio zaštićen", a koji je svedočio na suđenju bivšem kosovskom premijeru Ramušu Haradinaju, navodi se u saopštenju tribunala.
 1	Obojica	obojica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -7876,6 +8181,7 @@
 44	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2074
+# parallel_id = set/dev306
 # text = U optužnici koju je u januaru podigao glavni tužilac tribunala Serž Bramerc navodi se da je u julu 2007. Haraćija rekao Morini da otputuje u zemlju u kojoj boravi taj zaštićeni svedok, nazvan Svedok 2 u sudskim dokumentima, i ubedi ga da ne svedoči.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	optužnici	optužnica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
@@ -7926,6 +8232,7 @@
 47	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s2075
+# parallel_id = set/dev307
 # text = Morina, koji je bio politički savetnik zamenika ministra kulture i honorarni urednik kosovskog dnevnika Bota Sot, poznavao je Svedoka 2 i imao "dva poduža sastanka sa njim".
 1	Morina	Morina	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	7	punct	_	_
@@ -7961,6 +8268,7 @@
 32	.	.	PUNCT	Z	_	19	punct	_	_
 
 # sent_id = set-s2076
+# parallel_id = set/dev308
 # text = Policija je tajno snimila oba sastanka, navodi se u optužnici.
 1	Policija	policija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -7976,6 +8284,7 @@
 12	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2077
+# parallel_id = set/dev309
 # text = "Sudsko veće je utvrdilo da je dokazima ustanovljeno izvan svake sumnje" da je Haraćija "izvršio uticaj" na Morinu, navodi se u saopštenju MKSJ.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Sudsko	sudski	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
@@ -8008,6 +8317,7 @@
 29	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s2078
+# parallel_id = set/dev310
 # text = On je prihvatio ministrovu nadležnost i sledio njegova uputstva da izvrši pritisak na Svedoka 2 rekavši mu da su drugi koji su svedočili protiv Haradinaja kasnije ubijeni.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -8039,6 +8349,7 @@
 28	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2079
+# parallel_id = set/dev311
 # text = Tužioci su takođe tvrdili da je bivši ministar i suosnivač takozvanog Odbora za odbranu Ramuša Haradinaja autorizovao Morinino putovanje, a ministarstvo kulture je snosilo troškove.
 1	Tužioci	tužilac	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -8069,6 +8380,7 @@
 27	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2080
+# parallel_id = set/dev312
 # text = Sudije su ukazale da se Morina izvinio Svedoku 2, koji nije popustio pod pritiskom i na kraju je svedočio protiv Haradinaja i dva druga komandanta Oslobodilačke vojske Kosova (OVK).
 1	Sudije	sudija	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -8105,6 +8417,7 @@
 33	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2081
+# parallel_id = set/dev313
 # text = Suđenje je završeno početkom aprila.
 1	Suđenje	suđenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -8114,6 +8427,7 @@
 6	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2082
+# parallel_id = set/dev314
 # text = Haradinaj i drugi optuženi Idriz Baljaj oslobođeni su svih optužbi za ratne zločine, dok je trećem optuženom Lahiju Brahimaju izrečena šestogodišnja zatvorska kazna.
 1	Haradinaj	Haradinaj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	i	i	CCONJ	Cc	_	5	cc	_	_
@@ -8142,6 +8456,7 @@
 25	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s2083
+# parallel_id = set/dev315
 # text = Predmet protiv Haradinaja i ostalih trenutno je pred Žalbenim većem MKSJ-a.
 1	Predmet	predmet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 2	protiv	protiv	ADP	Sg	Case=Gen	3	case	_	_
@@ -8159,6 +8474,7 @@
 # newdoc id = set.sr.88
 # url = NA
 # sent_id = set-s2084
+# parallel_id = set/dev316
 # text = Zauzmi pozu: modna sezona na Balkanu
 1	Zauzmi	zauzeti	VERB	Vmm2s	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 2	pozu	poza	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
@@ -8169,6 +8485,7 @@
 7	Balkanu	Balkan	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
 
 # sent_id = set-s2085
+# parallel_id = set/dev317
 # text = Moda širom Jugoistočne Evrope donosi inovacije, uspešnu industriju najmodernijeg stila i mogućnosti za saradnju preko nacionalnih granica.
 1	Moda	moda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	širom	širom	ADV	Rgp	Degree=Pos	4	case	_	_
@@ -8191,6 +8508,7 @@
 19	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s2086
+# parallel_id = set/dev318
 # text = Turska manekenka hoda po pisti prvog dana Istanbulske nedelje mode.
 1	Turska	turski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	manekenka	manekenka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -8205,6 +8523,7 @@
 11	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2087
+# parallel_id = set/dev319
 # text = Nedelja mode u Istanbulu, jednoj od evropskih "prestonica kulture" za 2010, donela je premijeru kolekcija jesen - zima i najnovije inovacije u visokoj modi dvadesetak turskih kreatora.
 1	Nedelja	nedelja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
 2	mode	moda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -8240,6 +8559,7 @@
 32	.	.	PUNCT	Z	_	16	punct	_	_
 
 # sent_id = set-s2088
+# parallel_id = set/dev320
 # text = Četvorodnevni događaj, koji je završen 6. februara, sponzorisali su Udruženje modnih kreatora i Istanbulska modna akademija.
 1	Četvorodnevni	četvorodnevni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	događaj	događaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
@@ -8262,6 +8582,7 @@
 19	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s2089
+# parallel_id = set/dev321
 # text = Bilo je 35.000 posetilaca, među kojima i američka glumica Meg Rajan.
 1	Bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -8278,6 +8599,7 @@
 13	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s2090
+# parallel_id = set/dev322
 # text = U decembru je vladalo slično interesovanje za dva najveća hrvatska modna događaja -- Dove Fashion.hr i Cro-a-Porter, koji su otvorili jesenju sezonu.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	decembru	decembar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
@@ -8305,6 +8627,7 @@
 24	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2091
+# parallel_id = set/dev323
 # text = Hrvatska modna industrija izbacila je nekoliko novih kreatora koji se trude da budu originalni, u trendu i inovativni, a istovremeno i privlače klijente iz džet seta i "obične" muškarce i žene.
 1	Hrvatska	hrvatski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 2	modna	modni	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -8344,6 +8667,7 @@
 36	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2092
+# parallel_id = set/dev324
 # text = Nije tajna da ljudi na Balkanu vole lepo da se oblače i pažljivo prate najnovije modne trendove.
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	tajna	tajna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -8365,6 +8689,7 @@
 18	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s2093
+# parallel_id = set/dev325
 # text = Mnogi turisti koji prvi put dođu u zemlje Jugoistočne Evrope često pomenu da su zapanjeni brojem dobro obučenih žena i muškaraca na ulici.
 1	Mnogi	mnogi	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	turisti	turist	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -8392,6 +8717,7 @@
 24	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s2094
+# parallel_id = set/dev326
 # text = Bosanska manekenka predstavlja kreaciju holandskog kreatora Adija van den Kromenakera na Sarajevskoj nedelji mode.
 1	Bosanska	bosanski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	manekenka	manekenka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -8410,6 +8736,7 @@
 15	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2095
+# parallel_id = set/dev327
 # text = Poznato je da džet set i modni kreatori na Balkanu odlično sarađuju.
 1	Poznato	poznat	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -8426,6 +8753,7 @@
 13	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s2096
+# parallel_id = set/dev328
 # text = Poslednji primer je hrvatska zvezda Severina, kojoj je srpski modni kreator Zvonko Marković sašio venčanicu.
 1	Poslednji	poslednji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	primer	primer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -8446,6 +8774,7 @@
 17	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s2097
+# parallel_id = set/dev329
 # text = Kreacije viđene na Dove Fashion.hr i četrnaestom Cro-a-Porter bacile su naglasak na povratak visokoj modi i eleganciji.
 1	Kreacije	kreacija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
 2	viđene	videti	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
@@ -8467,6 +8796,7 @@
 18	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s2098
+# parallel_id = set/dev330
 # text = Prisustvovala su neka od najvećih imena hrvatske mode, kao što su Robert Sever, duo Elfs, Hippy Garden, I-GLE, i Branka Donasi.
 1	Prisustvovala	prisustvovati	VERB	Vmp-pn	Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -8497,6 +8827,7 @@
 27	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s2099
+# parallel_id = set/dev331
 # text = Srpska kreatorka Dijana Pavlov bila je specijalni gost.
 1	Srpska	srpski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	kreatorka	kreatorka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -8509,6 +8840,7 @@
 9	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s2100
+# parallel_id = set/dev332
 # text = "Haljina je naša večna inspiracija jer je smatramo kraljicom mode", rekle su bliznakinje Morana Saračević i Marija Cicko Karapetrić iz Studija Boudoir.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Haljina	haljina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -8538,6 +8870,7 @@
 26	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2101
+# parallel_id = set/dev333
 # text = Njihova kolekcija "Važno je biti Alisa", nadahnuta remek delom Luisa Kerola "Alisa u zemlji čuda", zatvorila je reviju Cro-a-Porter.
 1	Njihova	njihov	DET	Ps3fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	kolekcija	kolekcija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
@@ -8567,6 +8900,7 @@
 26	.	.	PUNCT	Z	_	22	punct	_	_
 
 # sent_id = set-s2102
+# parallel_id = set/dev334
 # text = Dvojac Elfs, koji čine kreatori Ivan Tandarić i Aleksandar Šekuljica, prikazali su kolekciju nadahnutu američkom sapunicom "Dinastija" iz 80-ih godina.
 1	Dvojac	Dvojac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 2	Elfs	Elfs	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -8595,6 +8929,7 @@
 25	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s2103
+# parallel_id = set/dev335
 # text = Dvojicu mladih kreatora ponekad nazivaju balkanskim Dolče i Gabanom.
 1	Dvojicu	dvojica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 2	mladih	mlad	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -8608,6 +8943,7 @@
 10	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s2104
+# parallel_id = set/dev336
 # text = U proteklih devet godina, Sarajevska nedelja mode (SNM) okupljala je kreatore iz celog sveta, sa dve glavne revije na proleće i jesen.
 1	U	u	ADP	Sa	Case=Acc	4	case	_	_
 2	proteklih	protekao	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
@@ -8638,6 +8974,7 @@
 27	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s2105
+# parallel_id = set/dev337
 # text = "Uspeli smo ne samo da promovišemo bosanske kreatore, već i komercijalizujemo lokalne brendove", kaže osnivač SNM Amela Radan.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Uspeli	uspeti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -8664,6 +9001,7 @@
 23	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s2106
+# parallel_id = set/dev338
 # text = Četvorodnevni program održan krajem novembra u glavnom gradu BiH privukao je više hiljada posetilaca.
 1	Četvorodnevni	Četvorodnevni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -8682,6 +9020,7 @@
 15	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s2107
+# parallel_id = set/dev339
 # text = Posle kolekcije italijanske modne kuće Glamur, usledile su kreacije domaćeg kreatora Admira Karišika, koji je predstavio kostime koje nose bosanski plesači koji igraju uz latino muziku.
 1	Posle	posle	ADP	Sg	Case=Gen	2	case	_	_
 2	kolekcije	kolekcija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
@@ -8714,6 +9053,7 @@
 29	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s2108
+# parallel_id = set/dev340
 # text = Četvrto veče otvorila je srpska kreatorka Irena Grahovac, sa pretaporte kolekcijom inspirisanom 40-im godinama prošlog veka.
 1	Četvrto	četvrti	ADJ	Mlonsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
 2	veče	veče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
@@ -8735,6 +9075,7 @@
 18	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2109
+# parallel_id = set/dev341
 # text = Manekenka na Beogradskoj nedelji mode.
 1	Manekenka	manekenka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	na	na	ADP	Sl	Case=Loc	4	case	_	_
@@ -8744,6 +9085,7 @@
 6	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s2110
+# parallel_id = set/dev342
 # text = Beogradska nedelja mode, čija je tema ove nedelje bila "Vetrovi promena" i koja se održava u oktobru, jedna je od najjačih u regionu.
 1	Beogradska	beogradski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	nedelja	nedelja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
@@ -8775,6 +9117,7 @@
 28	.	.	PUNCT	Z	_	25	punct	_	_
 
 # sent_id = set-s2111
+# parallel_id = set/dev343
 # text = Svi prihodi bili su namenjeni Centru za integraciju omladine.
 1	Svi	sav	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	2	det	_	_
 2	prihodi	prihod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -8788,6 +9131,7 @@
 10	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s2112
+# parallel_id = set/dev344
 # text = Puno je vremena prošlo od kako je 1996. godine modni studio Klik pokrenuo Beogradsku nedelju mode po uzoru na najveće svetske modne centre.
 1	Puno	puno	ADV	Rgp	Degree=Pos	4	advmod	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -8815,6 +9159,7 @@
 24	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2113
+# parallel_id = set/dev345
 # text = Danas, domaći kreatori imaju priliku da predstave svoj rad, a mladi talenti da se probiju u stvarni svet mode i pokažu svoje kreacije javnosti.
 1	Danas	danas	ADV	Rgp	Degree=Pos	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -8845,6 +9190,7 @@
 27	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s2114
+# parallel_id = set/dev346
 # text = U Rumuniji, kritičari se pitaju u kom pravcu je krenula moda u njihovoj zemlji.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	Rumuniji	Rumunija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
@@ -8864,6 +9210,7 @@
 16	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2115
+# parallel_id = set/dev347
 # text = Međunarodni brendovi su sve moćniji i zamenjuju domaću modu na televiziji, u časopisima i, što je najvažnije, u ormarima kupaca.
 1	Međunarodni	međunarodni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	brendovi	brend	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -8893,6 +9240,7 @@
 # newdoc id = set.sr.89
 # url = NA
 # sent_id = set-s2116
+# parallel_id = set/dev348
 # text = Novi evropski komesari fokusiraće se na ekonomiju
 1	Novi	nov	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
 2	evropski	evropski	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -8903,6 +9251,7 @@
 7	ekonomiju	ekonomija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 
 # sent_id = set-s2117
+# parallel_id = set/dev349
 # text = Ako je odobri Evropski parlament, nova Evropska komisija će, kako se očekuje, početi petogodišnji mandat početkom februara.
 1	Ako	ako	SCONJ	Cs	_	3	mark	_	_
 2	je	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
@@ -8927,6 +9276,7 @@
 21	.	.	PUNCT	Z	_	16	punct	_	_
 
 # sent_id = set-s2118
+# parallel_id = set/dev350
 # text = Predsednik EK Žoze Manuel Barozo opisuje tim kao "perfektnu mešavinu iskustva i novog razmišljanja".
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	EK	EK	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -8947,6 +9297,7 @@
 17	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2119
+# parallel_id = set/dev351
 # text = Predsednik Evropske komisije (EK) Žoze Manuel Barozo saopštio je u petak (27. novembra) sastav svog sledećeg tima, izražavajući uverenje da će novo rukovodstvo tokom svog petogodišnjeg mandata pomoći da se Evropa izvede iz ekonomske krize.
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 2	Evropske	evropski	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -8991,6 +9342,7 @@
 41	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s2120
+# parallel_id = set/dev352
 # text = "Na osnovu kandidata koje su predložile zemlje članice, pokušao sam da napravim kolegijum koji može da stvori sveže ideje i novi momentum u vezi sa najvećim izazovima sa kojima se Evropa danas suočava", rekao je bivši portugalski premijer na konferenciji za novinare u Briselu.
 1	"	"	PUNCT	Z	_	11	punct	_	SpaceAfter=No
 2	Na	na	ADP	Sl	Case=Loc	3	case	_	_
@@ -9043,6 +9395,7 @@
 49	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s2121
+# parallel_id = set/dev353
 # text = Barozo, koji je postao 11. predsednik EK u novembru 2004, dobio je odobrenje Evropskog parlamenta (EP) za drugi petogodišnji mandat 16. septembra.
 1	Barozo	Barozo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	5	punct	_	_
@@ -9073,6 +9426,7 @@
 27	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s2122
+# parallel_id = set/dev354
 # text = "Uveren sam da će ovaj kolegijum biti odlučan u usmeravanju Evrope ka oporavku i održivoj socijalnoj tržišnoj ekonomiji koja funkcioniše za sve", rekao je on.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Uveren	uveren	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
@@ -9105,6 +9459,7 @@
 29	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s2123
+# parallel_id = set/dev355
 # text = Jedan od ključnih zadataka takozvanog Barozo II kabineta "biće da se ožive nove mogućnosti koje pruža Lisabonski ugovor", koji stupa na snagu u utorak.
 1	Jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	4	nummod	_	_
 2	od	od	ADP	Sg	Case=Gen	4	case	_	_
@@ -9136,6 +9491,7 @@
 28	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s2124
+# parallel_id = set/dev356
 # text = Dvadeset šest novih komesara, uključujući devet žena, treba da odobri EP.
 1	Dvadeset	dvadeset	NUM	Mlc	NumType=Card	4	nummod:gov	_	_
 2	šest	šest	NUM	Mlc	NumType=Card	1	flat	_	_
@@ -9153,6 +9509,7 @@
 14	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s2125
+# parallel_id = set/dev357
 # text = Pored upravljanja budžetom 27-člane Unije, koji je u 2008. iznosio 116 milijardi evra, odgovornosti komisije uključuju izradu novih zakona, kao i osiguravanje da zemlje članice poštuju zakone i ugovore EU.
 1	Pored	pored	ADP	Sg	Case=Gen	2	case	_	_
 2	upravljanja	upravljanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
@@ -9190,6 +9547,7 @@
 34	.	.	PUNCT	Z	_	18	punct	_	_
 
 # sent_id = set-s2126
+# parallel_id = set/dev358
 # text = Sledeće rukovodstvo EU činiće predstavnici glavnih političkih grupacija u Evropi -- 13, uključujući Baroza, iz konzervativne Evropske narodne stranke (EPP), osam iz Evropske liberalno-demokratske i reformske stranke (ELDR) i šest iz Progresivne alijanse socijalista i demokrata (S & D), stranke levog centra.
 1	Sledeće	sledeći	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
 2	rukovodstvo	rukovodstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	_
@@ -9246,6 +9604,7 @@
 53	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2127
+# parallel_id = set/dev359
 # text = Trinaest novih komesara bili su članovi odlazeće EK, ali nijedan neće ostati na starom mestu.
 1	Trinaest	trinaest	NUM	Mlc	NumType=Card	3	nummod:gov	_	_
 2	novih	nov	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -9266,6 +9625,7 @@
 17	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2128
+# parallel_id = set/dev360
 # text = Odlazeći komesar za proširenje EU Oli Ren preuzeće mesto komesara za ekonomske i monetarne poslove.
 1	Odlazeći	odlazeći	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	komesar	komesar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -9285,6 +9645,7 @@
 16	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s2129
+# parallel_id = set/dev361
 # text = Njegove nove odgovornosti uključuju sprovođenje budžetskih pravila i jačanje koordinacije makroekonomske politike bloka.
 1	Njegove	njegov	DET	Ps3fpn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
 2	nove	nov	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
@@ -9302,6 +9663,7 @@
 14	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2130
+# parallel_id = set/dev362
 # text = Rena će zameniti Štefan File, češki ministar za evropske poslove i bivši ambasador u NATO-u.
 1	Rena	Ren	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 2	će	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -9322,6 +9684,7 @@
 17	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2131
+# parallel_id = set/dev363
 # text = File će biti zadužen za proširenje, kao i za politiku bloka prema susedstvu.
 1	File	File	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	će	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -9340,6 +9703,7 @@
 15	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2132
+# parallel_id = set/dev364
 # text = Još jedno istaknuto mesto u komisiji otići će Dačijanu Čološu iz Rumunije, koji je imenovan za sledećeg komesara poljoprivrede i ruralnog razvoja, dok će bugarska ministarka inostranih poslova Rumjana Želeva biti zadužena za međunarodne odnose i humanitarnu pomoć.
 1	Još	još	ADV	Rgp	Degree=Pos	2	advmod	_	_
 2	jedno	jedan	NUM	Mlcnsn	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	4	nummod	_	_
@@ -9384,6 +9748,7 @@
 41	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s2133
+# parallel_id = set/dev365
 # text = Dve druge zemlje jugoistočne Evrope predstavljaće žene u novoj EK.
 1	Dve	dve	NUM	Mlsf-a	Case=Acc|Gender=Fem|NumType=Mult	3	nummod	_	_
 2	druge	drugi	ADJ	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -9397,6 +9762,7 @@
 10	EK.	EK.	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
 
 # sent_id = set-s2134
+# parallel_id = set/dev366
 # text = Marija Damanaki iz Grčke imenovana je za novu komesarku za pomorska pitanja i ribolov, dok će odlazeća komesarka za zdravlje -- Andrula Vasiliju sa Kipra -- biti prebačena u komesarijat obrazovanja, kulture, multijezičnosti i omladine.
 1	Marija	Marija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	Damanaki	Damanaki	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
@@ -9441,6 +9807,7 @@
 # newdoc id = set.sr.102
 # url = NA
 # sent_id = set-s2426
+# parallel_id = set/dev367
 # text = Oni koji su kasno stigli u BiH trebalo bi da ostanu dok se posao ne završi
 1	Oni	onaj	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	8	nsubj	_	_
 2	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	5	nsubj	_	_
@@ -9460,6 +9827,7 @@
 16	završi	završiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
 
 # sent_id = set-s2427
+# parallel_id = set/dev368
 # text = Dopisnik Southeast European Times-a Ena Latin nastavlja da analizira status Bosne i Hercegovine u drugom i poslednjem delu svog teksta.
 1	Dopisnik	dopisnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	Southeast	Southeast	X	Xf	Foreign=Yes	1	nmod	_	_
@@ -9484,6 +9852,7 @@
 21	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s2428
+# parallel_id = set/dev369
 # text = Nedavni predlozi da se međunarodna zajednica povuče iz Bosne i Hercegovine (BiH) nisu rezultirali promenom situacije.
 1	Nedavni	nedavan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
 2	predlozi	predlog	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
@@ -9506,6 +9875,7 @@
 19	.	.	PUNCT	Z	_	16	punct	_	_
 
 # sent_id = set-s2429
+# parallel_id = set/dev370
 # text = Zemlja je naučila da živi sa neodlučnim međunarodnim prisustvom i čestim pozivima -- uglavnom motivisanim političkim ili finansijskim razlozima -- za manjim mešanjem međunarodne zajednice.
 1	Zemlja	zemlja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -9535,6 +9905,7 @@
 26	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2430
+# parallel_id = set/dev371
 # text = U svakoj zemlji u kojoj postoji međunarodna uprava vlada drugačija politička situacija i često je veoma teško, ako ne i nemoguće, izvući univerzalno primenljive pouke.
 1	U	u	ADP	Sl	Case=Loc	3	case	_	_
 2	svakoj	svaki	DET	Pi-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
@@ -9566,6 +9937,7 @@
 28	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s2431
+# parallel_id = set/dev372
 # text = Dejtonski sporazum, koji je napravljen u cilju okončanja rata i stvaranja osnove za mir, morao je da odražava određene okolnosti i politički okvir.
 1	Dejtonski	dejtonski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	sporazum	sporazum	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
@@ -9595,6 +9967,7 @@
 26	.	.	PUNCT	Z	_	17	punct	_	_
 
 # sent_id = set-s2432
+# parallel_id = set/dev373
 # text = Sporazumom je priznata postojeća podela BiH, ali je ostavljena mogućnost njenog ujedinjenja u budućnosti.
 1	Sporazumom	sporazum	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -9614,6 +9987,7 @@
 16	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2433
+# parallel_id = set/dev374
 # text = Njime je Beogradu i Zagrebu omogućeno da se i dalje mešaju u unutrašnja pitanja BiH.
 1	Njime	on	PRON	Pp3msi	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -9633,6 +10007,7 @@
 16	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2434
+# parallel_id = set/dev375
 # text = Međutim, ceo sporazum je više bio produženje primirja, nego osnova za pravi mir.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -9652,6 +10027,7 @@
 16	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s2435
+# parallel_id = set/dev376
 # text = Skoro osam godina posle okončanja nasilja, najteža pitanja sa kojima se suočava međunarodna zajednica još uvek se odnose na jednu ključnu stvar: da li će postojati funkcionalna država BiH.
 1	Skoro	skoro	ADV	Rgp	Degree=Pos	2	advmod	_	_
 2	osam	osam	NUM	Mlc	NumType=Card	3	nummod:gov	_	_
@@ -9687,6 +10063,7 @@
 32	.	.	PUNCT	Z	_	19	punct	_	_
 
 # sent_id = set-s2436
+# parallel_id = set/dev377
 # text = "Hajde da se ne igramo jedni sa drugima.
 1	"	"	PUNCT	Z	_	2	punct	_	SpaceAfter=No
 2	Hajde	hajde	INTJ	I	_	6	discourse	_	_
@@ -9700,6 +10077,7 @@
 10	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2437
+# parallel_id = set/dev378
 # text = Ovde smo imali rat.
 1	Ovde	ovde	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	_
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -9708,6 +10086,7 @@
 5	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2438
+# parallel_id = set/dev379
 # text = Želeli smo da se otcepimo i pripojimo Srbiji, dok su ljudi u Federaciji želeli nezavisnu BiH.
 1	Želeli	želeti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -9729,6 +10108,7 @@
 18	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s2439
+# parallel_id = set/dev380
 # text = Postigli smo mir u Dejtonu koji su svi prihvatili.
 1	Postigli	postići	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -9742,6 +10122,7 @@
 10	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s2440
+# parallel_id = set/dev381
 # text = Mi sada nećemo ni malo odstupiti od suvereniteta koji smo dobili u Dejtonu", rekao je bivši član predsedništva BiH Mirko Šarović.
 1	Mi	mi	PRON	Pp1-pn	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 2	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	6	advmod	_	_
@@ -9769,6 +10150,7 @@
 24	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2441
+# parallel_id = set/dev382
 # text = Kao sredstvo koje bi, kroz proces izgradnje mira, moglo pomoći u obnovi BiH kao normalne države, Dejtonskim sporazumom uspostavljena je Kancelarija visokog predstavnika (OHR), organizacija koja nadgleda civilne aspekte mirovnog sporazuma i koordinira rad svih ostalih međunarodnih agencija.
 1	Kao	kao	SCONJ	Cs	_	2	case	_	_
 2	sredstvo	sredstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	22	obl	_	_
@@ -9817,6 +10199,7 @@
 45	.	.	PUNCT	Z	_	22	punct	_	_
 
 # sent_id = set-s2442
+# parallel_id = set/dev383
 # text = OHR je imala prilično ograničena ovlašćenja i u početku je delovala uglavnom kao posmatračka misija.
 1	OHR	OHR	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -9836,6 +10219,7 @@
 16	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2443
+# parallel_id = set/dev384
 # text = Bilo joj je potrebno vreme da spozna potencijal širokog tumačenja svog mandata, koje bi moglo da se iskoristi za unapređivanje procesa.
 1	Bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	_
 2	joj	on	PRON	Pp3fsd	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
@@ -9862,6 +10246,7 @@
 23	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2444
+# parallel_id = set/dev385
 # text = Pravi preokret dogodio se u decembru 1997. godine.
 1	Pravi	pravi	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	preokret	preokret	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -9874,6 +10259,7 @@
 9	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2445
+# parallel_id = set/dev386
 # text = Na sastanku u Bonu, OHR-u su data ovlašćenja da donosi zakone, obavezujuće odluke i smenjuje zvaničnike koji opstruiraju proces.
 1	Na	na	ADP	Sl	Case=Loc	2	case	_	_
 2	sastanku	sastanak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
@@ -9899,6 +10285,7 @@
 22	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s2446
+# parallel_id = set/dev387
 # text = Tog trenutka počela je izgradnja države.
 1	Tog	taj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	trenutka	trenutak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
@@ -9909,6 +10296,7 @@
 7	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2447
+# parallel_id = set/dev388
 # text = Najveći rani uspesi, postignuti kao rezultat primene Bonskih ovlašćenja, uključivali su uvođenje jedinstvenih registarskih tablica za vozila, novu državnu zastavu, nove pasoše, i što je najvažnije, zajedničku valutu.
 1	Najveći	velik	ADJ	Agsmpny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Plur	3	amod	_	_
 2	rani	ran	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -9947,6 +10335,7 @@
 35	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s2448
+# parallel_id = set/dev389
 # text = OHR je takođe smenila nekoliko moćnih ličnosti iz ratnog perioda, utirući tako put reformama.
 1	OHR	OHR	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -9966,6 +10355,7 @@
 16	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2449
+# parallel_id = set/dev390
 # text = Celokupna klima počela je da se menja na bolje, u velikoj meri zahvaljujući činjenici da je međunarodna zajednica preuzela glavnu ulogu u određivanju standarda političkog ponašanja.
 1	Celokupna	celokupan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	klima	klima	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -9997,6 +10387,7 @@
 28	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2450
+# parallel_id = set/dev391
 # text = Sada je došao trenutak da se razmotri pitanje kako preneti Bonska ovlašćenja na relevantne domaće institucije.
 1	Sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -10017,6 +10408,7 @@
 17	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2451
+# parallel_id = set/dev392
 # text = OHR je izašla sa planom implementacije misije, postavljajući uslove za postepeno povlačenje međunarodne zajednice.
 1	OHR	OHR	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -10036,6 +10428,7 @@
 16	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2452
+# parallel_id = set/dev393
 # text = Osnovni princip ovog plana je uspostavljanje funkcionalnih lokalnih tela vlade BiH koja bi mogla da zamene OHR.
 1	Osnovni	osnovan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	princip	princip	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -10057,6 +10450,7 @@
 18	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2453
+# parallel_id = set/dev394
 # text = Bez obzira koliko su neki u međunarodnim krugovima možda nestrpljivi, to ostaje jedini put kojim bi trebalo ići.
 1	Bez	bez	ADP	Sg	Case=Gen	2	case	_	_
 2	obzira	obzir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
@@ -10080,6 +10474,7 @@
 20	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s2454
+# parallel_id = set/dev395
 # text = Povlačenje u ovoj fazi institucionalnog razvoja svakako bi predstavljalo kockanje sa svim što je postignuto do sada i, kao što je rekao visoki predstavnik Pedi Ešdaun, kockanje sa budućnošću regiona.
 1	Povlačenje	povlačenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
 2	u	u	ADP	Sl	Case=Loc	4	case	_	_
@@ -10116,6 +10511,7 @@
 33	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s2455
+# parallel_id = set/dev396
 # text = Brojne lekcije se mogu izvući iz iskustva u BiH, međutim tri su najznačajnije.
 1	Brojne	brojan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 2	lekcije	lekcija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -10134,6 +10530,7 @@
 15	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2456
+# parallel_id = set/dev397
 # text = Prvo, misija izgradnje države uvek je duža i skuplja od predviđenog, ali to nije katastrofalno ako se na kraju ostvari uspeh.
 1	Prvo	prvo	ADJ	Mlonsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -10161,6 +10558,7 @@
 24	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s2457
+# parallel_id = set/dev398
 # text = Drugo, mandat ključnih međunarodnih institucija trebalo bi da bude dovoljno fleksibilan kako bi u različito vreme služio u različite svrhe, i u svakom slučaju trebalo bi da bude čvrst od samog početka.
 1	Drugo	drugo	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -10199,6 +10597,7 @@
 35	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s2458
+# parallel_id = set/dev399
 # text = Treće, prednosti stečene putem ratnih zločina moraju da se ponište i moraju da se formiraju kompetentne državne institucije, ako međunarodna zajednica želi da se povuče mirne savesti.
 1	Treće	treći	ADJ	Mlonsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -10234,6 +10633,7 @@
 # newdoc id = set.sr.109
 # url = NA
 # sent_id = set-s2588
+# parallel_id = set/dev400
 # text = Izveštaj: "Velika poboljšanja" sloboda na Balkanu
 1	Izveštaj	izveštaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	_	_
@@ -10246,6 +10646,7 @@
 9	Balkanu	Balkan	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 
 # sent_id = set-s2589
+# parallel_id = set/dev401
 # text = Mada se sloboda širom sveta generalno pogoršala, nekolicina balkanskih zemalja pokazuje određeni napredak.
 1	Mada	mada	SCONJ	Cs	_	7	mark	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	_
@@ -10264,6 +10665,7 @@
 15	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s2590
+# parallel_id = set/dev402
 # text = Kosovo se pomerilo sa "neslobodne" na "delimično slobodnu" zemlju u ovogodišnjem izveštaju.
 1	Kosovo	Kosovo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_
@@ -10284,6 +10686,7 @@
 17	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2591
+# parallel_id = set/dev403
 # text = Četvrtu godinu zaredom, nazadovanje političkih prava i građanskih sloboda u 2009. nadjačalo je napredovanje sloboda širom sveta, saopštila je američka organizacija za praćenje demokratije Fridom haus u svom godišnjem izveštaju objavljenom u utorak (12. januara).
 1	Četvrtu	četvrti	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	godinu	godina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
@@ -10327,6 +10730,7 @@
 40	.	.	PUNCT	Z	_	13	punct	_	_
 
 # sent_id = set-s2592
+# parallel_id = set/dev404
 # text = "To je najduži kontinuirani period pada globalne slobode u skoro 40-godišnjoj istoriji" izveštaja Sloboda u svetu, kojim su ove godine obuhvaćene 194 zemlje i 14 teritorija.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
@@ -10360,6 +10764,7 @@
 30	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2593
+# parallel_id = set/dev405
 # text = Broj izbornih demokratija pao je prošle godine sa 119 na 116 i dostigao svoj najniži nivo od 1995, navodi se u izveštaju i primećuje da je došlo do pogoršanja demokratske slobode u 40 zemalja u Africi, Latinskoj Americi, na Bliskom istoku i u bivšem Sovjetskom Savezu.
 1	Broj	broj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	izbornih	izborni	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
@@ -10413,6 +10818,7 @@
 50	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2594
+# parallel_id = set/dev406
 # text = "Pogoršanje je globalno i utiče na zemlje sa vojnom i ekonomskom snagom, zemlje koje su prethodno pokazivale znake [potencijalnih] reformi, i praćeno je većim progonom političkih disidenata i nezavisnih novinara", rekao je Arč Pudington, direktor te organizacije za istraživanja.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Pogoršanje	pogoršanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
@@ -10464,6 +10870,7 @@
 48	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2595
+# parallel_id = set/dev407
 # text = "Da stvari budu gore, najmoćniji autoritarni režimi postali su represivniji, uticajniji na međunarodnoj sceni i beskompromisniji".
 1	"	"	PUNCT	Z	_	10	punct	_	SpaceAfter=No
 2	Da	da	SCONJ	Cs	_	5	mark	_	_
@@ -10488,6 +10895,7 @@
 21	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s2596
+# parallel_id = set/dev408
 # text = Fridom haus objavljuje svoju godišnju procenu stanja političkih prava i građanskih sloboda u svetu od 1972. godine.
 1	Fridom	Fridom	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	haus	haus	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -10509,6 +10917,7 @@
 18	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2597
+# parallel_id = set/dev409
 # text = Da bi procenila učinak, ta grupa ispituje izborne procese, politički pluralizam i funkcionisanje vlada, kao i slobodu izražavanja, slobodu pridruživanja i vladavinu zakona.
 1	Da	da	SCONJ	Cs	_	3	mark	_	_
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
@@ -10540,6 +10949,7 @@
 28	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s2598
+# parallel_id = set/dev410
 # text = Na osnovu ocene svog učinka na skali od sedam poena, sa tim da 1 znači najslobodnija, a 7 najneslobodnija, svaka zemlja i teritorija dobila je široko kategorizovan status slobodne, delimično slobodne ili neslobodne.
 1	Na	na	ADP	Sl	Case=Loc	2	case	_	_
 2	osnovu	osnov	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
@@ -10581,6 +10991,7 @@
 38	.	.	PUNCT	Z	_	27	punct	_	_
 
 # sent_id = set-s2599
+# parallel_id = set/dev411
 # text = Nekoliko svetlih tačaka odnosi se i na primetna poboljšanja u 16 od 194 zemlje, a Hrvatska, Kosovo, Makedonija, Crna Gora i Srbija nalaze se među onima koje su pokazale napredak.
 1	Nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	3	advmod	_	_
 2	svetlih	svetao	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
@@ -10619,6 +11030,7 @@
 35	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s2600
+# parallel_id = set/dev412
 # text = "Pet zemalja zapadnog Balkana napredovalo je u pogledu sloboda tokom godine", navodi se u izveštaju.
 1	"	"	PUNCT	Z	_	6	punct	_	SpaceAfter=No
 2	Pet	pet	NUM	Mlc	NumType=Card	3	nummod:gov	_	_
@@ -10641,6 +11053,7 @@
 19	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s2601
+# parallel_id = set/dev413
 # text = "Do najprimetnijih poboljšanja došlo je na Kosovu, koje je napredovalo od statusa neslobodne do delimično slobodne zemlje, nakon što su održani izbori za koje je ocenjeno da su u skladu sa međunarodnim standardima i zbog jačanja prava manjina."
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Do	do	ADP	Sg	Case=Gen	4	case	_	_
@@ -10687,6 +11100,7 @@
 43	"	"	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s2602
+# parallel_id = set/dev414
 # text = Kada je u pitanju Crna Gora, uspešno organizovanje martovskih parlamentarnih izbora, napredak u usvajanju zakona protiv korupcije i sveukupna stabilizacija omogućili su da se njena ocena za građanske slobode popne sa 3 na 2 i da se njen status poboljša sa delimično slobodnog na slobodan.
 1	Kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	mark	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -10738,6 +11152,7 @@
 48	.	.	PUNCT	Z	_	23	punct	_	_
 
 # sent_id = set-s2603
+# parallel_id = set/dev415
 # text = Hrvatska i Srbija su poboljšale ocenu za politička prava za po jedan poen, sa 2 na 1, odnosno sa 3 na 2.
 1	Hrvatska	Hrvatska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	i	i	CCONJ	Cc	_	3	cc	_	_
@@ -10765,6 +11180,7 @@
 24	2.	2.	ADJ	Mdo	NumType=Ord	22	orphan	_	_
 
 # sent_id = set-s2604
+# parallel_id = set/dev416
 # text = Napredak Hrvatske rezultat je boljeg tretmana manjinske srpske i romske zajednice.
 1	Napredak	napredak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Hrvatske	Hrvatska	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -10780,6 +11196,7 @@
 12	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2605
+# parallel_id = set/dev417
 # text = Takođe je zabeležen zdrav i stabilan višestranački sistem.
 1	Takođe	takođe	ADV	Rgp	Degree=Pos	3	advmod	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -10792,6 +11209,7 @@
 9	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2606
+# parallel_id = set/dev418
 # text = Kao i u prošlogodišnjem istraživanju, broj zemalja koje su ocenjene kao slobodne iznosi 89, što je 46 odsto globalnog stanovništva.
 1	Kao	kao	SCONJ	Cs	_	5	mark	_	_
 2	i	i	CCONJ	Cc	_	5	discourse	_	_
@@ -10818,6 +11236,7 @@
 23	.	.	PUNCT	Z	_	14	punct	_	_
 
 # sent_id = set-s2607
+# parallel_id = set/dev419
 # text = Sedam zemalja jugoistočne Evrope -- Bugarska, Hrvatska, Kipar, Grčka, Crna Gora, Rumunija i Srbija -- pripadaju toj grupi.
 1	Sedam	sedam	NUM	Mlc	NumType=Card	2	nummod:gov	_	_
 2	zemalja	zemlja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	21	nsubj	_	_
@@ -10845,6 +11264,7 @@
 24	.	.	PUNCT	Z	_	21	punct	_	_
 
 # sent_id = set-s2608
+# parallel_id = set/dev420
 # text = Albanija, Bosna i Hercegovina, Kosovo i Makedonija nalaze se među 58 delimično slobodnih zemalja, koje čine 20 odsto ukupnog stanovništva u svetu.
 1	Albanija	Albanija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	3	punct	_	_
@@ -10874,6 +11294,7 @@
 26	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s2609
+# parallel_id = set/dev421
 # text = Broj neslobodnih zemalja se povećao za pet.
 1	Broj	broj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	neslobodnih	neslobodan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	_
@@ -10885,6 +11306,7 @@
 8	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s2610
+# parallel_id = set/dev422
 # text = On sada uključuje 47 zemalja, odnosno 34 odsto globalnog stanovništva.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	_
@@ -10900,6 +11322,7 @@
 12	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s2611
+# parallel_id = set/dev423
 # text = Više od polovine tih ljudi živi u Kini, koja takođe pripada ovoj grupi.
 1	Više	mnogo	ADV	Rgc	Degree=Cmp	3	advmod	_	_
 2	od	od	ADP	Sg	Case=Gen	3	case	_	_
@@ -10920,6 +11343,7 @@
 # newdoc id = set.sr.131
 # url = NA
 # sent_id = set-s3168
+# parallel_id = set/dev424
 # text = Diplomatski dnevnik: Papa posetio Kipar
 1	Diplomatski	diplomatski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	dnevnik	dnevnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
@@ -10929,6 +11353,7 @@
 6	Kipar	Kipar	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 
 # sent_id = set-s3169
+# parallel_id = set/dev425
 # text = Hiljade ljudi okupilo se na Kipru da vidi papu Benedikta XVI.
 1	Hiljade	hiljada	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 2	ljudi	čovek	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
@@ -10944,6 +11369,7 @@
 12	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3170
+# parallel_id = set/dev426
 # text = Takođe u diplomatskim vestima: hrvatska premijerka Kosor sastala se sa zvaničnicima BiH, a španski ministar inostranih poslova Moratinos potvrdio perspektive Hrvatske vezane za EU.
 1	Takođe	takođe	ADV	Rgp	Degree=Pos	4	advmod	_	_
 2	u	u	ADP	Sl	Case=Loc	4	case	_	_
@@ -10974,6 +11400,7 @@
 27	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s3171
+# parallel_id = set/dev427
 # text = Kipar je bio domaćin papi Benediktu XVI.
 1	Kipar	Kipar	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -10985,6 +11412,7 @@
 8	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3172
+# parallel_id = set/dev428
 # text = Papa Benedikt XVI boravio je u trodnevnoj poseti Kipru, koja je počela u petak (4. juna).
 1	Papa	papa	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Benedikt	Benedikt	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -11008,6 +11436,7 @@
 20	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3173
+# parallel_id = set/dev429
 # text = On je izrazio nadu da se razlike mogu prevazići, ukazujući da je tokom posete bio svedok "tužne podele" ostrva.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11034,6 +11463,7 @@
 23	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3174
+# parallel_id = set/dev430
 # text = Predsednik Demetris Kristofijas sastao se sa Benediktom u subotu i pozvao međunarodnu zajednicu da izvrši pritisak na Tursku da ukine svoju okupaciju severnog dela ostrva.
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Demetris	Demetris	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
@@ -11063,6 +11493,7 @@
 26	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3175
+# parallel_id = set/dev431
 # text = Hrvatska premijerka Jadranka Kosor sastala se u subotu (5. juna) sa članovima tročlanog Predsedništva Bosne i Hercegovine (BiH), sa kojima je razgovarala o bilateralnim odnosima i regionalnim pitanjima.
 1	Hrvatska	hrvatski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	premijerka	premijerka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -11100,6 +11531,7 @@
 34	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3176
+# parallel_id = set/dev432
 # text = Kosor je izrazila podršku Zagreba evroatlantskim nastojanjima BiH.
 1	Kosor	Kosor	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11112,6 +11544,7 @@
 9	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3177
+# parallel_id = set/dev433
 # text = Ona je najavila da će krajem juna biti održan sastanak hrvatske vlade i Veća ministara BiH, opisujući to kao priliku da se razgovara o otvorenim pitanjima i da se pokuša da se neka od njih reše.
 1	Ona	on	PRON	Pp3fsn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11153,6 +11586,7 @@
 38	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3178
+# parallel_id = set/dev434
 # text = Hrvatska je na vratima EU i proces pridruživanja bi trebalo da bude dovršen do kraja ove godine ili početkom 2011, izjavio je u sredu (2. juna) španski ministar inostranih poslova Migel Anhel Moratinos, čija je zemlja predsedavajući rotirajućeg predsedništva EU.
 1	Hrvatska	Hrvatska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11201,6 +11635,7 @@
 45	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s3179
+# parallel_id = set/dev435
 # text = Hrvatska će otvoriti sva preostala pregovaračka poglavlja tokom španskog predsedavanja i završiće tehnički deo razgovora do kraja ove godine, izjavila je hrvatska premijerka Jadranka Kosor posle razgovora sa Moratinosom.
 1	Hrvatska	Hrvatska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	će	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11235,6 +11670,7 @@
 31	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3180
+# parallel_id = set/dev436
 # text = On je doputovao u Zagreb iz Bosne i Hercegovine, gde je učestvovao na sastanku EU - zapadni Balkan na visokom nivou.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11261,6 +11697,7 @@
 23	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3181
+# parallel_id = set/dev437
 # text = Gruzijski predsednik Mihail Sakašvili sastao se u sredu (2. juna) u Bukureštu sa rumunskim kolegom Trajanom Baseskuom.
 1	Gruzijski	gruzijski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -11284,6 +11721,7 @@
 20	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3182
+# parallel_id = set/dev438
 # text = Oni su razgovarali o bezbednosnim pitanjima u regionu Crnog mora.
 1	Oni	oni	PRON	Pp3mpn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11298,6 +11736,7 @@
 11	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3183
+# parallel_id = set/dev439
 # text = U sklopu dvodnevne posete, Sakašvili se takođe sastao sa premijerom Emilom Bokom i drugim političkim i verskim liderima.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	sklopu	sklop	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
@@ -11321,6 +11760,7 @@
 20	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s3184
+# parallel_id = set/dev440
 # text = Hrvatski ministar odbrane Branko Vukelić i njegov srpski kolega Dragan Šutanovac potpisaće u utorak (8. juna) u Zagrebu bilateralni sporazum o saradnji na polju odbrane.
 1	Hrvatski	hrvatski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	ministar	ministar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -11352,6 +11792,7 @@
 28	.	.	PUNCT	Z	_	12	punct	_	_
 
 # sent_id = set-s3185
+# parallel_id = set/dev441
 # text = Šutanovac se u ponedeljak sastao sa predsednikom Ivom Josipovićem.
 1	Šutanovac	Šutanovac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_
@@ -11367,6 +11808,7 @@
 # newdoc id = set.sr.148
 # url = NA
 # sent_id = set-s3549
+# parallel_id = set/dev442
 # text = EULEKS: Sporazumom će se pojačati borba protiv organizovanog kriminala
 1	EULEKS	EULEKS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	_	_
@@ -11380,6 +11822,7 @@
 10	kriminala	kriminal	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 
 # sent_id = set-s3550
+# parallel_id = set/dev443
 # text = Misija EU na Kosovu kaže da će se protokolom potpisanim sa srpskom policijom pomoći napori za jačanje vladavine zakona, kao i da on ne preti suverenitetu Kosova.
 1	Misija	misija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	EU	EU	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -11412,6 +11855,7 @@
 29	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3551
+# parallel_id = set/dev444
 # text = Policajci EULEKS-a rade na kontrolnom punktu Jarinje na granici sa Srbijom.
 1	Policajci	policajac	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	EULEKS-a	EULEKS	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -11427,6 +11871,7 @@
 12	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3552
+# parallel_id = set/dev445
 # text = Mirovna misija EULEKS-a u petak (11. septembra) potpisala je protokol sa srpskim ministarstvom unutrašnjih poslova, čime je utrt put saradnji u borbi protiv organizovanog kriminala i krijumčarenja.
 1	Mirovna	mirovni	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	misija	misija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -11461,6 +11906,7 @@
 31	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s3553
+# parallel_id = set/dev446
 # text = Dokument je naljutio kosovske Albance, koji kažu da je narušen suverenitet Kosova.
 1	Dokument	dokument	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11478,6 +11924,7 @@
 14	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3554
+# parallel_id = set/dev447
 # text = Međutim, EULEKS ističe da iza sporazuma ne stoji bilo kakav politički motiv.
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	_
@@ -11495,6 +11942,7 @@
 14	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3555
+# parallel_id = set/dev448
 # text = "Aranžmani o policijskoj saradnji sa Beogradom su tehničke prirode", navodi se u saopštenju misije.
 1	"	"	PUNCT	Z	_	10	punct	_	SpaceAfter=No
 2	Aranžmani	aranžman	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -11516,6 +11964,7 @@
 18	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s3556
+# parallel_id = set/dev449
 # text = "Njihov cilj je borba protiv organizovanog kriminala i krijumčarenja.
 1	"	"	PUNCT	Z	_	3	punct	_	SpaceAfter=No
 2	Njihov	njihov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
@@ -11530,6 +11979,7 @@
 11	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3557
+# parallel_id = set/dev450
 # text = To će biti korisno za sve ljude na Kosovu."
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	će	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -11544,6 +11994,7 @@
 11	"	"	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3558
+# parallel_id = set/dev451
 # text = Da bi se kriminalci priveli pravdi, moraju se deliti i razmenjivati dokazi širom regiona i moraju se uspostaviti mehanizmi da se to olakša, rekao je EULEKS.
 1	Da	da	SCONJ	Cs	_	5	mark	_	_
 2	bi	biti	AUX	Vaa3p	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -11576,6 +12027,7 @@
 29	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s3559
+# parallel_id = set/dev452
 # text = "Kosovska policija biće u velikoj meri uključena u razmenu informacija", dodaje se u saopštenju.
 1	"	"	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 2	Kosovska	kosovski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -11597,6 +12049,7 @@
 18	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s3560
+# parallel_id = set/dev453
 # text = Protokol ima punu podršku 27 zemalja članica EU i smatra se značajnim korakom u pravcu unapređivanja vladavine zakona na Kosovu, ukazuje misija.
 1	Protokol	protokol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11624,6 +12077,7 @@
 24	.	.	PUNCT	Z	_	2	punct	_	_
 
 # sent_id = set-s3561
+# parallel_id = set/dev454
 # text = Većina kosovskih Albanaca i dalje nije uverena u to, jer smatraju da se radi o ustupku Beogradu na račun njihove nove nezavisne države.
 1	Većina	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 2	kosovskih	kosovski	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
@@ -11652,6 +12106,7 @@
 25	.	.	PUNCT	Z	_	7	punct	_	_
 
 # sent_id = set-s3562
+# parallel_id = set/dev455
 # text = Rukovodstvo u Prištini nije tajilo svoje protivljenje.
 1	Rukovodstvo	rukovodstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 2	u	u	ADP	Sl	Case=Loc	3	case	_	_
@@ -11663,6 +12118,7 @@
 8	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3563
+# parallel_id = set/dev456
 # text = Predsednik Fatmir Sejdiu i premijer Hašim Tači u petak su objavili blago saopštenje naglašavajući da Priština nije deo sporazuma.
 1	Predsednik	predsednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 2	Fatmir	Fatmir	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -11686,6 +12142,7 @@
 20	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s3564
+# parallel_id = set/dev457
 # text = Aranžmani neće imati bilo kakav uticaj na nezavisnost, suverenitet i teritorijalni integritet Kosova, istakli su oni.
 1	Aranžmani	aranžman	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	neće	hteti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -11708,6 +12165,7 @@
 19	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3565
+# parallel_id = set/dev458
 # text = Aktivističke grupe bile su manje obazrive.
 1	Aktivističke	aktivistički	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
 2	grupe	grupa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -11718,6 +12176,7 @@
 7	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s3566
+# parallel_id = set/dev459
 # text = Grupa nevladinih organizacija reagovala je na potpisivanje protokola u petak obećavajući da će organizovati miting 16. septembra.
 1	Grupa	grupa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	nevladinih	nevladin	ADJ	Aspfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	3	amod	_	_
@@ -11739,6 +12198,7 @@
 18	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3567
+# parallel_id = set/dev460
 # text = "Zajedno ćemo reći ne narušavanju suvereniteta Kosova.
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Zajedno	zajedno	ADV	Rgp	Degree=Pos	4	advmod	_	_
@@ -11751,6 +12211,7 @@
 9	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3568
+# parallel_id = set/dev461
 # text = Ovo je ne EULEKS-u, a ne EU", navele su one u zajedničkom saopštenju.
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -11771,6 +12232,7 @@
 17	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3569
+# parallel_id = set/dev462
 # text = Američki ambasador Kristofer Del u ponedeljak je pozvao lidere, institucije i građane Kosova da se fokusiraju na proces izgradnje države, umesto da se zapliću u pitanja kao što je protokol o policijskoj saradnji.
 1	Američki	američki	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	ambasador	ambasador	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -11810,6 +12272,7 @@
 36	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s3570
+# parallel_id = set/dev463
 # text = Dokument je potencijalno vrlo koristan, rekao je on.
 1	Dokument	dokument	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -11823,6 +12286,7 @@
 10	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3571
+# parallel_id = set/dev464
 # text = "Kosovo je suverena država", izjavio je Del.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Kosovo	Kosovo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
@@ -11837,6 +12301,7 @@
 11	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3572
+# parallel_id = set/dev465
 # text = "Zar ne možemo samo da prihvatimo to da je Kosovo država i krenemo dalje?"
 1	"	"	PUNCT	Z	_	4	punct	_	SpaceAfter=No
 2	Zar	zar	PART	Qq	_	4	discourse	_	_
@@ -11859,6 +12324,7 @@
 # newdoc id = set.sr.155
 # url = NA
 # sent_id = set-s3670
+# parallel_id = set/dev466
 # text = Bugarska vojska pomaže u raščišćavanju štete izazvane poplavama
 1	Bugarska	bugarski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	vojska	vojska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -11870,6 +12336,7 @@
 8	poplavama	poplava	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	7	obl	_	_
 
 # sent_id = set-s3671
+# parallel_id = set/dev467
 # text = Bugarska vojska pridružila se naporima za oporavak zemlje posle razarajućih poplava koje su pogodile Bugarsku poslednjih nedelja i meseci.
 1	Bugarska	bugarski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	vojska	vojska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -11893,6 +12360,7 @@
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3672
+# parallel_id = set/dev468
 # text = U poplavama koje su u poslednja dva meseca pogodile Bugarsku poginule su najmanje 24 osobe, dok je stotine grla stoke uginulo, a 14.000 ljudi ostalo bez krova nad glavom, saopštili su zvaničnici civilne odbrane.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	poplavama	poplava	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
@@ -11934,6 +12402,7 @@
 38	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s3673
+# parallel_id = set/dev469
 # text = Bugarska vojska pridružila se u ponedeljak (22. avgusta) naporima za obnovu kuća i infrastrukture oštećenih u poplavama koje su ovog leta razorile neka područja.
 1	Bugarska	bugarski	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 2	vojska	vojska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -11964,6 +12433,7 @@
 27	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3674
+# parallel_id = set/dev470
 # text = Formirano je više od 20 grupa vojnog osoblja, obučenog za pružanje pomoći stanovništvu u pogođenim oblastima, izjavio je u petak načelnik generalštaba general Nikola Kolev saopštavajući plan obnove koji je urađen prošle nedelje.
 1	Formirano	formirati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -12003,6 +12473,7 @@
 36	.	.	PUNCT	Z	_	1	punct	_	_
 
 # sent_id = set-s3675
+# parallel_id = set/dev471
 # text = U operaciji, koja će trajati do 31. oktobra, učestvuje ukupno 900 vojnika opremljenih sa 150 specijalizovanih transportnih vozila.
 1	U	u	ADP	Sl	Case=Loc	2	case	_	_
 2	operaciji	operacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
@@ -12027,6 +12498,7 @@
 21	.	.	PUNCT	Z	_	11	punct	_	_
 
 # sent_id = set-s3676
+# parallel_id = set/dev472
 # text = Ako to dozvole vremenski uslovi, radovi će se nastaviti i posle tog datuma, izjavio je u ponedeljak novi ministar odbrane Veselin Bliznakov.
 1	Ako	ako	SCONJ	Cs	_	3	mark	_	_
 2	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
@@ -12055,6 +12527,7 @@
 25	.	.	PUNCT	Z	_	10	punct	_	_
 
 # sent_id = set-s3677
+# parallel_id = set/dev473
 # text = Prema planu, vojska će pomoći u obnovi oko 69 kilometara nasipa, čišćenju 58 kilometara rečnih korita i raščišćavanju više od 8 kilometara puteva.
 1	Prema	prema	ADP	Sl	Case=Loc	2	case	_	_
 2	planu	plan	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -12084,6 +12557,7 @@
 26	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s3678
+# parallel_id = set/dev474
 # text = Vojska će takođe izgraditi oko 30 privremenih kuća i više od 450 metara mostova.
 1	Vojska	vojska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	će	hteti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -12102,6 +12576,7 @@
 15	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3679
+# parallel_id = set/dev475
 # text = Vojska je takođe spremna da se pridruži naporima za obnovu oštećenih železničkih pruga, navodi se u izveštajima lokalnih medija.
 1	Vojska	vojska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -12126,6 +12601,7 @@
 21	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3680
+# parallel_id = set/dev476
 # text = Bliznakov je u ponedeljak objasnio da će napori vojske koštati skoro 3,3 miliona evra.
 1	Bliznakov	Bliznakov	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -12144,6 +12620,7 @@
 15	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3681
+# parallel_id = set/dev477
 # text = Vojska je otkazala nekoliko vežbi da bi za potrebe podrške operaciji oslobodila sredstva u iznosu od oko 350.000 evra.
 1	Vojska	vojska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -12167,6 +12644,7 @@
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3682
+# parallel_id = set/dev478
 # text = Poplave koje su poslednjih meseci pogodile zemlju, a koje su uzrokovane najgorim kišnim olujama u poslednjih bar 50 godina, zahvatile su više od četvrtine od ukupno 7,5 miliona građana Bugarske.
 1	Poplave	poplava	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
 2	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	6	nsubj	_	_
@@ -12203,6 +12681,7 @@
 33	.	.	PUNCT	Z	_	22	punct	_	_
 
 # sent_id = set-s3683
+# parallel_id = set/dev479
 # text = Prema neposrednoj zdravstvenoj proceni koju je prošlog meseca izvršila Svetska zdravstvena organizacija (SZO), katastrofa je uzrokovala smrt najmanje 20 osoba i materijalnu štetu u iznosu oko 515 miliona evra.
 1	Prema	prema	ADP	Sl	Case=Loc	4	case	_	_
 2	neposrednoj	neposredan	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
@@ -12239,6 +12718,7 @@
 33	.	.	PUNCT	Z	_	19	punct	_	_
 
 # sent_id = set-s3684
+# parallel_id = set/dev480
 # text = Pričinjena šteta samo na infrastrukturi iznosi oko 175 miliona evra.
 1	Pričinjena	pričinjen	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	šteta	šteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -12253,6 +12733,7 @@
 11	.	.	PUNCT	Z	_	6	punct	_	_
 
 # sent_id = set-s3685
+# parallel_id = set/dev481
 # text = Državna železnička kompanija pretrpela je gubitak od oko 78 miliona evra.
 1	Državna	državni	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 2	železnička	železnički	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -12268,6 +12749,7 @@
 12	.	.	PUNCT	Z	_	4	punct	_	_
 
 # sent_id = set-s3686
+# parallel_id = set/dev482
 # text = Oko 14.000 kuća širom zemlje ozbiljno je oštećeno, dok je 238 uništeno.
 1	Oko	oko	ADV	Rgp	Degree=Pos	2	advmod	_	_
 2	14.000	14.000	NUM	Mdc	NumType=Card	3	nummod:gov	_	_
@@ -12285,6 +12767,7 @@
 14	.	.	PUNCT	Z	_	8	punct	_	_
 
 # sent_id = set-s3687
+# parallel_id = set/dev483
 # text = Vlasti su u ponedeljak počele da pružaju pomoć porodicama koje su ostale bez svojih domova, kako bi im pomogle da pokriju bar deo gubitaka.
 1	Vlasti	vlast	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -12314,6 +12797,7 @@
 26	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3688
+# parallel_id = set/dev484
 # text = Svaka porodica može da dobije do otprilike 500 evra pomoći.
 1	Svaka	svaki	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
 2	porodica	porodica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -12328,6 +12812,7 @@
 11	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3689
+# parallel_id = set/dev485
 # text = "Sa 20.000 ljudi u Bugarskoj kojima su zbog velikih poplava potrebni hrana, dušeci, vakcine protiv hepatitisa, antibiotici i sredstva protiv insekata, agencije UN-a nastaviće da obezbeđuju hitnu pomoć", navodi se u saopštenju svetske organizacije izdatom u četvrtak.
 1	"	"	PUNCT	Z	_	29	punct	_	SpaceAfter=No
 2	Sa	sa	ADP	Si	Case=Ins	4	case	_	_
@@ -12376,6 +12861,7 @@
 45	.	.	PUNCT	Z	_	29	punct	_	_
 
 # sent_id = set-s3690
+# parallel_id = set/dev486
 # text = UNICEF je obezbedio ćebad, kuhinjsko posuđe, tablete za čišćenje vode i so za oralnu rehidraciju, dok je Kancelarija UN-a za koordinaciju humanitarnih poslova dala donaciju od preko 24.500 evra za koordinaciju reakcije u vanrednoj situaciji.
 1	UNICEF	UNICEF	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -12418,6 +12904,7 @@
 39	.	.	PUNCT	Z	_	3	punct	_	_
 
 # sent_id = set-s3691
+# parallel_id = set/dev487
 # text = Eksperti za životnu sredinu kažu da su jaki pljuskovi u kombinaciji sa neefikasnim i neprikladnim ekološkim merama uzrokovali razarajuće poplave.
 1	Eksperti	ekspert	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	za	za	ADP	Sa	Case=Acc	4	case	_	_
@@ -12442,6 +12929,7 @@
 21	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3692
+# parallel_id = set/dev488
 # text = Među faktorima koji su pojačali njihovu razornu snagu nalaze se neodgovarajuća modifikacija i sužavanje korita reka i krčenje šuma.
 1	Među	među	ADP	Si	Case=Ins	2	case	_	_
 2	faktorima	faktor	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
@@ -12465,6 +12953,7 @@
 20	.	.	PUNCT	Z	_	9	punct	_	_
 
 # sent_id = set-s3693
+# parallel_id = set/dev489
 # text = "Šume više nisu tampon koji upija višak vode", izjavio je u nedelju privatnom kanalu bTV stručnjak za životnu sredinu Boris Burov.
 1	"	"	PUNCT	Z	_	5	punct	_	SpaceAfter=No
 2	Šume	šuma	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -12493,6 +12982,7 @@
 25	.	.	PUNCT	Z	_	5	punct	_	_
 
 # sent_id = set-s3694
+# parallel_id = set/dev490
 # text = "Zato se obilne kišne padavine nekontrolisano slivaju u doline i ulivaju u reke, koje su neprirodno modifikovane i nemaju kapacitet da prihvate talas plime."
 1	"	"	PUNCT	Z	_	8	punct	_	SpaceAfter=No
 2	Zato	zato	ADV	Rgp	Degree=Pos|PronType=Dem	8	advmod	_	_

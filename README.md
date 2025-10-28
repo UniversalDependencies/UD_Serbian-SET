@@ -26,6 +26,10 @@ are compatible (corresponding documents are in the same section in both language
 
 # Changelog
 
+* 2025-10-13 v2.16
+  * add parallel corpus information to machine-readable metadata
+  * add parallel data support with parallel_id metadata
+  
 * 2019-04-30 v2.4
   * New data split
   * 13 web news documents added
@@ -38,7 +42,7 @@ are compatible (corresponding documents are in the same section in both language
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
-Parallel: no
+Parallel: set
 Genre: news
 Lemmas: manual native
 UPOS: converted from manual
