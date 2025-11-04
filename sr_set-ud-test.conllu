@@ -7839,7 +7839,7 @@
 5	izneo	izneti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	samo	samo	ADV	Rgp	Degree=Pos	7	advmod	_	_
 7	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	8	det:numgov	_	_
-8	sati	sat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obj	_	_
+8	sati	sat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
 9	pre	pre	SCONJ	Cs	_	16	mark	_	_
 10	nego	nego	SCONJ	Cs	_	9	fixed	_	_
 11	što	što	SCONJ	Cs	_	9	fixed	_	_
