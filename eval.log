@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Serbian-SET:
-commit 1b6607149b089b1f6db2f5707ee413d4a31edba1
+commit a1dd6761accdb1f5b9e145488f36d2fe96e4304b
+Merge: 84181cb afbaf30
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:38:09 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sr_set'
+Language code (from CoNLL-U file name) = 'sr'
+Found the following data files: sr_set-ud-dev.conllu, sr_set-ud-test.conllu, sr_set-ud-train.conllu
 Size: counted 97673 of 97673 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1632503293258.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,75 +19,61 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 78119 out of 97673 total words have one or more features.
+Features: 78118 out of 97673 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL         70
-Udapi: found 70 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 97673 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-dev.conllu
-[Line 147 Sent set-s8 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
-[Line 212 Sent set-s10 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
-[Line 246 Sent set-s12 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Nakon što' does not have the 'ExtPos' feature
-[Line 351 Sent set-s15 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 552 Sent set-s23 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
-[Line 1004 Sent set-s481 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 1128 Sent set-s485 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'da li' does not have the 'ExtPos' feature
-[Line 1301 Sent set-s490 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
-[Line 1309 Sent set-s490 Node 42]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
-[Line 2078 Sent set-s797 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 76 Sent set-s5]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'upravljanja') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 86 Sent set-s5]: [L3 Warning obl-should-be-nmod] The parent (node [17] 'finansiranju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 117 Sent set-s6]: [L3 Warning obl-should-be-nmod] The parent (node [24] 'uticaj') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 155 Sent set-s8]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom da' does not have the 'ExtPos' feature
+[Line 179 Sent set-s8]: [L3 Warning obl-should-be-nmod] The parent (node [30] 'ostvarivanja') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 222 Sent set-s10]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 258 Sent set-s12]: [L3 Warning fixed-without-extpos] Fixed expression 'Nakon što' does not have the 'ExtPos' feature
+[Line 309 Sent set-s13]: [L3 Warning pron-det-without-prontype] The word 'više' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 366 Sent set-s15]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 433 Sent set-s18]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'skladištenje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further errors regarding Warning
-Warnings: 60
+Warnings: 178
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-test.conllu
-[Line 450 Sent set-s313 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'da li' does not have the 'ExtPos' feature
-[Line 880 Sent set-s434 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Da li' does not have the 'ExtPos' feature
-[Line 985 Sent set-s438 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
-[Line 1195 Sent set-s444 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
-[Line 1588 Sent set-s456 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'nego što' does not have the 'ExtPos' feature
-[Line 1974 Sent set-s473 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
-[Line 2295 Sent set-s504 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'pre nego' does not have the 'ExtPos' feature
-[Line 2295 Sent set-s504 Node 6]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN' word 'pre'
-[Line 2883 Sent set-s727 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom na' does not have the 'ExtPos' feature
-[Line 2946 Sent set-s729 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'osim ako' does not have the 'ExtPos' feature
-[Line 3070 Sent set-s733 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'zašto što' does not have the 'ExtPos' feature
+[Line 49 Sent set-s299]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'priznavanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 51 Sent set-s299]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'priznavanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 76 Sent set-s300]: [L3 Warning obl-should-be-nmod] The parent (node [17] 'poboljšanje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 94 Sent set-s300]: [L3 Warning obl-should-be-nmod] The parent (node [36] 'priznavanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 125 Sent set-s301]: [L3 Warning obl-should-be-nmod] The parent (node [24] 'priznavanje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 151 Sent set-s302]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'priznavanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 293 Sent set-s307]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'sprovođenju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 352 Sent set-s309]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'poboljšanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 364 Sent set-s309]: [L3 Warning obl-should-be-nmod] The parent (node [22] 'kršenje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 467 Sent set-s313]: [L3 Warning fixed-without-extpos] Fixed expression 'da li' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Syntax errors: 1
-Warnings: 49
-*** FAILED *** with 1 errors
-Exit code: 1
+Warnings: 165
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-SET/sr_set-ud-train.conllu
-[Line 160 Sent set-s41 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
-[Line 443 Sent set-s48 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 551 Sent set-s53 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 576 Sent set-s54 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Da li' does not have the 'ExtPos' feature
-[Line 794 Sent set-s63 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
-[Line 1200 Sent set-s80 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 's obzirom na' does not have the 'ExtPos' feature
-[Line 1257 Sent set-s83 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
-[Line 1445 Sent set-s94 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
-[Line 1527 Sent set-s98 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ne samo' does not have the 'ExtPos' feature
-[Line 1533 Sent set-s98 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'nego i' does not have the 'ExtPos' feature
+[Line 57 Sent set-s38]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'utaje') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 131 Sent set-s40]: [L3 Warning obl-should-be-nmod] The parent (node [30] 'pranja') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 150 Sent set-s40]: [L3 Warning obl-should-be-nmod] The parent (node [49] 'trajanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 153 Sent set-s40]: [L3 Warning obl-should-be-nmod] The parent (node [49] 'trajanju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 166 Sent set-s41]: [L3 Warning fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 209 Sent set-s42]: [L3 Warning obl-should-be-nmod] The parent (node [27] 'sprovođenju') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 456 Sent set-s48]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 569 Sent set-s53]: [L3 Warning fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 595 Sent set-s54]: [L3 Warning fixed-without-extpos] Fixed expression 'Da li' does not have the 'ExtPos' feature
+[Line 822 Sent set-s63]: [L3 Warning fixed-without-extpos] Fixed expression 'nakon što' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 73381 Sent set-s3847 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:odsto:det --> 10:40:nummod)
-[Line 74122 Sent set-s3878 Node 23]: [L3 Syntax leaf-det] 'det' not expected to have children (23:odsto:det --> 22:40:nummod)
-[Line 74191 Sent set-s3881 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:odsto:det --> 14:81,1:nummod)
-[Line 82952 Sent news-s412 Node 25]: [L3 Syntax leaf-det] 'det' not expected to have children (25:onoliko:det --> 28:je:acl)
-Syntax errors: 4
-Warnings: 315
-*** FAILED *** with 4 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.663258175720725) = 0.17006619890275
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.99283322924452) = 0.305487147459852
-(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.799715970525227) * (availability=1) * (validity=0.01) = 0.00799715970525227
-STARS = 0
-UD_Serbian-SET	0.00799715970525227	0
+Warnings: 1106
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.663258175720725) = 0.245651176192861
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
+(TOTAL score=0.713886077761096) * (availability=1) * (validity=1) = 0.713886077761096
+STARS = 3.5
+UD_Serbian-SET	0.713886077761096	3.5
