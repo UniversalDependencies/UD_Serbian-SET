@@ -2155,21 +2155,21 @@
 6	utakmici	utakmica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
 7	protiv	protiv	ADP	Sg	Case=Gen	8	case	_	_
 8	Argentine	Argentina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	Z	_	19	punct	_	_
-10	s	sa	ADP	Si	Case=Ins	19	mark	_	_
+9	,	,	PUNCT	Z	_	17	punct	_	_
+10	s	sa	ADP	Si	Case=Ins	17	mark	_	_
 11	obzirom	obzir	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	fixed	_	_
 12	da	da	SCONJ	Cs	_	10	fixed	_	_
-13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
-14	ekipa	ekipa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	ekipa	ekipa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
 15	Dijega	Dijego	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
 16	Maradone	Maradona	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	15	flat	_	_
-17	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	19	nummod	_	_
+17	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	4	advcl	_	_
 18	od	od	ADP	Sg	Case=Gen	19	case	_	_
-19	favorita	favorit	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+19	favorita	favorit	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
 20	na	na	ADP	Sl	Case=Loc	22	case	_	_
 21	Svetskom	svetski	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
-22	prvenstvu	prvenstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
-23	2010.	2010.	ADJ	Mdo	NumType=Ord	19	obl	_	_
+22	prvenstvu	prvenstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+23	2010.	2010.	ADJ	Mdo	NumType=Ord	22	nmod	_	_
 
 # sent_id = set-s798
 # parallel_id = set/dev82
