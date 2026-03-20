@@ -709,7 +709,7 @@
 19	Kosova	Kosovo	PROPN	Npnsg	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
 20	i	i	CCONJ	Cc	_	21	cc	_	_
 21	unapređivanjem	unapređivanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	18	conj	_	_
-22	uslova	uslov	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+22	uslova	uslov	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
 23	života	život	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
 24	tamošnjih	tamošnji	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	_
 25	Srba	Srbin	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
