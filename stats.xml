@@ -20,12 +20,12 @@
     <tag name="ADV">3324</tag><!-- takođe, kada, međutim, mnogo, samo, još, odsto, sada, oko, uvek -->
     <tag name="AUX">6203</tag><!-- biti, hteti -->
     <tag name="CCONJ">3330</tag><!-- i, a, ali, ili, nego, pa, već, ni, niti, dakle -->
-    <tag name="DET">3639</tag><!-- koji, taj, svoj, ovaj, sav, njegov, neki, njihov, onaj, svaki -->
+    <tag name="DET">3637</tag><!-- koji, taj, svoj, ovaj, sav, njegov, neki, njihov, onaj, svaki -->
     <tag name="INTJ">4</tag><!-- hajde, ah, ma -->
     <tag name="NOUN">23817</tag><!-- godina, zemlja, vlada, predsednik, ministar, stranka, pitanje, država, evro, posao -->
     <tag name="NUM">1278</tag><!-- jedan, dva, tri, pet, četiri, 20, deset, šest, 50, oba -->
     <tag name="PART">586</tag><!-- ne, li, i, bilo, ni, sve, god, čak, evo, naime -->
-    <tag name="PRON">2403</tag><!-- sebe, on, što, oni, mi, ja, ko, niko, ništa, šta -->
+    <tag name="PRON">2405</tag><!-- sebe, on, što, oni, mi, ja, ko, niko, ništa, šta -->
     <tag name="PROPN">7412</tag><!-- Kosovo, EU, Srbija, BiH, Makedonija, Turska, Bugarska, NATO, Beograd, Hrvatska -->
     <tag name="PUNCT">12343</tag><!-- ,, ., ", (, ), –, :, „, ”, ? -->
     <tag name="SCONJ">3568</tag><!-- da, kao, što, ako, kako, dok, jer, nakon, zato, mada -->
@@ -34,7 +34,7 @@
     <tag name="X">312</tag><!-- setimes, al, de, a1, Windows, bin, european, XP, southeast, B92 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="51">
+  <feats unique="49">
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">277</feat><!-- predsednika, kandidata, ministra, svog, bivšeg, premijera, novog, Đinđića, komesara, američkog -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PROPN">2122</feat><!-- ponedeljak, utorak, svoj, petak, četvrtak, način, napredak, taj, proces, EU -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">12351</feat><!-- se, za, u, na, svoje, ponedeljak, koju, sredu, to, koje -->
@@ -53,8 +53,6 @@
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18888</feat><!-- godine, koja, koje, zemlje, Srbije, godina, vlada, ove, stranke, zemalja -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">25233</feat><!-- koji, rekao, EU, on, BiH, evra, bio, izjavio, predsednik, ministar -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">6261</feat><!-- to, Kosova, što, trebalo, Kosovo, bilo, toga, Kosovu, prava, vreme -->
-    <feat name="Gender[psor]" value="Fem" upos="DET">63</feat><!-- njen, njenog, njenu, njena, njene, njenom, njenih, njeno, njeni, njenim -->
-    <feat name="Gender[psor]" value="Masc,Neut" upos="DET">135</feat><!-- njegova, njegov, njegovog, njegove, njegovom, njegovih, njegovim, njegovu, njegovoj, njegovi -->
     <feat name="Mood" value="Cnd" upos="AUX">407</feat><!-- bi, bih, bismo -->
     <feat name="Mood" value="Imp" upos="VERB">10</feat><!-- recimo, Zauzmi, dozvolite, obećajmo, ponašajte -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">9752</feat><!-- je, su, će, nije, kaže, bude, smo, ima, nisu, može -->
@@ -90,10 +88,10 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="35">
     <dep name="acl">2013</dep>
-    <dep name="advcl">749</dep>
+    <dep name="advcl">750</dep>
     <dep name="advmod">2869</dep>
     <dep name="amod">9351</dep>
-    <dep name="appos">727</dep>
+    <dep name="appos">728</dep>
     <dep name="aux">4479</dep>
     <dep name="case">9502</dep>
     <dep name="cc">3069</dep>
@@ -112,13 +110,13 @@
     <dep name="iobj">2</dep>
     <dep name="list">11</dep>
     <dep name="mark">3173</dep>
-    <dep name="nmod">8681</dep>
+    <dep name="nmod">9820</dep>
     <dep name="nsubj">7534</dep>
-    <dep name="nummod">443</dep>
+    <dep name="nummod">442</dep>
     <dep name="nummod:gov">642</dep>
     <dep name="obj">3442</dep>
-    <dep name="obl">7806</dep>
-    <dep name="orphan">45</dep>
+    <dep name="obl">6665</dep>
+    <dep name="orphan">46</dep>
     <dep name="parataxis">1223</dep>
     <dep name="punct">12343</dep>
     <dep name="root">4384</dep>
