@@ -49,7 +49,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: manual native
-Contributors: Samardžić, Tanja; Ljubešić, Nikola
+Contributors: Samardžić, Tanja; Miletić, Aleksandra; Ljubešić, Nikola
 Contributing: elsewhere
 Contact: tanja.samardzic@uzh.ch
 ===============================================================================
