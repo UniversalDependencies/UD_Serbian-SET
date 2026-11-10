@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Serbian-SET:
-commit 5e530b747d02f8b04da8423976a21dcede8cf08e
-Merge: c88193d 45cdc80
+commit 17547a18f2735ae738979f54f5396ac8ad01f181
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 13:43:29 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sr_set'
 Language code (from CoNLL-U file name) = 'sr'
